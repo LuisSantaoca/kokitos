@@ -1,0 +1,590 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_compras_proveedores_01_cargos_abonos_pagos_edit search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c1}
+<td
+	{$cell_grid_c1}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c1" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN cat_compras_proveedores_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_proveedores_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_compras_proveedores_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="cat_compras_proveedores_id" data-fieldname="cat_compras_proveedores_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_compras_proveedores_id}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit cat_compras_proveedores_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_compras_proveedores_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_compras_proveedores_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_compras_proveedores_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_compras_proveedores_id_fieldblock}
+											
+{BEGIN fecha_de_pago_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_pago}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_de_pago{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field25" {$item_integrated_search_field25} data-pageid="{$pageid}" data-field="fecha_de_pago" data-fieldname="fecha_de_pago" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_de_pago}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit fecha_de_pago }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_de_pago}
+	</div>
+	<div class="r-search-field">
+		{$fecha_de_pago_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_de_pago_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_de_pago_fieldblock}
+											
+{BEGIN descripcion_proveedores_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_proveedores}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_proveedores{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="descripcion_proveedores" data-fieldname="descripcion_proveedores" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_proveedores}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit descripcion_proveedores }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_proveedores}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_proveedores_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_proveedores_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_proveedores_fieldblock}
+											
+{BEGIN rfc_compras_proveedores_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_rfc_compras_proveedores}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="rfc_compras_proveedores{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="rfc_compras_proveedores" data-fieldname="rfc_compras_proveedores" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_rfc_compras_proveedores}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit rfc_compras_proveedores }	</label>
+	<div class="r-search-option">
+		{$searchtype_rfc_compras_proveedores}
+	</div>
+	<div class="r-search-field">
+		{$rfc_compras_proveedores_editcontrol}	</div>
+	<div class="r-search-field">
+		{$rfc_compras_proveedores_editcontrol1}
+	</div>
+	
+</div>
+
+{END rfc_compras_proveedores_fieldblock}
+											
+{BEGIN cat_usuarios_licencias_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_usuarios_licencias_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_usuarios_licencias_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_usuarios_licencias_id}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit cat_usuarios_licencias_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_usuarios_licencias_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_usuarios_licencias_id_fieldblock}
+											
+{BEGIN ano_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ano}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="ano{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="ano" data-fieldname="ano" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_ano}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit ano }	</label>
+	<div class="r-search-option">
+		{$searchtype_ano}
+	</div>
+	<div class="r-search-field">
+		{$ano_editcontrol}	</div>
+	<div class="r-search-field">
+		{$ano_editcontrol1}
+	</div>
+	
+</div>
+
+{END ano_fieldblock}
+											
+{BEGIN mes_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_mes}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="mes{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="mes" data-fieldname="mes" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_mes}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit mes }	</label>
+	<div class="r-search-option">
+		{$searchtype_mes}
+	</div>
+	<div class="r-search-field">
+		{$mes_editcontrol}	</div>
+	<div class="r-search-field">
+		{$mes_editcontrol1}
+	</div>
+	
+</div>
+
+{END mes_fieldblock}
+											
+{BEGIN ano_mes_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ano_mes}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="ano_mes{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="ano_mes" data-fieldname="ano_mes" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_ano_mes}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit ano_mes }	</label>
+	<div class="r-search-option">
+		{$searchtype_ano_mes}
+	</div>
+	<div class="r-search-field">
+		{$ano_mes_editcontrol}	</div>
+	<div class="r-search-field">
+		{$ano_mes_editcontrol1}
+	</div>
+	
+</div>
+
+{END ano_mes_fieldblock}
+											
+{BEGIN cat_finanzas_cuentas_de_balance_04_llave_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_cuentas_de_balance_04_llave}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_finanzas_cuentas_de_balance_04_llave{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="cat_finanzas_cuentas_de_balance_04_llave" data-fieldname="cat_finanzas_cuentas_de_balance_04_llave" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_finanzas_cuentas_de_balance_04_llave}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit cat_finanzas_cuentas_de_balance_04_llave }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_finanzas_cuentas_de_balance_04_llave}
+	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_cuentas_de_balance_04_llave_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_cuentas_de_balance_04_llave_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_finanzas_cuentas_de_balance_04_llave_fieldblock}
+											
+{BEGIN descripcion_balance_04_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_balance_04}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_balance_04{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="descripcion_balance_04" data-fieldname="descripcion_balance_04" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_balance_04}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit descripcion_balance_04 }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_balance_04}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_balance_04_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_balance_04_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_balance_04_fieldblock}
+											
+{BEGIN descripcion_balance_03_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_balance_03}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_balance_03{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="descripcion_balance_03" data-fieldname="descripcion_balance_03" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_balance_03}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit descripcion_balance_03 }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_balance_03}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_balance_03_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_balance_03_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_balance_03_fieldblock}
+											
+{BEGIN tr_compras_proveedores_01_cargos_abonos_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tr_compras_proveedores_01_cargos_abonos_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="tr_compras_proveedores_01_cargos_abonos_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="tr_compras_proveedores_01_cargos_abonos_id" data-fieldname="tr_compras_proveedores_01_cargos_abonos_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_tr_compras_proveedores_01_cargos_abonos_id}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit tr_compras_proveedores_01_cargos_abonos_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_tr_compras_proveedores_01_cargos_abonos_id}
+	</div>
+	<div class="r-search-field">
+		{$tr_compras_proveedores_01_cargos_abonos_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$tr_compras_proveedores_01_cargos_abonos_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END tr_compras_proveedores_01_cargos_abonos_id_fieldblock}
+											
+{BEGIN concepto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_concepto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="concepto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="concepto" data-fieldname="concepto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_concepto}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit concepto }	</label>
+	<div class="r-search-option">
+		{$searchtype_concepto}
+	</div>
+	<div class="r-search-field">
+		{$concepto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$concepto_editcontrol1}
+	</div>
+	
+</div>
+
+{END concepto_fieldblock}
+											
+{BEGIN importe_cargo_pago_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_importe_cargo_pago}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="importe_cargo_pago{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="importe_cargo_pago" data-fieldname="importe_cargo_pago" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_importe_cargo_pago}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit importe_cargo_pago }	</label>
+	<div class="r-search-option">
+		{$searchtype_importe_cargo_pago}
+	</div>
+	<div class="r-search-field">
+		{$importe_cargo_pago_editcontrol}	</div>
+	<div class="r-search-field">
+		{$importe_cargo_pago_editcontrol1}
+	</div>
+	
+</div>
+
+{END importe_cargo_pago_fieldblock}
+											
+{BEGIN uuid_sat_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_uuid_sat}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="uuid_sat{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="uuid_sat" data-fieldname="uuid_sat" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_uuid_sat}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit uuid_sat }	</label>
+	<div class="r-search-option">
+		{$searchtype_uuid_sat}
+	</div>
+	<div class="r-search-field">
+		{$uuid_sat_editcontrol}	</div>
+	<div class="r-search-field">
+		{$uuid_sat_editcontrol1}
+	</div>
+	
+</div>
+
+{END uuid_sat_fieldblock}
+											
+{BEGIN orden_de_compra_proveedor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_orden_de_compra_proveedor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="orden_de_compra_proveedor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field14" {$item_integrated_search_field14} data-pageid="{$pageid}" data-field="orden_de_compra_proveedor" data-fieldname="orden_de_compra_proveedor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_orden_de_compra_proveedor}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit orden_de_compra_proveedor }	</label>
+	<div class="r-search-option">
+		{$searchtype_orden_de_compra_proveedor}
+	</div>
+	<div class="r-search-field">
+		{$orden_de_compra_proveedor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$orden_de_compra_proveedor_editcontrol1}
+	</div>
+	
+</div>
+
+{END orden_de_compra_proveedor_fieldblock}
+											
+{BEGIN observacion_cargo_pago_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_observacion_cargo_pago}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="observacion_cargo_pago{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field15" {$item_integrated_search_field15} data-pageid="{$pageid}" data-field="observacion_cargo_pago" data-fieldname="observacion_cargo_pago" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_observacion_cargo_pago}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit observacion_cargo_pago }	</label>
+	<div class="r-search-option">
+		{$searchtype_observacion_cargo_pago}
+	</div>
+	<div class="r-search-field">
+		{$observacion_cargo_pago_editcontrol}	</div>
+	<div class="r-search-field">
+		{$observacion_cargo_pago_editcontrol1}
+	</div>
+	
+</div>
+
+{END observacion_cargo_pago_fieldblock}
+											
+{BEGIN nombre_proveedor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nombre_proveedor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="nombre_proveedor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field16" {$item_integrated_search_field16} data-pageid="{$pageid}" data-field="nombre_proveedor" data-fieldname="nombre_proveedor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_nombre_proveedor}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit nombre_proveedor }	</label>
+	<div class="r-search-option">
+		{$searchtype_nombre_proveedor}
+	</div>
+	<div class="r-search-field">
+		{$nombre_proveedor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$nombre_proveedor_editcontrol1}
+	</div>
+	
+</div>
+
+{END nombre_proveedor_fieldblock}
+											
+{BEGIN uuid_cargo_abono_pago_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_uuid_cargo_abono_pago}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="uuid_cargo_abono_pago{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field17" {$item_integrated_search_field17} data-pageid="{$pageid}" data-field="uuid_cargo_abono_pago" data-fieldname="uuid_cargo_abono_pago" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_uuid_cargo_abono_pago}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit uuid_cargo_abono_pago }	</label>
+	<div class="r-search-option">
+		{$searchtype_uuid_cargo_abono_pago}
+	</div>
+	<div class="r-search-field">
+		{$uuid_cargo_abono_pago_editcontrol}	</div>
+	<div class="r-search-field">
+		{$uuid_cargo_abono_pago_editcontrol1}
+	</div>
+	
+</div>
+
+{END uuid_cargo_abono_pago_fieldblock}
+											
+{BEGIN tr_finanzas_bancos_01_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tr_finanzas_bancos_01_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="tr_finanzas_bancos_01_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field18" {$item_integrated_search_field18} data-pageid="{$pageid}" data-field="tr_finanzas_bancos_01_id" data-fieldname="tr_finanzas_bancos_01_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_tr_finanzas_bancos_01_id}">
+		{$label tr_compras_proveedores_01_cargos_abonos_pagos_edit tr_finanzas_bancos_01_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_tr_finanzas_bancos_01_id}
+	</div>
+	<div class="r-search-field">
+		{$tr_finanzas_bancos_01_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$tr_finanzas_bancos_01_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END tr_finanzas_bancos_01_id_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c1}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,1247 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+						pagesummary: {
+		fillColor: '#ffffbb',
+	},
+	globalsummary: {
+		fillColor: '#ffe0b0',
+	},
+			group_1: {
+			fillColor: '#FFFFFF'
+		},
+		nbgroup_1: {
+			fillColor: '#FFFFFF'
+		},
+		header_1: {
+			fillColor: '#FFFFFF',
+			fontSize: 15,
+			bold: true
+		},
+		/* new style styles */
+		header_Folio_OC: {
+			fillColor: '#FFFFFF',
+			fontSize: 15,
+			bold: true
+		},
+		group_Folio_OC: {
+			fillColor: '#FFFFFF'
+		},
+
+			group_2: {
+			fillColor: '#FFFFFF'
+		},
+		nbgroup_2: {
+			fillColor: '#FFFFFF'
+		},
+		header_2: {
+			fillColor: '#FFFFFF',
+			fontSize: 15,
+			bold: true
+		},
+		/* new style styles */
+		header_fecha_solicitante: {
+			fillColor: '#FFFFFF',
+			fontSize: 15,
+			bold: true
+		},
+		group_fecha_solicitante: {
+			fillColor: '#FFFFFF'
+		},
+
+			group_3: {
+			fillColor: '#FFFFFF'
+		},
+		nbgroup_3: {
+			fillColor: '#FFFFFF'
+		},
+		header_3: {
+			fillColor: '#FFFFFF',
+			fontSize: 15,
+			bold: true
+		},
+		/* new style styles */
+		header_Proveedor: {
+			fillColor: '#FFFFFF',
+			fontSize: 15,
+			bold: true
+		},
+		group_Proveedor: {
+			fillColor: '#FFFFFF'
+		},
+
+		
+	blackshade: {
+		fontSize: 15,
+	},
+	summarycell: {
+		border:[false, true, false, true ]
+	},
+/*
+		.fieldnamesrow > * 
+	{
+		border:solid #808080 1px; 
+		border-left: none; 
+		border-right: none;
+	}
+	*/	
+			},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+		{BEGIN body}
+		{BEGIN embedded_grid_caption}
+			{
+				text: '{$jscaption tr_compras_proveedores_01_cargos_abonos_oc_pdf}',
+			},
+		{END embedded_grid_caption}
+		{BEGIN embedded_page_title}
+			{
+				text: '{$jspagetitlelabel tr_compras_proveedores_01_cargos_abonos_oc_pdf rprint}',
+			},
+		{END embedded_page_title}		
+		{ 
+			{BEGIN standalone_page}
+			pageBreak: 'before',
+			standAlonePage: true,
+			{END standalone_page}
+			{BEGIN embedded_grid}
+			embeddedPage: true,
+			{END embedded_grid}
+			layout: {
+				hLineWidth: function(i, node) { return 0.1; },
+				vLineWidth: function(i, node) { 
+					return 0.1; 
+				},
+				hLineColor: function(i, node) { return 'lightgray'; },
+				vLineColor: function(i, node) { return 'lightgray'; },
+			},
+			table: {
+				{BEGIN embedded_grid}
+				embeddedPage: true,
+				{END embedded_grid}
+				
+				tableForm: true,
+				headerRows: 1 
+								{BEGIN embedded_grid} -1 {END embedded_grid} ,
+
+				widths: [
+														{BEGIN col_grid_0}
+					"%",
+					{END col_grid_0}
+										{BEGIN col_grid_1}
+					"%",
+					{END col_grid_1}
+										{BEGIN col_grid_2}
+					"%",
+					{END col_grid_2}
+										{BEGIN col_grid_3}
+					"%",
+					{END col_grid_3}
+															],
+											heights: [ // first height for header part
+					"%",
+																		{BEGIN row_grid_0}
+							"%",
+							{END row_grid_0}
+																								{BEGIN row_grid_1}
+							"%",
+							{END row_grid_1}
+																								{BEGIN row_grid_2}
+							"%",
+							{END row_grid_2}
+																								{BEGIN row_grid_3}
+							"%",
+							{END row_grid_3}
+																								{BEGIN row_grid_4}
+							"%",
+							{END row_grid_4}
+																								{BEGIN row_grid_5}
+							"%",
+							{END row_grid_5}
+																							 	{BEGIN grid_row}
+													{BEGIN row_grid_6}
+							"%",
+							{END row_grid_6}
+													{END grid_row}
+																								{BEGIN row_grid_7}
+							"%",
+							{END row_grid_7}
+																								{BEGIN row_grid_8}
+							"%",
+							{END row_grid_8}
+															],
+							
+				body: [
+				{BEGIN standalone_page}
+					[
+						{
+							colSpan: {$formwidth_grid},
+							border:[false, false,false,false],
+							stack: [
+
+																										
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"","hidden":"{$item_hide_print_pdf}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+						[
+																{
+	cellId: 'c2',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"stack": [
+		
+				
+			{"text":"{$jspagetitlelabel tr_compras_proveedores_01_cargos_abonos_oc_pdf rprint}","hidden":"{$item_hide_print_header}","fontSize":30},
+				
+				
+			{"text":"{$printtabheader_text}","hidden":"{$item_hide_print_subheader}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+								
+																										
+{
+	table: {
+	
+				
+		location: 'above-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"Página %current% / %total%","hidden":"{$item_hide_print_pages}","isHtml":true,"page_indicator":true},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+															]
+						},
+					],
+				{END standalone_page}
+
+																	
+{BEGIN grid_row}
+							
+	{BEGIN Folio_OC_newgroup}
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_cell_group_field_and_label3}
+{
+	cellId: 'cell_group_field_and_label3',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'header_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_field_and_label3}
+			colSpan: {$colspan_grid_cell_group_field_and_label3},
+			{END colspan_grid_cell_group_field_and_label3}
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"Folio OC:","hidden":"{$item_hide_text2}","isHtml":true},
+				
+				
+			{"text":{$Folio_OC_grval},"hidden":"{$item_hide_grid_group_field}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_field_and_label3}
+																		{ 
+				cellId: 'cell_group_field_and_label3',
+				row:  0,
+				col:  1,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label3',
+				row:  0,
+				col:  2,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label3',
+				row:  0,
+				col:  3,
+				text: '',
+				compensateColspan: true
+			},
+							],
+				{END row_grid_0}
+			{END Folio_OC_newgroup}
+
+									
+	{BEGIN fecha_solicitante_newgroup}
+				{BEGIN row_grid_1}
+				[
+																{BEGIN cellblock_grid_cell_group_field_and_label7}
+{
+	cellId: 'cell_group_field_and_label7',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'header_fecha_solicitante',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_field_and_label7}
+			colSpan: {$colspan_grid_cell_group_field_and_label7},
+			{END colspan_grid_cell_group_field_and_label7}
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"Fecha/solicitante:","hidden":"{$item_hide_text3}","isHtml":true},
+				
+				
+			{"text":{$fecha_solicitante_grval},"hidden":"{$item_hide_grid_group_field1}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_field_and_label7}
+																		{ 
+				cellId: 'cell_group_field_and_label7',
+				row:  0,
+				col:  1,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label7',
+				row:  0,
+				col:  2,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label7',
+				row:  0,
+				col:  3,
+				text: '',
+				compensateColspan: true
+			},
+							],
+				{END row_grid_1}
+			{END fecha_solicitante_newgroup}
+
+									
+	{BEGIN Proveedor_newgroup}
+				{BEGIN row_grid_2}
+				[
+																{BEGIN cellblock_grid_cell_group_field_and_label11}
+{
+	cellId: 'cell_group_field_and_label11',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'header_Proveedor',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_field_and_label11}
+			colSpan: {$colspan_grid_cell_group_field_and_label11},
+			{END colspan_grid_cell_group_field_and_label11}
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"Proveedor:","hidden":"{$item_hide_text4}","isHtml":true},
+				
+				
+			{"text":{$Proveedor_grval},"hidden":"{$item_hide_grid_group_field2}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_field_and_label11}
+																		{ 
+				cellId: 'cell_group_field_and_label11',
+				row:  0,
+				col:  1,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label11',
+				row:  0,
+				col:  2,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label11',
+				row:  0,
+				col:  3,
+				text: '',
+				compensateColspan: true
+			},
+							],
+				{END row_grid_2}
+						{BEGIN row_grid_3}
+				[
+																{BEGIN cellblock_grid_cell_group_field_and_label}
+{
+	cellId: 'cell_group_field_and_label',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'header_Proveedor',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_field_and_label}
+			colSpan: {$colspan_grid_cell_group_field_and_label},
+			{END colspan_grid_cell_group_field_and_label}
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":" ","hidden":"{$item_hide_text}","isHtml":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_field_and_label}
+																		{ 
+				cellId: 'cell_group_field_and_label',
+				row:  0,
+				col:  1,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label',
+				row:  0,
+				col:  2,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label',
+				row:  0,
+				col:  3,
+				text: '',
+				compensateColspan: true
+			},
+							],
+				{END row_grid_3}
+						{BEGIN row_grid_4}
+				[
+																{BEGIN cellblock_grid_cell_group_field_and_label1}
+{
+	cellId: 'cell_group_field_and_label1',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'header_Proveedor',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_field_and_label1}
+			colSpan: {$colspan_grid_cell_group_field_and_label1},
+			{END colspan_grid_cell_group_field_and_label1}
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":" ","hidden":"{$item_hide_text1}","isHtml":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_field_and_label1}
+																		{ 
+				cellId: 'cell_group_field_and_label1',
+				row:  0,
+				col:  1,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label1',
+				row:  0,
+				col:  2,
+				text: '',
+				compensateColspan: true
+			},
+														{ 
+				cellId: 'cell_group_field_and_label1',
+				row:  0,
+				col:  3,
+				text: '',
+				compensateColspan: true
+			},
+							],
+				{END row_grid_4}
+						{BEGIN row_grid_5}
+				[
+																{BEGIN cellblock_grid_headcell_field}
+{
+	cellId: 'headcell_field',
+	col:0,
+	row:0,
+			fieldName: 'producto',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_proveedores_01_cargos_abonos_oc_pdf producto }","hidden":"{$item_hide_report_advanced_field_label}","bold":true},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field}
+																							{BEGIN cellblock_grid_headcell_field1}
+{
+	cellId: 'headcell_field1',
+	col:0,
+	row:0,
+			fieldName: 'cantidad',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_proveedores_01_cargos_abonos_oc_pdf cantidad }","hidden":"{$item_hide_report_advanced_field_label1}","bold":true},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field1}
+																							{BEGIN cellblock_grid_headcell_field2}
+{
+	cellId: 'headcell_field2',
+	col:0,
+	row:0,
+			fieldName: 'precio_neto',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_proveedores_01_cargos_abonos_oc_pdf precio_neto }","hidden":"{$item_hide_report_advanced_field_label2}","bold":true},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field2}
+																							{BEGIN cellblock_grid_headcell_field3}
+{
+	cellId: 'headcell_field3',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_proveedores_01_cargos_abonos_oc_pdf total }","hidden":"{$item_hide_report_advanced_field_label3}","bold":true},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field3}
+											],
+				{END row_grid_5}
+			{END Proveedor_newgroup}
+
+									
+	{BEGIN row_data}
+				{BEGIN row_grid_6}
+				[
+																{BEGIN cellblock_grid_cell_field}
+{
+	cellId: 'cell_field',
+	col:0,
+	row:0,
+			fieldName: 'producto',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$producto_value},"hidden":"{$item_hide_report_advanced_field}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": '{$producto_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field}
+																							{BEGIN cellblock_grid_cell_field1}
+{
+	cellId: 'cell_field1',
+	col:0,
+	row:0,
+			fieldName: 'cantidad',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cantidad_value},"hidden":"{$item_hide_report_advanced_field1}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": '{$cantidad_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field1}
+																							{BEGIN cellblock_grid_cell_field2}
+{
+	cellId: 'cell_field2',
+	col:0,
+	row:0,
+			fieldName: 'precio_neto',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$precio_neto_value},"hidden":"{$item_hide_report_advanced_field2}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+    fillColor: '#ffffff',        "alignment": '{$precio_neto_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field2}
+																							{BEGIN cellblock_grid_cell_field3}
+{
+	cellId: 'cell_field3',
+	col:0,
+	row:0,
+			fieldName: 'total',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$total_value},"hidden":"{$item_hide_report_advanced_field3}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": '{$total_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field3}
+											],
+				{END row_grid_6}
+			{END row_data}
+
+									
+	{BEGIN Folio_OC_endgroup}
+				{BEGIN row_grid_7}
+				[
+																{BEGIN cellblock_grid_cell_group_summary}
+{
+	cellId: 'cell_group_summary',
+	col:0,
+	row:0,
+			fieldName: 'producto',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"Resumen de","hidden":"{$item_hide_group_summary_label1}","isHtml":true},
+				
+				
+			{"text":"{$jslabel tr_compras_proveedores_01_cargos_abonos_oc_pdf Folio_OC }","hidden":"{$item_hide_group_summary_field_label}","bold":true},
+				
+				
+			{"text":{$Folio_OC_grval},"hidden":"{$item_hide_group_summary_field_value}"},
+				
+				
+			{"text":"-","hidden":"{$item_hide_group_summary_dash}","isHtml":true},
+				
+				
+			{"text":"{$groupFolio_OC_total_cnt}","hidden":"{$item_hide_group_summary_count}"},
+				
+				
+			{"text":"Registros","hidden":"{$item_hide_group_summary_label2}","isHtml":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary}
+																							{BEGIN cellblock_grid_cell_group_summary1}
+{
+	cellId: 'cell_group_summary1',
+	col:0,
+	row:0,
+			fieldName: 'cantidad',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary1}
+																							{BEGIN cellblock_grid_cell_group_summary2}
+{
+	cellId: 'cell_group_summary2',
+	col:0,
+	row:0,
+			fieldName: 'precio_neto',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary2}
+																							{BEGIN cellblock_grid_cell_group_summary3}
+{
+	cellId: 'cell_group_summary3',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary3}
+											],
+				{END row_grid_7}
+						{BEGIN row_grid_8}
+				[
+																{BEGIN cellblock_grid_cell_group_summary_field_sum}
+{
+	cellId: 'cell_group_summary_field_sum',
+	col:0,
+	row:0,
+			fieldName: 'producto',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"Totales","hidden":"{$item_hide_group_summary_type_sum}","isHtml":true},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary_field_sum}
+																							{BEGIN cellblock_grid_cell_group_summary_field_sum1}
+{
+	cellId: 'cell_group_summary_field_sum1',
+	col:0,
+	row:0,
+			fieldName: 'cantidad',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$groupFolio_OC_totalcantidad_sum},"hidden":"{$item_hide_group_summary_field_sum}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": '{$cantidad_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary_field_sum1}
+																							{BEGIN cellblock_grid_cell_group_summary_field_sum2}
+{
+	cellId: 'cell_group_summary_field_sum2',
+	col:0,
+	row:0,
+			fieldName: 'precio_neto',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary_field_sum2}
+																							{BEGIN cellblock_grid_cell_group_summary_field_sum3}
+{
+	cellId: 'cell_group_summary_field_sum3',
+	col:0,
+	row:0,
+			fieldName: 'total',
+				style: 'group_Folio_OC',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$groupFolio_OC_totaltotal_sum},"hidden":"{$item_hide_group_summary_field_sum1}"},
+				
+		  ],
+  "border": [true,true,true,true],
+      	"borderColor":  ["#000000","#000000","#000000","#000000"],
+            "alignment": '{$total_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary_field_sum3}
+											],
+				{END row_grid_8}
+			{END Folio_OC_endgroup}
+
+			{END grid_row}
+
+					
+
+									]
+			
+			}
+		},
+		{END body}
+	],
+	footer: [
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":" ","hidden":"{$item_hide_text5}","isHtml":true},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+						[
+																{
+	cellId: 'c2',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":" ","hidden":"{$item_hide_text6}","isHtml":true},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+						[
+																{
+	cellId: 'c',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+			],
+	};
+
+
+pdfFonts = {$pdfFonts};

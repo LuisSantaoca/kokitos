@@ -1,0 +1,406 @@
+<div class="panel panel-primary">
+		<div class="panel-heading">
+						{BEGIN top_block}
+<div class="panel-title r-panel-top row" data-location="top" id="form_top_{$pageid}" data-makeup="panel-only" {$form_top} data-pageid="{$pageid}" >		
+	 
+		 
+			<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h3 class="panel-title" data-itemtype="masterprint_header" data-itemid="masterprint_header" {$item_masterprint_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_compras_almacenes_inventario_02_productos masterprint}</h3>
+		</div>			</div>		
+{END top_block}
+			</div>
+		<div class="panel-body">
+							{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="panel-only" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+				{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+								{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<table data-location="grid" id="form_grid_{$pageid}" data-makeup="panel-only" {$form_grid} data-pageid="{$pageid}" class=" table table-striped table-bordered r-horizontal-grid  rnr-b-grid rnr-gridtable"
+	cellpadding="0"
+	data-body-height="1"
+>
+						<thead>
+			{BEGIN grid_header}
+			
+																									<tr {$rowattrs} {$row_grid_0} class="{$rowclass}
+									{$gridHeader_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+			data-field="cat_compras_productos_id"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field4" {$item_simple_grid_field4} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_almacenes_inventario_02_productos cat_compras_productos_id }</span>
+			</span>
+	</span>
+{END cat_compras_productos_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+									{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_almacen_class}	"
+
+			data-field="ubicacion_almacen"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN ubicacion_almacen_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field6" {$item_simple_grid_field6} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="ubicacion_almacen" data-fieldname="ubicacion_almacen" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_almacenes_inventario_02_productos ubicacion_almacen }</span>
+			</span>
+	</span>
+{END ubicacion_almacen_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+									{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$lpn_class}	"
+
+			data-field="lpn"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN lpn_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field7" {$item_simple_grid_field7} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="lpn" data-fieldname="lpn" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_almacenes_inventario_02_productos lpn }</span>
+			</span>
+	</span>
+{END lpn_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+									{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$existencia_class}	"
+
+			data-field="existencia"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN existencia_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field8" {$item_simple_grid_field8} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="existencia" data-fieldname="existencia" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_almacenes_inventario_02_productos existencia }</span>
+			</span>
+	</span>
+{END existencia_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+									{BEGIN cellblock_grid_headcell_field4}
+	<th
+	
+	{$cell_grid_headcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_almacenes_inventarios_uuid_class}	"
+
+			data-field="tr_compras_almacenes_inventarios_uuid"
+	
+	data-cellId="grid_headcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_almacenes_inventarios_uuid_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field9" {$item_simple_grid_field9} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_almacenes_inventarios_uuid" data-fieldname="tr_compras_almacenes_inventarios_uuid" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_almacenes_inventario_02_productos tr_compras_almacenes_inventarios_uuid }</span>
+			</span>
+	</span>
+{END tr_compras_almacenes_inventarios_uuid_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field4}
+							</tr>
+															
+					{END grid_header}
+			</thead>
+															<tbody>
+					{BEGIN grid_row}
+							
+																														<tr {$rowattrs} {$row_grid_1} class="{$rowclass}
+				
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+			data-field="cat_compras_productos_id"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" {$item_simple_grid_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id" data-default-width >
+{$cat_compras_productos_id_value}
+</span>
+{END cat_compras_productos_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field}
+									{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_almacen_class}	"
+
+			data-field="ubicacion_almacen"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN ubicacion_almacen_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field5" {$item_simple_grid_field5} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="ubicacion_almacen" data-fieldname="ubicacion_almacen" data-default-width >
+{$ubicacion_almacen_value}
+</span>
+{END ubicacion_almacen_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field1}
+									{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$lpn_class}	"
+
+			data-field="lpn"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN lpn_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2" {$item_simple_grid_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="lpn" data-fieldname="lpn" data-default-width >
+{$lpn_value}
+</span>
+{END lpn_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field2}
+									{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$existencia_class}	"
+
+			data-field="existencia"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN existencia_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field" {$item_simple_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="existencia" data-fieldname="existencia" data-default-width >
+{$existencia_value}
+</span>
+{END existencia_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field3}
+									{BEGIN cellblock_grid_cell_field4}
+	<td
+	
+	{$cell_grid_cell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_almacenes_inventarios_uuid_class}	"
+
+			data-field="tr_compras_almacenes_inventarios_uuid"
+	
+	data-cellId="grid_cell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_almacenes_inventarios_uuid_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1" {$item_simple_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_almacenes_inventarios_uuid" data-fieldname="tr_compras_almacenes_inventarios_uuid" data-default-width >
+{$tr_compras_almacenes_inventarios_uuid_value}
+</span>
+{END tr_compras_almacenes_inventarios_uuid_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field4}
+							</tr>
+										
+											{END grid_row}
+					</tbody>
+													<tfoot>
+			
+																																			<tr {$rowattrs} {$row_grid_2} class="{$rowclass}
+									{$gridFooter_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_footcell_field}
+	<td
+	
+	{$cell_grid_footcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+	
+	data-cellId="grid_footcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_almacenes_inventario_02_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field}
+									{BEGIN cellblock_grid_footcell_field1}
+	<td
+	
+	{$cell_grid_footcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_almacen_class}	"
+
+	
+	data-cellId="grid_footcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_almacenes_inventario_02_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field1}
+									{BEGIN cellblock_grid_footcell_field2}
+	<td
+	
+	{$cell_grid_footcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$lpn_class}	"
+
+	
+	data-cellId="grid_footcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_almacenes_inventario_02_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field2}
+									{BEGIN cellblock_grid_footcell_field3}
+	<td
+	
+	{$cell_grid_footcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$existencia_class}	"
+
+	
+	data-cellId="grid_footcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_almacenes_inventario_02_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field3}
+									{BEGIN cellblock_grid_footcell_field4}
+	<td
+	
+	{$cell_grid_footcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_almacenes_inventarios_uuid_class}	"
+
+	
+	data-cellId="grid_footcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_almacenes_inventario_02_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field4}
+							</tr>
+					
+					</tfoot>
+				</table>
+{END grid_block}
+								</div>
+</div>

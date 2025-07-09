@@ -1,0 +1,370 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel cat_nominas_02_horarios search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN vigente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="vigente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_vigente}">
+		{$label cat_nominas_02_horarios vigente }	</label>
+	<div class="r-search-option">
+		{$searchtype_vigente}
+	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol1}
+	</div>
+	
+</div>
+
+{END vigente_fieldblock}
+											
+{BEGIN cat_nominas_02_horarios_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_nominas_02_horarios_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_nominas_02_horarios_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="cat_nominas_02_horarios_id" data-fieldname="cat_nominas_02_horarios_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_nominas_02_horarios_id}">
+		{$label cat_nominas_02_horarios cat_nominas_02_horarios_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_nominas_02_horarios_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_nominas_02_horarios_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_nominas_02_horarios_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_nominas_02_horarios_id_fieldblock}
+											
+{BEGIN cat_nominas_dias_semana_mu_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_nominas_dias_semana_mu_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_nominas_dias_semana_mu_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="cat_nominas_dias_semana_mu_id" data-fieldname="cat_nominas_dias_semana_mu_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_nominas_dias_semana_mu_id}">
+		{$label cat_nominas_02_horarios cat_nominas_dias_semana_mu_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_nominas_dias_semana_mu_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_nominas_dias_semana_mu_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_nominas_dias_semana_mu_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_nominas_dias_semana_mu_id_fieldblock}
+											
+{BEGIN horario_de_entrada_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_horario_de_entrada}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="horario_de_entrada{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="horario_de_entrada" data-fieldname="horario_de_entrada" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_horario_de_entrada}">
+		{$label cat_nominas_02_horarios horario_de_entrada }	</label>
+	<div class="r-search-option">
+		{$searchtype_horario_de_entrada}
+	</div>
+	<div class="r-search-field">
+		{$horario_de_entrada_editcontrol}	</div>
+	<div class="r-search-field">
+		{$horario_de_entrada_editcontrol1}
+	</div>
+	
+</div>
+
+{END horario_de_entrada_fieldblock}
+											
+{BEGIN horario_de_salida_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_horario_de_salida}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="horario_de_salida{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="horario_de_salida" data-fieldname="horario_de_salida" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_horario_de_salida}">
+		{$label cat_nominas_02_horarios horario_de_salida }	</label>
+	<div class="r-search-option">
+		{$searchtype_horario_de_salida}
+	</div>
+	<div class="r-search-field">
+		{$horario_de_salida_editcontrol}	</div>
+	<div class="r-search-field">
+		{$horario_de_salida_editcontrol1}
+	</div>
+	
+</div>
+
+{END horario_de_salida_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label cat_nominas_02_horarios capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+											
+{BEGIN time_stamp_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_time_stamp}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="time_stamp{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="time_stamp" data-fieldname="time_stamp" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_time_stamp}">
+		{$label cat_nominas_02_horarios time_stamp }	</label>
+	<div class="r-search-option">
+		{$searchtype_time_stamp}
+	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol}	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol1}
+	</div>
+	
+</div>
+
+{END time_stamp_fieldblock}
+											
+{BEGIN cat_nominas_01_generales_uuid_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_nominas_01_generales_uuid}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_nominas_01_generales_uuid{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="cat_nominas_01_generales_uuid" data-fieldname="cat_nominas_01_generales_uuid" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_nominas_01_generales_uuid}">
+		{$label cat_nominas_02_horarios cat_nominas_01_generales_uuid }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_nominas_01_generales_uuid}
+	</div>
+	<div class="r-search-field">
+		{$cat_nominas_01_generales_uuid_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_nominas_01_generales_uuid_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_nominas_01_generales_uuid_fieldblock}
+											
+{BEGIN llave_dia_uuid_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_llave_dia_uuid}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="llave_dia_uuid{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="llave_dia_uuid" data-fieldname="llave_dia_uuid" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_llave_dia_uuid}">
+		{$label cat_nominas_02_horarios llave_dia_uuid }	</label>
+	<div class="r-search-option">
+		{$searchtype_llave_dia_uuid}
+	</div>
+	<div class="r-search-field">
+		{$llave_dia_uuid_editcontrol}	</div>
+	<div class="r-search-field">
+		{$llave_dia_uuid_editcontrol1}
+	</div>
+	
+</div>
+
+{END llave_dia_uuid_fieldblock}
+											
+{BEGIN check_dia_siguiente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_check_dia_siguiente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="check_dia_siguiente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="check_dia_siguiente" data-fieldname="check_dia_siguiente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_check_dia_siguiente}">
+		{$label cat_nominas_02_horarios check_dia_siguiente }	</label>
+	<div class="r-search-option">
+		{$searchtype_check_dia_siguiente}
+	</div>
+	<div class="r-search-field">
+		{$check_dia_siguiente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$check_dia_siguiente_editcontrol1}
+	</div>
+	
+</div>
+
+{END check_dia_siguiente_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

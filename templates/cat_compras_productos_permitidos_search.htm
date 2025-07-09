@@ -1,0 +1,480 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel cat_compras_productos_permitidos search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN cat_compras_productos_permitidos_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_productos_permitidos_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_compras_productos_permitidos_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="cat_compras_productos_permitidos_id" data-fieldname="cat_compras_productos_permitidos_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_compras_productos_permitidos_id}">
+		{$label cat_compras_productos_permitidos cat_compras_productos_permitidos_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_compras_productos_permitidos_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_compras_productos_permitidos_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_compras_productos_permitidos_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_compras_productos_permitidos_id_fieldblock}
+											
+{BEGIN observaciones_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_observaciones}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="observaciones{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field16" {$item_integrated_search_field16} data-pageid="{$pageid}" data-field="observaciones" data-fieldname="observaciones" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_observaciones}">
+		{$label cat_compras_productos_permitidos observaciones }	</label>
+	<div class="r-search-option">
+		{$searchtype_observaciones}
+	</div>
+	<div class="r-search-field">
+		{$observaciones_editcontrol}	</div>
+	<div class="r-search-field">
+		{$observaciones_editcontrol1}
+	</div>
+	
+</div>
+
+{END observaciones_fieldblock}
+											
+{BEGIN sku_cliente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sku_cliente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sku_cliente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="sku_cliente" data-fieldname="sku_cliente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sku_cliente}">
+		{$label cat_compras_productos_permitidos sku_cliente }	</label>
+	<div class="r-search-option">
+		{$searchtype_sku_cliente}
+	</div>
+	<div class="r-search-field">
+		{$sku_cliente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sku_cliente_editcontrol1}
+	</div>
+	
+</div>
+
+{END sku_cliente_fieldblock}
+											
+{BEGIN cat_ventas_clientes_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_ventas_clientes_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_ventas_clientes_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="cat_ventas_clientes_id" data-fieldname="cat_ventas_clientes_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_ventas_clientes_id}">
+		{$label cat_compras_productos_permitidos cat_ventas_clientes_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_ventas_clientes_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_ventas_clientes_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_ventas_clientes_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_ventas_clientes_id_fieldblock}
+											
+{BEGIN material_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_material}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="material{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="material" data-fieldname="material" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_material}">
+		{$label cat_compras_productos_permitidos material }	</label>
+	<div class="r-search-option">
+		{$searchtype_material}
+	</div>
+	<div class="r-search-field">
+		{$material_editcontrol}	</div>
+	<div class="r-search-field">
+		{$material_editcontrol1}
+	</div>
+	
+</div>
+
+{END material_fieldblock}
+											
+{BEGIN nombre_general_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nombre_general}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="nombre_general{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="nombre_general" data-fieldname="nombre_general" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_nombre_general}">
+		{$label cat_compras_productos_permitidos nombre_general }	</label>
+	<div class="r-search-option">
+		{$searchtype_nombre_general}
+	</div>
+	<div class="r-search-field">
+		{$nombre_general_editcontrol}	</div>
+	<div class="r-search-field">
+		{$nombre_general_editcontrol1}
+	</div>
+	
+</div>
+
+{END nombre_general_fieldblock}
+											
+{BEGIN fabricante_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fabricante}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fabricante{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="fabricante" data-fieldname="fabricante" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fabricante}">
+		{$label cat_compras_productos_permitidos fabricante }	</label>
+	<div class="r-search-option">
+		{$searchtype_fabricante}
+	</div>
+	<div class="r-search-field">
+		{$fabricante_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fabricante_editcontrol1}
+	</div>
+	
+</div>
+
+{END fabricante_fieldblock}
+											
+{BEGIN estatus_para_cliente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_estatus_para_cliente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="estatus_para_cliente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="estatus_para_cliente" data-fieldname="estatus_para_cliente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_estatus_para_cliente}">
+		{$label cat_compras_productos_permitidos estatus_para_cliente }	</label>
+	<div class="r-search-option">
+		{$searchtype_estatus_para_cliente}
+	</div>
+	<div class="r-search-field">
+		{$estatus_para_cliente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$estatus_para_cliente_editcontrol1}
+	</div>
+	
+</div>
+
+{END estatus_para_cliente_fieldblock}
+											
+{BEGIN estatus_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_estatus}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="estatus{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="estatus" data-fieldname="estatus" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_estatus}">
+		{$label cat_compras_productos_permitidos estatus }	</label>
+	<div class="r-search-option">
+		{$searchtype_estatus}
+	</div>
+	<div class="r-search-field">
+		{$estatus_editcontrol}	</div>
+	<div class="r-search-field">
+		{$estatus_editcontrol1}
+	</div>
+	
+</div>
+
+{END estatus_fieldblock}
+											
+{BEGIN metodo_de_aplicacion_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_metodo_de_aplicacion}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="metodo_de_aplicacion{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="metodo_de_aplicacion" data-fieldname="metodo_de_aplicacion" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_metodo_de_aplicacion}">
+		{$label cat_compras_productos_permitidos metodo_de_aplicacion }	</label>
+	<div class="r-search-option">
+		{$searchtype_metodo_de_aplicacion}
+	</div>
+	<div class="r-search-field">
+		{$metodo_de_aplicacion_editcontrol}	</div>
+	<div class="r-search-field">
+		{$metodo_de_aplicacion_editcontrol1}
+	</div>
+	
+</div>
+
+{END metodo_de_aplicacion_fieldblock}
+											
+{BEGIN restriccion_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_restriccion}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="restriccion{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="restriccion" data-fieldname="restriccion" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_restriccion}">
+		{$label cat_compras_productos_permitidos restriccion }	</label>
+	<div class="r-search-option">
+		{$searchtype_restriccion}
+	</div>
+	<div class="r-search-field">
+		{$restriccion_editcontrol}	</div>
+	<div class="r-search-field">
+		{$restriccion_editcontrol1}
+	</div>
+	
+</div>
+
+{END restriccion_fieldblock}
+											
+{BEGIN clasificacion_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_clasificacion}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="clasificacion{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="clasificacion" data-fieldname="clasificacion" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_clasificacion}">
+		{$label cat_compras_productos_permitidos clasificacion }	</label>
+	<div class="r-search-option">
+		{$searchtype_clasificacion}
+	</div>
+	<div class="r-search-field">
+		{$clasificacion_editcontrol}	</div>
+	<div class="r-search-field">
+		{$clasificacion_editcontrol1}
+	</div>
+	
+</div>
+
+{END clasificacion_fieldblock}
+											
+{BEGIN servicio_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_servicio}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="servicio{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="servicio" data-fieldname="servicio" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_servicio}">
+		{$label cat_compras_productos_permitidos servicio }	</label>
+	<div class="r-search-option">
+		{$searchtype_servicio}
+	</div>
+	<div class="r-search-field">
+		{$servicio_editcontrol}	</div>
+	<div class="r-search-field">
+		{$servicio_editcontrol1}
+	</div>
+	
+</div>
+
+{END servicio_fieldblock}
+											
+{BEGIN fecha_decision_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_decision}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_decision{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="fecha_decision" data-fieldname="fecha_decision" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_decision}">
+		{$label cat_compras_productos_permitidos fecha_decision }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_decision}
+	</div>
+	<div class="r-search-field">
+		{$fecha_decision_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_decision_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_decision_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label cat_compras_productos_permitidos capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

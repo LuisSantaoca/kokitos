@@ -1,0 +1,942 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_compras_facturas_sat_01_estatus search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN UUID_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_UUID}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="UUID{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="UUID" data-fieldname="UUID" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_UUID}">
+		{$label tr_compras_facturas_sat_01_estatus UUID }	</label>
+	<div class="r-search-option">
+		{$searchtype_UUID}
+	</div>
+	<div class="r-search-field">
+		{$UUID_editcontrol}	</div>
+	<div class="r-search-field">
+		{$UUID_editcontrol1}
+	</div>
+	
+</div>
+
+{END UUID_fieldblock}
+											
+{BEGIN Fecha_emision_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Fecha_emision}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Fecha_emision{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="Fecha_emision" data-fieldname="Fecha_emision" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Fecha_emision}">
+		{$label tr_compras_facturas_sat_01_estatus Fecha_emision }	</label>
+	<div class="r-search-option">
+		{$searchtype_Fecha_emision}
+	</div>
+	<div class="r-search-field">
+		{$Fecha_emision_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Fecha_emision_editcontrol1}
+	</div>
+	
+</div>
+
+{END Fecha_emision_fieldblock}
+											
+{BEGIN Nombre_emisor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Nombre_emisor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Nombre_emisor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="Nombre_emisor" data-fieldname="Nombre_emisor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Nombre_emisor}">
+		{$label tr_compras_facturas_sat_01_estatus Nombre_emisor }	</label>
+	<div class="r-search-option">
+		{$searchtype_Nombre_emisor}
+	</div>
+	<div class="r-search-field">
+		{$Nombre_emisor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Nombre_emisor_editcontrol1}
+	</div>
+	
+</div>
+
+{END Nombre_emisor_fieldblock}
+											
+{BEGIN RFC_emisor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_RFC_emisor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="RFC_emisor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="RFC_emisor" data-fieldname="RFC_emisor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_RFC_emisor}">
+		{$label tr_compras_facturas_sat_01_estatus RFC_emisor }	</label>
+	<div class="r-search-option">
+		{$searchtype_RFC_emisor}
+	</div>
+	<div class="r-search-field">
+		{$RFC_emisor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$RFC_emisor_editcontrol1}
+	</div>
+	
+</div>
+
+{END RFC_emisor_fieldblock}
+											
+{BEGIN importe_neto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_importe_neto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="importe_neto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field19" {$item_integrated_search_field19} data-pageid="{$pageid}" data-field="importe_neto" data-fieldname="importe_neto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_importe_neto}">
+		{$label tr_compras_facturas_sat_01_estatus importe_neto }	</label>
+	<div class="r-search-option">
+		{$searchtype_importe_neto}
+	</div>
+	<div class="r-search-field">
+		{$importe_neto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$importe_neto_editcontrol1}
+	</div>
+	
+</div>
+
+{END importe_neto_fieldblock}
+											
+{BEGIN vigente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="vigente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_vigente}">
+		{$label tr_compras_facturas_sat_01_estatus vigente }	</label>
+	<div class="r-search-option">
+		{$searchtype_vigente}
+	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol1}
+	</div>
+	
+</div>
+
+{END vigente_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label tr_compras_facturas_sat_01_estatus capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+											
+{BEGIN UUIDs_relacionados_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_UUIDs_relacionados}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="UUIDs_relacionados{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="UUIDs_relacionados" data-fieldname="UUIDs_relacionados" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_UUIDs_relacionados}">
+		{$label tr_compras_facturas_sat_01_estatus UUIDs_relacionados }	</label>
+	<div class="r-search-option">
+		{$searchtype_UUIDs_relacionados}
+	</div>
+	<div class="r-search-field">
+		{$UUIDs_relacionados_editcontrol}	</div>
+	<div class="r-search-field">
+		{$UUIDs_relacionados_editcontrol1}
+	</div>
+	
+</div>
+
+{END UUIDs_relacionados_fieldblock}
+											
+{BEGIN Tipo_relacion_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Tipo_relacion}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Tipo_relacion{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="Tipo_relacion" data-fieldname="Tipo_relacion" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Tipo_relacion}">
+		{$label tr_compras_facturas_sat_01_estatus Tipo_relacion }	</label>
+	<div class="r-search-option">
+		{$searchtype_Tipo_relacion}
+	</div>
+	<div class="r-search-field">
+		{$Tipo_relacion_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Tipo_relacion_editcontrol1}
+	</div>
+	
+</div>
+
+{END Tipo_relacion_fieldblock}
+											
+{BEGIN CP_Expedicion_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_CP_Expedicion}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="CP_Expedicion{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="CP_Expedicion" data-fieldname="CP_Expedicion" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_CP_Expedicion}">
+		{$label tr_compras_facturas_sat_01_estatus CP_Expedicion }	</label>
+	<div class="r-search-option">
+		{$searchtype_CP_Expedicion}
+	</div>
+	<div class="r-search-field">
+		{$CP_Expedicion_editcontrol}	</div>
+	<div class="r-search-field">
+		{$CP_Expedicion_editcontrol1}
+	</div>
+	
+</div>
+
+{END CP_Expedicion_fieldblock}
+											
+{BEGIN Serie_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Serie}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Serie{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="Serie" data-fieldname="Serie" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Serie}">
+		{$label tr_compras_facturas_sat_01_estatus Serie }	</label>
+	<div class="r-search-option">
+		{$searchtype_Serie}
+	</div>
+	<div class="r-search-field">
+		{$Serie_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Serie_editcontrol1}
+	</div>
+	
+</div>
+
+{END Serie_fieldblock}
+											
+{BEGIN Folio_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Folio}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Folio{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="Folio" data-fieldname="Folio" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Folio}">
+		{$label tr_compras_facturas_sat_01_estatus Folio }	</label>
+	<div class="r-search-option">
+		{$searchtype_Folio}
+	</div>
+	<div class="r-search-field">
+		{$Folio_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Folio_editcontrol1}
+	</div>
+	
+</div>
+
+{END Folio_fieldblock}
+											
+{BEGIN Fecha_certificacion_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Fecha_certificacion}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Fecha_certificacion{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="Fecha_certificacion" data-fieldname="Fecha_certificacion" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Fecha_certificacion}">
+		{$label tr_compras_facturas_sat_01_estatus Fecha_certificacion }	</label>
+	<div class="r-search-option">
+		{$searchtype_Fecha_certificacion}
+	</div>
+	<div class="r-search-field">
+		{$Fecha_certificacion_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Fecha_certificacion_editcontrol1}
+	</div>
+	
+</div>
+
+{END Fecha_certificacion_fieldblock}
+											
+{BEGIN Nombre_receptor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Nombre_receptor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Nombre_receptor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="Nombre_receptor" data-fieldname="Nombre_receptor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Nombre_receptor}">
+		{$label tr_compras_facturas_sat_01_estatus Nombre_receptor }	</label>
+	<div class="r-search-option">
+		{$searchtype_Nombre_receptor}
+	</div>
+	<div class="r-search-field">
+		{$Nombre_receptor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Nombre_receptor_editcontrol1}
+	</div>
+	
+</div>
+
+{END Nombre_receptor_fieldblock}
+											
+{BEGIN RFC_receptor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_RFC_receptor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="RFC_receptor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="RFC_receptor" data-fieldname="RFC_receptor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_RFC_receptor}">
+		{$label tr_compras_facturas_sat_01_estatus RFC_receptor }	</label>
+	<div class="r-search-option">
+		{$searchtype_RFC_receptor}
+	</div>
+	<div class="r-search-field">
+		{$RFC_receptor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$RFC_receptor_editcontrol1}
+	</div>
+	
+</div>
+
+{END RFC_receptor_fieldblock}
+											
+{BEGIN Uso_CFDI_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Uso_CFDI}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Uso_CFDI{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field14" {$item_integrated_search_field14} data-pageid="{$pageid}" data-field="Uso_CFDI" data-fieldname="Uso_CFDI" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Uso_CFDI}">
+		{$label tr_compras_facturas_sat_01_estatus Uso_CFDI }	</label>
+	<div class="r-search-option">
+		{$searchtype_Uso_CFDI}
+	</div>
+	<div class="r-search-field">
+		{$Uso_CFDI_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Uso_CFDI_editcontrol1}
+	</div>
+	
+</div>
+
+{END Uso_CFDI_fieldblock}
+											
+{BEGIN Efecto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Efecto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Efecto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field15" {$item_integrated_search_field15} data-pageid="{$pageid}" data-field="Efecto" data-fieldname="Efecto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Efecto}">
+		{$label tr_compras_facturas_sat_01_estatus Efecto }	</label>
+	<div class="r-search-option">
+		{$searchtype_Efecto}
+	</div>
+	<div class="r-search-field">
+		{$Efecto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Efecto_editcontrol1}
+	</div>
+	
+</div>
+
+{END Efecto_fieldblock}
+											
+{BEGIN Tipo_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Tipo}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Tipo{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field16" {$item_integrated_search_field16} data-pageid="{$pageid}" data-field="Tipo" data-fieldname="Tipo" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Tipo}">
+		{$label tr_compras_facturas_sat_01_estatus Tipo }	</label>
+	<div class="r-search-option">
+		{$searchtype_Tipo}
+	</div>
+	<div class="r-search-field">
+		{$Tipo_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Tipo_editcontrol1}
+	</div>
+	
+</div>
+
+{END Tipo_fieldblock}
+											
+{BEGIN Estado_factura_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Estado_factura}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Estado_factura{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field17" {$item_integrated_search_field17} data-pageid="{$pageid}" data-field="Estado_factura" data-fieldname="Estado_factura" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Estado_factura}">
+		{$label tr_compras_facturas_sat_01_estatus Estado_factura }	</label>
+	<div class="r-search-option">
+		{$searchtype_Estado_factura}
+	</div>
+	<div class="r-search-field">
+		{$Estado_factura_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Estado_factura_editcontrol1}
+	</div>
+	
+</div>
+
+{END Estado_factura_fieldblock}
+											
+{BEGIN Metodo_pago_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Metodo_pago}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Metodo_pago{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field18" {$item_integrated_search_field18} data-pageid="{$pageid}" data-field="Metodo_pago" data-fieldname="Metodo_pago" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Metodo_pago}">
+		{$label tr_compras_facturas_sat_01_estatus Metodo_pago }	</label>
+	<div class="r-search-option">
+		{$searchtype_Metodo_pago}
+	</div>
+	<div class="r-search-field">
+		{$Metodo_pago_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Metodo_pago_editcontrol1}
+	</div>
+	
+</div>
+
+{END Metodo_pago_fieldblock}
+											
+{BEGIN Forma_pago_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Forma_pago}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Forma_pago{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field20" {$item_integrated_search_field20} data-pageid="{$pageid}" data-field="Forma_pago" data-fieldname="Forma_pago" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Forma_pago}">
+		{$label tr_compras_facturas_sat_01_estatus Forma_pago }	</label>
+	<div class="r-search-option">
+		{$searchtype_Forma_pago}
+	</div>
+	<div class="r-search-field">
+		{$Forma_pago_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Forma_pago_editcontrol1}
+	</div>
+	
+</div>
+
+{END Forma_pago_fieldblock}
+											
+{BEGIN Tipo_cambio_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Tipo_cambio}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Tipo_cambio{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field21" {$item_integrated_search_field21} data-pageid="{$pageid}" data-field="Tipo_cambio" data-fieldname="Tipo_cambio" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Tipo_cambio}">
+		{$label tr_compras_facturas_sat_01_estatus Tipo_cambio }	</label>
+	<div class="r-search-option">
+		{$searchtype_Tipo_cambio}
+	</div>
+	<div class="r-search-field">
+		{$Tipo_cambio_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Tipo_cambio_editcontrol1}
+	</div>
+	
+</div>
+
+{END Tipo_cambio_fieldblock}
+											
+{BEGIN Moneda_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Moneda}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Moneda{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field22" {$item_integrated_search_field22} data-pageid="{$pageid}" data-field="Moneda" data-fieldname="Moneda" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Moneda}">
+		{$label tr_compras_facturas_sat_01_estatus Moneda }	</label>
+	<div class="r-search-option">
+		{$searchtype_Moneda}
+	</div>
+	<div class="r-search-field">
+		{$Moneda_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Moneda_editcontrol1}
+	</div>
+	
+</div>
+
+{END Moneda_fieldblock}
+											
+{BEGIN Version_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Version}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Version{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field23" {$item_integrated_search_field23} data-pageid="{$pageid}" data-field="Version" data-fieldname="Version" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Version}">
+		{$label tr_compras_facturas_sat_01_estatus Version }	</label>
+	<div class="r-search-option">
+		{$searchtype_Version}
+	</div>
+	<div class="r-search-field">
+		{$Version_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Version_editcontrol1}
+	</div>
+	
+</div>
+
+{END Version_fieldblock}
+											
+{BEGIN rfc_licencia_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_rfc_licencia}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="rfc_licencia{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field24" {$item_integrated_search_field24} data-pageid="{$pageid}" data-field="rfc_licencia" data-fieldname="rfc_licencia" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_rfc_licencia}">
+		{$label tr_compras_facturas_sat_01_estatus rfc_licencia }	</label>
+	<div class="r-search-option">
+		{$searchtype_rfc_licencia}
+	</div>
+	<div class="r-search-field">
+		{$rfc_licencia_editcontrol}	</div>
+	<div class="r-search-field">
+		{$rfc_licencia_editcontrol1}
+	</div>
+	
+</div>
+
+{END rfc_licencia_fieldblock}
+											
+{BEGIN cat_compras_estatus_mu_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_estatus_mu_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_compras_estatus_mu_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field25" {$item_integrated_search_field25} data-pageid="{$pageid}" data-field="cat_compras_estatus_mu_id" data-fieldname="cat_compras_estatus_mu_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_compras_estatus_mu_id}">
+		{$label tr_compras_facturas_sat_01_estatus cat_compras_estatus_mu_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_compras_estatus_mu_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_compras_estatus_mu_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_compras_estatus_mu_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_compras_estatus_mu_id_fieldblock}
+											
+{BEGIN cat_finanzas_cuentas_de_balance_04_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_cuentas_de_balance_04_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_finanzas_cuentas_de_balance_04_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field26" {$item_integrated_search_field26} data-pageid="{$pageid}" data-field="cat_finanzas_cuentas_de_balance_04_id" data-fieldname="cat_finanzas_cuentas_de_balance_04_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_finanzas_cuentas_de_balance_04_id}">
+		{$label tr_compras_facturas_sat_01_estatus cat_finanzas_cuentas_de_balance_04_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_finanzas_cuentas_de_balance_04_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_cuentas_de_balance_04_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_cuentas_de_balance_04_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_finanzas_cuentas_de_balance_04_id_fieldblock}
+											
+{BEGIN referencia_bancaria_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_referencia_bancaria}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="referencia_bancaria{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field27" {$item_integrated_search_field27} data-pageid="{$pageid}" data-field="referencia_bancaria" data-fieldname="referencia_bancaria" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_referencia_bancaria}">
+		{$label tr_compras_facturas_sat_01_estatus referencia_bancaria }	</label>
+	<div class="r-search-option">
+		{$searchtype_referencia_bancaria}
+	</div>
+	<div class="r-search-field">
+		{$referencia_bancaria_editcontrol}	</div>
+	<div class="r-search-field">
+		{$referencia_bancaria_editcontrol1}
+	</div>
+	
+</div>
+
+{END referencia_bancaria_fieldblock}
+											
+{BEGIN observacion_cargo_pago_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_observacion_cargo_pago}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="observacion_cargo_pago{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field28" {$item_integrated_search_field28} data-pageid="{$pageid}" data-field="observacion_cargo_pago" data-fieldname="observacion_cargo_pago" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_observacion_cargo_pago}">
+		{$label tr_compras_facturas_sat_01_estatus observacion_cargo_pago }	</label>
+	<div class="r-search-option">
+		{$searchtype_observacion_cargo_pago}
+	</div>
+	<div class="r-search-field">
+		{$observacion_cargo_pago_editcontrol}	</div>
+	<div class="r-search-field">
+		{$observacion_cargo_pago_editcontrol1}
+	</div>
+	
+</div>
+
+{END observacion_cargo_pago_fieldblock}
+											
+{BEGIN fecha_de_recibo_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_recibo}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_de_recibo{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field29" {$item_integrated_search_field29} data-pageid="{$pageid}" data-field="fecha_de_recibo" data-fieldname="fecha_de_recibo" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_de_recibo}">
+		{$label tr_compras_facturas_sat_01_estatus fecha_de_recibo }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_de_recibo}
+	</div>
+	<div class="r-search-field">
+		{$fecha_de_recibo_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_de_recibo_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_de_recibo_fieldblock}
+											
+{BEGIN tr_compras_almacenes_01_recibo_lpn_uuid_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tr_compras_almacenes_01_recibo_lpn_uuid}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="tr_compras_almacenes_01_recibo_lpn_uuid{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field30" {$item_integrated_search_field30} data-pageid="{$pageid}" data-field="tr_compras_almacenes_01_recibo_lpn_uuid" data-fieldname="tr_compras_almacenes_01_recibo_lpn_uuid" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_tr_compras_almacenes_01_recibo_lpn_uuid}">
+		{$label tr_compras_facturas_sat_01_estatus tr_compras_almacenes_01_recibo_lpn_uuid }	</label>
+	<div class="r-search-option">
+		{$searchtype_tr_compras_almacenes_01_recibo_lpn_uuid}
+	</div>
+	<div class="r-search-field">
+		{$tr_compras_almacenes_01_recibo_lpn_uuid_editcontrol}	</div>
+	<div class="r-search-field">
+		{$tr_compras_almacenes_01_recibo_lpn_uuid_editcontrol1}
+	</div>
+	
+</div>
+
+{END tr_compras_almacenes_01_recibo_lpn_uuid_fieldblock}
+											
+{BEGIN concepto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_concepto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="concepto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field31" {$item_integrated_search_field31} data-pageid="{$pageid}" data-field="concepto" data-fieldname="concepto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_concepto}">
+		{$label tr_compras_facturas_sat_01_estatus concepto }	</label>
+	<div class="r-search-option">
+		{$searchtype_concepto}
+	</div>
+	<div class="r-search-field">
+		{$concepto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$concepto_editcontrol1}
+	</div>
+	
+</div>
+
+{END concepto_fieldblock}
+											
+{BEGIN orden_de_compra_proveedor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_orden_de_compra_proveedor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="orden_de_compra_proveedor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field32" {$item_integrated_search_field32} data-pageid="{$pageid}" data-field="orden_de_compra_proveedor" data-fieldname="orden_de_compra_proveedor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_orden_de_compra_proveedor}">
+		{$label tr_compras_facturas_sat_01_estatus orden_de_compra_proveedor }	</label>
+	<div class="r-search-option">
+		{$searchtype_orden_de_compra_proveedor}
+	</div>
+	<div class="r-search-field">
+		{$orden_de_compra_proveedor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$orden_de_compra_proveedor_editcontrol1}
+	</div>
+	
+</div>
+
+{END orden_de_compra_proveedor_fieldblock}
+											
+{BEGIN cat_usuarios_licencias_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_usuarios_licencias_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_usuarios_licencias_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field33" {$item_integrated_search_field33} data-pageid="{$pageid}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_usuarios_licencias_id}">
+		{$label tr_compras_facturas_sat_01_estatus cat_usuarios_licencias_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_usuarios_licencias_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_usuarios_licencias_id_fieldblock}
+											
+{BEGIN importe_neto_factura_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_importe_neto_factura}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="importe_neto_factura{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field34" {$item_integrated_search_field34} data-pageid="{$pageid}" data-field="importe_neto_factura" data-fieldname="importe_neto_factura" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_importe_neto_factura}">
+		{$label tr_compras_facturas_sat_01_estatus importe_neto_factura }	</label>
+	<div class="r-search-option">
+		{$searchtype_importe_neto_factura}
+	</div>
+	<div class="r-search-field">
+		{$importe_neto_factura_editcontrol}	</div>
+	<div class="r-search-field">
+		{$importe_neto_factura_editcontrol1}
+	</div>
+	
+</div>
+
+{END importe_neto_factura_fieldblock}
+											
+{BEGIN saldo_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_saldo}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="saldo{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field35" {$item_integrated_search_field35} data-pageid="{$pageid}" data-field="saldo" data-fieldname="saldo" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_saldo}">
+		{$label tr_compras_facturas_sat_01_estatus saldo }	</label>
+	<div class="r-search-option">
+		{$searchtype_saldo}
+	</div>
+	<div class="r-search-field">
+		{$saldo_editcontrol}	</div>
+	<div class="r-search-field">
+		{$saldo_editcontrol1}
+	</div>
+	
+</div>
+
+{END saldo_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,3397 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+			},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+		{BEGIN body}
+		{BEGIN embedded_grid_caption}
+			{
+				text: '{$jscaption tr_compras_facturas_sat_01_estatus}',
+			},
+		{END embedded_grid_caption}
+		{BEGIN embedded_page_title}
+			{
+				text: '{$jspagetitlelabel tr_compras_facturas_sat_01_estatus masterprint}',
+			},
+		{END embedded_page_title}		
+		{ 
+			{BEGIN standalone_page}
+			pageBreak: 'before',
+			standAlonePage: true,
+			{END standalone_page}
+			{BEGIN embedded_grid}
+			embeddedPage: true,
+			{END embedded_grid}
+			layout: {
+				hLineWidth: function(i, node) { return 0.1; },
+				vLineWidth: function(i, node) { 
+					return 0.1; 
+				},
+				hLineColor: function(i, node) { return 'lightgray'; },
+				vLineColor: function(i, node) { return 'lightgray'; },
+			},
+			table: {
+				{BEGIN embedded_grid}
+				embeddedPage: true,
+				{END embedded_grid}
+				
+				tableForm: true,
+				headerRows: 1 
+															{BEGIN row_grid_0}
+							+1
+						{END row_grid_0}
+													{BEGIN embedded_grid} -1 {END embedded_grid} ,
+
+				widths: [
+														{BEGIN col_grid_0}
+					"%",
+					{END col_grid_0}
+										{BEGIN col_grid_1}
+					"%",
+					{END col_grid_1}
+										{BEGIN col_grid_2}
+					"%",
+					{END col_grid_2}
+										{BEGIN col_grid_3}
+					"%",
+					{END col_grid_3}
+										{BEGIN col_grid_4}
+					"%",
+					{END col_grid_4}
+										{BEGIN col_grid_5}
+					"%",
+					{END col_grid_5}
+										{BEGIN col_grid_6}
+					"%",
+					{END col_grid_6}
+										{BEGIN col_grid_7}
+					"%",
+					{END col_grid_7}
+										{BEGIN col_grid_8}
+					"%",
+					{END col_grid_8}
+										{BEGIN col_grid_9}
+					"%",
+					{END col_grid_9}
+										{BEGIN col_grid_10}
+					"%",
+					{END col_grid_10}
+										{BEGIN col_grid_11}
+					"%",
+					{END col_grid_11}
+										{BEGIN col_grid_12}
+					"%",
+					{END col_grid_12}
+										{BEGIN col_grid_13}
+					"%",
+					{END col_grid_13}
+										{BEGIN col_grid_14}
+					"%",
+					{END col_grid_14}
+										{BEGIN col_grid_15}
+					"%",
+					{END col_grid_15}
+										{BEGIN col_grid_16}
+					"%",
+					{END col_grid_16}
+										{BEGIN col_grid_17}
+					"%",
+					{END col_grid_17}
+										{BEGIN col_grid_18}
+					"%",
+					{END col_grid_18}
+										{BEGIN col_grid_19}
+					"%",
+					{END col_grid_19}
+										{BEGIN col_grid_20}
+					"%",
+					{END col_grid_20}
+										{BEGIN col_grid_21}
+					"%",
+					{END col_grid_21}
+										{BEGIN col_grid_22}
+					"%",
+					{END col_grid_22}
+										{BEGIN col_grid_23}
+					"%",
+					{END col_grid_23}
+										{BEGIN col_grid_24}
+					"%",
+					{END col_grid_24}
+										{BEGIN col_grid_25}
+					"%",
+					{END col_grid_25}
+										{BEGIN col_grid_26}
+					"%",
+					{END col_grid_26}
+										{BEGIN col_grid_27}
+					"%",
+					{END col_grid_27}
+										{BEGIN col_grid_28}
+					"%",
+					{END col_grid_28}
+										{BEGIN col_grid_29}
+					"%",
+					{END col_grid_29}
+										{BEGIN col_grid_30}
+					"%",
+					{END col_grid_30}
+										{BEGIN col_grid_31}
+					"%",
+					{END col_grid_31}
+										{BEGIN col_grid_32}
+					"%",
+					{END col_grid_32}
+										{BEGIN col_grid_33}
+					"%",
+					{END col_grid_33}
+										{BEGIN col_grid_34}
+					"%",
+					{END col_grid_34}
+										{BEGIN col_grid_35}
+					"%",
+					{END col_grid_35}
+															],
+											heights: [ // first height for header part
+					"%",
+																		{BEGIN row_grid_0}
+							"%",
+							{END row_grid_0}
+																							 	{BEGIN grid_row}
+													{BEGIN row_grid_1}
+							"%",
+							{END row_grid_1}
+													{END grid_row}
+																								{BEGIN row_grid_2}
+							"%",
+							{END row_grid_2}
+															],
+							
+				body: [
+				{BEGIN standalone_page}
+					[
+						{
+							colSpan: {$formwidth_grid},
+							border:[false, false,false,false],
+							stack: [
+
+																										
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel tr_compras_facturas_sat_01_estatus masterprint}","hidden":"{$item_hide_masterprint_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+								
+																										
+{
+	table: {
+	
+				
+		location: 'above-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+															]
+						},
+					],
+				{END standalone_page}
+
+																	
+
+				
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_headcell_field}
+{
+	cellId: 'headcell_field',
+	col:0,
+	row:0,
+			fieldName: 'UUID',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus UUID }","hidden":"{$item_hide_simple_grid_field36}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$UUID_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field}
+																							{BEGIN cellblock_grid_headcell_field1}
+{
+	cellId: 'headcell_field1',
+	col:0,
+	row:0,
+			fieldName: 'Fecha_emision',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Fecha_emision }","hidden":"{$item_hide_simple_grid_field37}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Fecha_emision_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field1}
+																							{BEGIN cellblock_grid_headcell_field2}
+{
+	cellId: 'headcell_field2',
+	col:0,
+	row:0,
+			fieldName: 'Nombre_emisor',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Nombre_emisor }","hidden":"{$item_hide_simple_grid_field38}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Nombre_emisor_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field2}
+																							{BEGIN cellblock_grid_headcell_field3}
+{
+	cellId: 'headcell_field3',
+	col:0,
+	row:0,
+			fieldName: 'RFC_emisor',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus RFC_emisor }","hidden":"{$item_hide_simple_grid_field39}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$RFC_emisor_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field3}
+																							{BEGIN cellblock_grid_headcell_field4}
+{
+	cellId: 'headcell_field4',
+	col:0,
+	row:0,
+			fieldName: 'importe_neto',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus importe_neto }","hidden":"{$item_hide_simple_grid_field40}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$importe_neto_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field4}
+																							{BEGIN cellblock_grid_headcell_field5}
+{
+	cellId: 'headcell_field5',
+	col:0,
+	row:0,
+			fieldName: 'vigente',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus vigente }","hidden":"{$item_hide_simple_grid_field41}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$vigente_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field5}
+																							{BEGIN cellblock_grid_headcell_field6}
+{
+	cellId: 'headcell_field6',
+	col:0,
+	row:0,
+			fieldName: 'capturista',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus capturista }","hidden":"{$item_hide_simple_grid_field42}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$capturista_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field6}
+																							{BEGIN cellblock_grid_headcell_field7}
+{
+	cellId: 'headcell_field7',
+	col:0,
+	row:0,
+			fieldName: 'UUIDs_relacionados',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus UUIDs_relacionados }","hidden":"{$item_hide_simple_grid_field43}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$UUIDs_relacionados_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field7}
+																							{BEGIN cellblock_grid_headcell_field8}
+{
+	cellId: 'headcell_field8',
+	col:0,
+	row:0,
+			fieldName: 'Tipo_relacion',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Tipo_relacion }","hidden":"{$item_hide_simple_grid_field44}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Tipo_relacion_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field8}
+																							{BEGIN cellblock_grid_headcell_field9}
+{
+	cellId: 'headcell_field9',
+	col:0,
+	row:0,
+			fieldName: 'CP_Expedicion',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus CP_Expedicion }","hidden":"{$item_hide_simple_grid_field45}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$CP_Expedicion_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field9}
+																							{BEGIN cellblock_grid_headcell_field10}
+{
+	cellId: 'headcell_field10',
+	col:0,
+	row:0,
+			fieldName: 'Serie',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Serie }","hidden":"{$item_hide_simple_grid_field46}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Serie_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field10}
+																							{BEGIN cellblock_grid_headcell_field11}
+{
+	cellId: 'headcell_field11',
+	col:0,
+	row:0,
+			fieldName: 'Folio',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Folio }","hidden":"{$item_hide_simple_grid_field47}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Folio_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field11}
+																							{BEGIN cellblock_grid_headcell_field12}
+{
+	cellId: 'headcell_field12',
+	col:0,
+	row:0,
+			fieldName: 'Fecha_certificacion',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Fecha_certificacion }","hidden":"{$item_hide_simple_grid_field48}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Fecha_certificacion_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field12}
+																							{BEGIN cellblock_grid_headcell_field13}
+{
+	cellId: 'headcell_field13',
+	col:0,
+	row:0,
+			fieldName: 'Nombre_receptor',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Nombre_receptor }","hidden":"{$item_hide_simple_grid_field49}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Nombre_receptor_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field13}
+																							{BEGIN cellblock_grid_headcell_field14}
+{
+	cellId: 'headcell_field14',
+	col:0,
+	row:0,
+			fieldName: 'RFC_receptor',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus RFC_receptor }","hidden":"{$item_hide_simple_grid_field50}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$RFC_receptor_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field14}
+																							{BEGIN cellblock_grid_headcell_field15}
+{
+	cellId: 'headcell_field15',
+	col:0,
+	row:0,
+			fieldName: 'Uso_CFDI',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Uso_CFDI }","hidden":"{$item_hide_simple_grid_field51}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Uso_CFDI_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field15}
+																							{BEGIN cellblock_grid_headcell_field16}
+{
+	cellId: 'headcell_field16',
+	col:0,
+	row:0,
+			fieldName: 'Efecto',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Efecto }","hidden":"{$item_hide_simple_grid_field52}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Efecto_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field16}
+																							{BEGIN cellblock_grid_headcell_field17}
+{
+	cellId: 'headcell_field17',
+	col:0,
+	row:0,
+			fieldName: 'Tipo',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Tipo }","hidden":"{$item_hide_simple_grid_field53}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Tipo_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field17}
+																							{BEGIN cellblock_grid_headcell_field18}
+{
+	cellId: 'headcell_field18',
+	col:0,
+	row:0,
+			fieldName: 'Estado_factura',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Estado_factura }","hidden":"{$item_hide_simple_grid_field54}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Estado_factura_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field18}
+																							{BEGIN cellblock_grid_headcell_field19}
+{
+	cellId: 'headcell_field19',
+	col:0,
+	row:0,
+			fieldName: 'Metodo_pago',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Metodo_pago }","hidden":"{$item_hide_simple_grid_field55}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Metodo_pago_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field19}
+																							{BEGIN cellblock_grid_headcell_field20}
+{
+	cellId: 'headcell_field20',
+	col:0,
+	row:0,
+			fieldName: 'Forma_pago',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Forma_pago }","hidden":"{$item_hide_simple_grid_field56}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Forma_pago_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field20}
+																							{BEGIN cellblock_grid_headcell_field21}
+{
+	cellId: 'headcell_field21',
+	col:0,
+	row:0,
+			fieldName: 'Tipo_cambio',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Tipo_cambio }","hidden":"{$item_hide_simple_grid_field57}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Tipo_cambio_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field21}
+																							{BEGIN cellblock_grid_headcell_field22}
+{
+	cellId: 'headcell_field22',
+	col:0,
+	row:0,
+			fieldName: 'Moneda',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Moneda }","hidden":"{$item_hide_simple_grid_field58}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Moneda_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field22}
+																							{BEGIN cellblock_grid_headcell_field23}
+{
+	cellId: 'headcell_field23',
+	col:0,
+	row:0,
+			fieldName: 'Version',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus Version }","hidden":"{$item_hide_simple_grid_field59}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Version_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field23}
+																							{BEGIN cellblock_grid_headcell_field24}
+{
+	cellId: 'headcell_field24',
+	col:0,
+	row:0,
+			fieldName: 'rfc_licencia',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus rfc_licencia }","hidden":"{$item_hide_simple_grid_field60}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$rfc_licencia_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field24}
+																							{BEGIN cellblock_grid_headcell_field25}
+{
+	cellId: 'headcell_field25',
+	col:0,
+	row:0,
+			fieldName: 'cat_compras_estatus_mu_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus cat_compras_estatus_mu_id }","hidden":"{$item_hide_simple_grid_field61}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_compras_estatus_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field25}
+																							{BEGIN cellblock_grid_headcell_field26}
+{
+	cellId: 'headcell_field26',
+	col:0,
+	row:0,
+			fieldName: 'cat_finanzas_cuentas_de_balance_04_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus cat_finanzas_cuentas_de_balance_04_id }","hidden":"{$item_hide_simple_grid_field62}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_finanzas_cuentas_de_balance_04_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field26}
+																							{BEGIN cellblock_grid_headcell_field27}
+{
+	cellId: 'headcell_field27',
+	col:0,
+	row:0,
+			fieldName: 'referencia_bancaria',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus referencia_bancaria }","hidden":"{$item_hide_simple_grid_field63}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$referencia_bancaria_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field27}
+																							{BEGIN cellblock_grid_headcell_field28}
+{
+	cellId: 'headcell_field28',
+	col:0,
+	row:0,
+			fieldName: 'observacion_cargo_pago',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus observacion_cargo_pago }","hidden":"{$item_hide_simple_grid_field64}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$observacion_cargo_pago_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field28}
+																							{BEGIN cellblock_grid_headcell_field29}
+{
+	cellId: 'headcell_field29',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_recibo',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus fecha_de_recibo }","hidden":"{$item_hide_simple_grid_field65}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_recibo_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field29}
+																							{BEGIN cellblock_grid_headcell_field30}
+{
+	cellId: 'headcell_field30',
+	col:0,
+	row:0,
+			fieldName: 'tr_compras_almacenes_01_recibo_lpn_uuid',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus tr_compras_almacenes_01_recibo_lpn_uuid }","hidden":"{$item_hide_simple_grid_field66}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$tr_compras_almacenes_01_recibo_lpn_uuid_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field30}
+																							{BEGIN cellblock_grid_headcell_field31}
+{
+	cellId: 'headcell_field31',
+	col:0,
+	row:0,
+			fieldName: 'concepto',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus concepto }","hidden":"{$item_hide_simple_grid_field67}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$concepto_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field31}
+																							{BEGIN cellblock_grid_headcell_field32}
+{
+	cellId: 'headcell_field32',
+	col:0,
+	row:0,
+			fieldName: 'orden_de_compra_proveedor',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus orden_de_compra_proveedor }","hidden":"{$item_hide_simple_grid_field68}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$orden_de_compra_proveedor_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field32}
+																							{BEGIN cellblock_grid_headcell_field33}
+{
+	cellId: 'headcell_field33',
+	col:0,
+	row:0,
+			fieldName: 'cat_usuarios_licencias_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus cat_usuarios_licencias_id }","hidden":"{$item_hide_simple_grid_field69}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_usuarios_licencias_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field33}
+																							{BEGIN cellblock_grid_headcell_field34}
+{
+	cellId: 'headcell_field34',
+	col:0,
+	row:0,
+			fieldName: 'importe_neto_factura',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus importe_neto_factura }","hidden":"{$item_hide_simple_grid_field70}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$importe_neto_factura_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field34}
+																							{BEGIN cellblock_grid_headcell_field35}
+{
+	cellId: 'headcell_field35',
+	col:0,
+	row:0,
+			fieldName: 'saldo',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel tr_compras_facturas_sat_01_estatus saldo }","hidden":"{$item_hide_simple_grid_field71}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$saldo_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field35}
+											],
+				{END row_grid_0}
+		
+			
+		{BEGIN grid_row}
+	{BEGIN grid_record}
+				
+				{BEGIN row_grid_1}
+				[
+																{BEGIN cellblock_grid_cell_field}
+{
+	cellId: 'cell_field',
+	col:0,
+	row:0,
+			fieldName: 'UUID',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$UUID_pdfvalue},"hidden":"{$item_hide_simple_grid_field}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$UUID_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field}
+																							{BEGIN cellblock_grid_cell_field1}
+{
+	cellId: 'cell_field1',
+	col:0,
+	row:0,
+			fieldName: 'Fecha_emision',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Fecha_emision_pdfvalue},"hidden":"{$item_hide_simple_grid_field1}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Fecha_emision_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field1}
+																							{BEGIN cellblock_grid_cell_field2}
+{
+	cellId: 'cell_field2',
+	col:0,
+	row:0,
+			fieldName: 'Nombre_emisor',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Nombre_emisor_pdfvalue},"hidden":"{$item_hide_simple_grid_field2}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Nombre_emisor_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field2}
+																							{BEGIN cellblock_grid_cell_field3}
+{
+	cellId: 'cell_field3',
+	col:0,
+	row:0,
+			fieldName: 'RFC_emisor',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$RFC_emisor_pdfvalue},"hidden":"{$item_hide_simple_grid_field3}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$RFC_emisor_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field3}
+																							{BEGIN cellblock_grid_cell_field4}
+{
+	cellId: 'cell_field4',
+	col:0,
+	row:0,
+			fieldName: 'importe_neto',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$importe_neto_pdfvalue},"hidden":"{$item_hide_simple_grid_field4}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$importe_neto_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field4}
+																							{BEGIN cellblock_grid_cell_field5}
+{
+	cellId: 'cell_field5',
+	col:0,
+	row:0,
+			fieldName: 'vigente',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$vigente_pdfvalue},"hidden":"{$item_hide_simple_grid_field7}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$vigente_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field5}
+																							{BEGIN cellblock_grid_cell_field6}
+{
+	cellId: 'cell_field6',
+	col:0,
+	row:0,
+			fieldName: 'capturista',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$capturista_pdfvalue},"hidden":"{$item_hide_simple_grid_field5}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$capturista_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field6}
+																							{BEGIN cellblock_grid_cell_field7}
+{
+	cellId: 'cell_field7',
+	col:0,
+	row:0,
+			fieldName: 'UUIDs_relacionados',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$UUIDs_relacionados_pdfvalue},"hidden":"{$item_hide_simple_grid_field6}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$UUIDs_relacionados_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field7}
+																							{BEGIN cellblock_grid_cell_field8}
+{
+	cellId: 'cell_field8',
+	col:0,
+	row:0,
+			fieldName: 'Tipo_relacion',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Tipo_relacion_pdfvalue},"hidden":"{$item_hide_simple_grid_field8}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Tipo_relacion_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field8}
+																							{BEGIN cellblock_grid_cell_field9}
+{
+	cellId: 'cell_field9',
+	col:0,
+	row:0,
+			fieldName: 'CP_Expedicion',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$CP_Expedicion_pdfvalue},"hidden":"{$item_hide_simple_grid_field9}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$CP_Expedicion_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field9}
+																							{BEGIN cellblock_grid_cell_field10}
+{
+	cellId: 'cell_field10',
+	col:0,
+	row:0,
+			fieldName: 'Serie',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Serie_pdfvalue},"hidden":"{$item_hide_simple_grid_field10}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Serie_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field10}
+																							{BEGIN cellblock_grid_cell_field11}
+{
+	cellId: 'cell_field11',
+	col:0,
+	row:0,
+			fieldName: 'Folio',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Folio_pdfvalue},"hidden":"{$item_hide_simple_grid_field11}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Folio_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field11}
+																							{BEGIN cellblock_grid_cell_field12}
+{
+	cellId: 'cell_field12',
+	col:0,
+	row:0,
+			fieldName: 'Fecha_certificacion',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Fecha_certificacion_pdfvalue},"hidden":"{$item_hide_simple_grid_field12}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Fecha_certificacion_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field12}
+																							{BEGIN cellblock_grid_cell_field13}
+{
+	cellId: 'cell_field13',
+	col:0,
+	row:0,
+			fieldName: 'Nombre_receptor',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Nombre_receptor_pdfvalue},"hidden":"{$item_hide_simple_grid_field13}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Nombre_receptor_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field13}
+																							{BEGIN cellblock_grid_cell_field14}
+{
+	cellId: 'cell_field14',
+	col:0,
+	row:0,
+			fieldName: 'RFC_receptor',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$RFC_receptor_pdfvalue},"hidden":"{$item_hide_simple_grid_field14}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$RFC_receptor_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field14}
+																							{BEGIN cellblock_grid_cell_field15}
+{
+	cellId: 'cell_field15',
+	col:0,
+	row:0,
+			fieldName: 'Uso_CFDI',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Uso_CFDI_pdfvalue},"hidden":"{$item_hide_simple_grid_field15}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Uso_CFDI_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field15}
+																							{BEGIN cellblock_grid_cell_field16}
+{
+	cellId: 'cell_field16',
+	col:0,
+	row:0,
+			fieldName: 'Efecto',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Efecto_pdfvalue},"hidden":"{$item_hide_simple_grid_field16}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Efecto_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field16}
+																							{BEGIN cellblock_grid_cell_field17}
+{
+	cellId: 'cell_field17',
+	col:0,
+	row:0,
+			fieldName: 'Tipo',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Tipo_pdfvalue},"hidden":"{$item_hide_simple_grid_field17}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Tipo_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field17}
+																							{BEGIN cellblock_grid_cell_field18}
+{
+	cellId: 'cell_field18',
+	col:0,
+	row:0,
+			fieldName: 'Estado_factura',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Estado_factura_pdfvalue},"hidden":"{$item_hide_simple_grid_field18}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Estado_factura_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field18}
+																							{BEGIN cellblock_grid_cell_field19}
+{
+	cellId: 'cell_field19',
+	col:0,
+	row:0,
+			fieldName: 'Metodo_pago',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Metodo_pago_pdfvalue},"hidden":"{$item_hide_simple_grid_field19}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Metodo_pago_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field19}
+																							{BEGIN cellblock_grid_cell_field20}
+{
+	cellId: 'cell_field20',
+	col:0,
+	row:0,
+			fieldName: 'Forma_pago',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Forma_pago_pdfvalue},"hidden":"{$item_hide_simple_grid_field20}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Forma_pago_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field20}
+																							{BEGIN cellblock_grid_cell_field21}
+{
+	cellId: 'cell_field21',
+	col:0,
+	row:0,
+			fieldName: 'Tipo_cambio',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Tipo_cambio_pdfvalue},"hidden":"{$item_hide_simple_grid_field21}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Tipo_cambio_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field21}
+																							{BEGIN cellblock_grid_cell_field22}
+{
+	cellId: 'cell_field22',
+	col:0,
+	row:0,
+			fieldName: 'Moneda',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Moneda_pdfvalue},"hidden":"{$item_hide_simple_grid_field22}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Moneda_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field22}
+																							{BEGIN cellblock_grid_cell_field23}
+{
+	cellId: 'cell_field23',
+	col:0,
+	row:0,
+			fieldName: 'Version',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$Version_pdfvalue},"hidden":"{$item_hide_simple_grid_field23}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$Version_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field23}
+																							{BEGIN cellblock_grid_cell_field24}
+{
+	cellId: 'cell_field24',
+	col:0,
+	row:0,
+			fieldName: 'rfc_licencia',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$rfc_licencia_pdfvalue},"hidden":"{$item_hide_simple_grid_field24}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$rfc_licencia_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field24}
+																							{BEGIN cellblock_grid_cell_field25}
+{
+	cellId: 'cell_field25',
+	col:0,
+	row:0,
+			fieldName: 'cat_compras_estatus_mu_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_compras_estatus_mu_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field25}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_compras_estatus_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field25}
+																							{BEGIN cellblock_grid_cell_field26}
+{
+	cellId: 'cell_field26',
+	col:0,
+	row:0,
+			fieldName: 'cat_finanzas_cuentas_de_balance_04_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_finanzas_cuentas_de_balance_04_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field26}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_finanzas_cuentas_de_balance_04_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field26}
+																							{BEGIN cellblock_grid_cell_field27}
+{
+	cellId: 'cell_field27',
+	col:0,
+	row:0,
+			fieldName: 'referencia_bancaria',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$referencia_bancaria_pdfvalue},"hidden":"{$item_hide_simple_grid_field27}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$referencia_bancaria_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field27}
+																							{BEGIN cellblock_grid_cell_field28}
+{
+	cellId: 'cell_field28',
+	col:0,
+	row:0,
+			fieldName: 'observacion_cargo_pago',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$observacion_cargo_pago_pdfvalue},"hidden":"{$item_hide_simple_grid_field28}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$observacion_cargo_pago_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field28}
+																							{BEGIN cellblock_grid_cell_field29}
+{
+	cellId: 'cell_field29',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_recibo',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$fecha_de_recibo_pdfvalue},"hidden":"{$item_hide_simple_grid_field29}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_recibo_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field29}
+																							{BEGIN cellblock_grid_cell_field30}
+{
+	cellId: 'cell_field30',
+	col:0,
+	row:0,
+			fieldName: 'tr_compras_almacenes_01_recibo_lpn_uuid',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$tr_compras_almacenes_01_recibo_lpn_uuid_pdfvalue},"hidden":"{$item_hide_simple_grid_field30}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$tr_compras_almacenes_01_recibo_lpn_uuid_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field30}
+																							{BEGIN cellblock_grid_cell_field31}
+{
+	cellId: 'cell_field31',
+	col:0,
+	row:0,
+			fieldName: 'concepto',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$concepto_pdfvalue},"hidden":"{$item_hide_simple_grid_field31}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$concepto_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field31}
+																							{BEGIN cellblock_grid_cell_field32}
+{
+	cellId: 'cell_field32',
+	col:0,
+	row:0,
+			fieldName: 'orden_de_compra_proveedor',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$orden_de_compra_proveedor_pdfvalue},"hidden":"{$item_hide_simple_grid_field32}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$orden_de_compra_proveedor_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field32}
+																							{BEGIN cellblock_grid_cell_field33}
+{
+	cellId: 'cell_field33',
+	col:0,
+	row:0,
+			fieldName: 'cat_usuarios_licencias_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_usuarios_licencias_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field33}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_usuarios_licencias_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field33}
+																							{BEGIN cellblock_grid_cell_field34}
+{
+	cellId: 'cell_field34',
+	col:0,
+	row:0,
+			fieldName: 'importe_neto_factura',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$importe_neto_factura_pdfvalue},"hidden":"{$item_hide_simple_grid_field34}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$importe_neto_factura_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field34}
+																							{BEGIN cellblock_grid_cell_field35}
+{
+	cellId: 'cell_field35',
+	col:0,
+	row:0,
+			fieldName: 'saldo',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$saldo_pdfvalue},"hidden":"{$item_hide_simple_grid_field35}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$saldo_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field35}
+											],
+				{END row_grid_1}
+		
+		{END grid_record}
+	{END grid_row}
+			
+					
+				{BEGIN row_grid_2}
+				[
+																{BEGIN cellblock_grid_footcell_field}
+{
+	cellId: 'footcell_field',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field}
+																							{BEGIN cellblock_grid_footcell_field1}
+{
+	cellId: 'footcell_field1',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field1}
+																							{BEGIN cellblock_grid_footcell_field2}
+{
+	cellId: 'footcell_field2',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field2}
+																							{BEGIN cellblock_grid_footcell_field3}
+{
+	cellId: 'footcell_field3',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field3}
+																							{BEGIN cellblock_grid_footcell_field4}
+{
+	cellId: 'footcell_field4',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field4}
+																							{BEGIN cellblock_grid_footcell_field5}
+{
+	cellId: 'footcell_field5',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field5}
+																							{BEGIN cellblock_grid_footcell_field6}
+{
+	cellId: 'footcell_field6',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field6}
+																							{BEGIN cellblock_grid_footcell_field7}
+{
+	cellId: 'footcell_field7',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field7}
+																							{BEGIN cellblock_grid_footcell_field8}
+{
+	cellId: 'footcell_field8',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field8}
+																							{BEGIN cellblock_grid_footcell_field9}
+{
+	cellId: 'footcell_field9',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field9}
+																							{BEGIN cellblock_grid_footcell_field10}
+{
+	cellId: 'footcell_field10',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field10}
+																							{BEGIN cellblock_grid_footcell_field11}
+{
+	cellId: 'footcell_field11',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field11}
+																							{BEGIN cellblock_grid_footcell_field12}
+{
+	cellId: 'footcell_field12',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field12}
+																							{BEGIN cellblock_grid_footcell_field13}
+{
+	cellId: 'footcell_field13',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field13}
+																							{BEGIN cellblock_grid_footcell_field14}
+{
+	cellId: 'footcell_field14',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field14}
+																							{BEGIN cellblock_grid_footcell_field15}
+{
+	cellId: 'footcell_field15',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field15}
+																							{BEGIN cellblock_grid_footcell_field16}
+{
+	cellId: 'footcell_field16',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field16}
+																							{BEGIN cellblock_grid_footcell_field17}
+{
+	cellId: 'footcell_field17',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field17}
+																							{BEGIN cellblock_grid_footcell_field18}
+{
+	cellId: 'footcell_field18',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field18}
+																							{BEGIN cellblock_grid_footcell_field19}
+{
+	cellId: 'footcell_field19',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field19}
+																							{BEGIN cellblock_grid_footcell_field20}
+{
+	cellId: 'footcell_field20',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field20}
+																							{BEGIN cellblock_grid_footcell_field21}
+{
+	cellId: 'footcell_field21',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field21}
+																							{BEGIN cellblock_grid_footcell_field22}
+{
+	cellId: 'footcell_field22',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field22}
+																							{BEGIN cellblock_grid_footcell_field23}
+{
+	cellId: 'footcell_field23',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field23}
+																							{BEGIN cellblock_grid_footcell_field24}
+{
+	cellId: 'footcell_field24',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field24}
+																							{BEGIN cellblock_grid_footcell_field25}
+{
+	cellId: 'footcell_field25',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field25}
+																							{BEGIN cellblock_grid_footcell_field26}
+{
+	cellId: 'footcell_field26',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field26}
+																							{BEGIN cellblock_grid_footcell_field27}
+{
+	cellId: 'footcell_field27',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field27}
+																							{BEGIN cellblock_grid_footcell_field28}
+{
+	cellId: 'footcell_field28',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field28}
+																							{BEGIN cellblock_grid_footcell_field29}
+{
+	cellId: 'footcell_field29',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field29}
+																							{BEGIN cellblock_grid_footcell_field30}
+{
+	cellId: 'footcell_field30',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field30}
+																							{BEGIN cellblock_grid_footcell_field31}
+{
+	cellId: 'footcell_field31',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field31}
+																							{BEGIN cellblock_grid_footcell_field32}
+{
+	cellId: 'footcell_field32',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field32}
+																							{BEGIN cellblock_grid_footcell_field33}
+{
+	cellId: 'footcell_field33',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field33}
+																							{BEGIN cellblock_grid_footcell_field34}
+{
+	cellId: 'footcell_field34',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field34}
+																							{BEGIN cellblock_grid_footcell_field35}
+{
+	cellId: 'footcell_field35',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field35}
+											],
+				{END row_grid_2}
+		
+				
+									]
+			
+			}
+		},
+		{END body}
+	],
+	footer: [
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+			],
+	};
+
+
+pdfFonts = {$pdfFonts};

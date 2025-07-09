@@ -1,0 +1,48 @@
+<?php
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos = array();
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_nominas_01_generales_uuid"] = array("type"=>200,"varname"=>"cat_nominas_01_generales_uuid", "name" => "cat_nominas_01_generales_uuid", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["fecha"] = array("type"=>7,"varname"=>"fecha", "name" => "fecha", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_actividades_especificas_id"] = array("type"=>3,"varname"=>"cat_actividades_especificas_id", "name" => "cat_actividades_especificas_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_actividades_alcance_mu_id"] = array("type"=>3,"varname"=>"cat_actividades_alcance_mu_id", "name" => "cat_actividades_alcance_mu_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["limite_inferior"] = array("type"=>14,"varname"=>"limite_inferior", "name" => "limite_inferior", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["limite_superior"] = array("type"=>14,"varname"=>"limite_superior", "name" => "limite_superior", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["costo_bruto_primera"] = array("type"=>14,"varname"=>"costo_bruto_primera", "name" => "costo_bruto_primera", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["costo_bruto_segunda"] = array("type"=>14,"varname"=>"costo_bruto_segunda", "name" => "costo_bruto_segunda", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_nominas_conceptos_id"] = array("type"=>3,"varname"=>"cat_nominas_conceptos_id", "name" => "cat_nominas_conceptos_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_holding_04_unidades_productivas_lotes_id"] = array("type"=>3,"varname"=>"cat_holding_04_unidades_productivas_lotes_id", "name" => "cat_holding_04_unidades_productivas_lotes_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_trabajadores_altas_id"] = array("type"=>3,"varname"=>"cat_trabajadores_altas_id", "name" => "cat_trabajadores_altas_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_trabajadores_puestos_id"] = array("type"=>3,"varname"=>"cat_trabajadores_puestos_id", "name" => "cat_trabajadores_puestos_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["llave_FechaTrabActConUpLote"] = array("type"=>201,"varname"=>"llave_FechaTrabActConUpLote", "name" => "llave_FechaTrabActConUpLote", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["periodo"] = array("type"=>200,"varname"=>"periodo", "name" => "periodo", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["fecha_de_inicio"] = array("type"=>7,"varname"=>"fecha_de_inicio", "name" => "fecha_de_inicio", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["fecha_de_termino"] = array("type"=>7,"varname"=>"fecha_de_termino", "name" => "fecha_de_termino", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["ano"] = array("type"=>3,"varname"=>"ano", "name" => "ano", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["mes"] = array("type"=>3,"varname"=>"mes", "name" => "mes", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["semana"] = array("type"=>3,"varname"=>"semana", "name" => "semana", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["ano_semana"] = array("type"=>200,"varname"=>"ano_semana", "name" => "ano_semana", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["descripcion_nomina"] = array("type"=>200,"varname"=>"descripcion_nomina", "name" => "descripcion_nomina", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["dia_de_inicio"] = array("type"=>3,"varname"=>"dia_de_inicio", "name" => "dia_de_inicio", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["dia_semana"] = array("type"=>200,"varname"=>"dia_semana", "name" => "dia_semana", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["llave_ano_semana_nominas_uuid"] = array("type"=>200,"varname"=>"llave_ano_semana_nominas_uuid", "name" => "llave_ano_semana_nominas_uuid", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["horas_semana_laboral"] = array("type"=>14,"varname"=>"horas_semana_laboral", "name" => "horas_semana_laboral", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["dia"] = array("type"=>200,"varname"=>"dia", "name" => "dia", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["llave_dias_de_inicio"] = array("type"=>200,"varname"=>"llave_dias_de_inicio", "name" => "llave_dias_de_inicio", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["llave_dias_de_inicio_nominas_uuid"] = array("type"=>200,"varname"=>"llave_dias_de_inicio_nominas_uuid", "name" => "llave_dias_de_inicio_nominas_uuid", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_holding_03_empresas_unidades_productivas_id"] = array("type"=>3,"varname"=>"cat_holding_03_empresas_unidades_productivas_id", "name" => "cat_holding_03_empresas_unidades_productivas_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["llave_UuidActEsp"] = array("type"=>200,"varname"=>"llave_UuidActEsp", "name" => "llave_UuidActEsp", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["costo_bruto_actividad_especifica"] = array("type"=>14,"varname"=>"costo_bruto_actividad_especifica", "name" => "costo_bruto_actividad_especifica", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["actualizacion_masiva"] = array("type"=>3,"varname"=>"actualizacion_masiva", "name" => "actualizacion_masiva", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["capturista"] = array("type"=>200,"varname"=>"capturista", "name" => "capturista", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_nomina_conceptos_factor_de_calculo_mu_id"] = array("type"=>3,"varname"=>"cat_nomina_conceptos_factor_de_calculo_mu_id", "name" => "cat_nomina_conceptos_factor_de_calculo_mu_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_nominas_02_trabajadores_id"] = array("type"=>3,"varname"=>"cat_nominas_02_trabajadores_id", "name" => "cat_nominas_02_trabajadores_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["cat_nominas_03_trabajadores_costo_bruto_conceptos_id"] = array("type"=>3,"varname"=>"cat_nominas_03_trabajadores_costo_bruto_conceptos_id", "name" => "cat_nominas_03_trabajadores_costo_bruto_conceptos_id", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["costo_bruto_nominas_conceptos"] = array("type"=>14,"varname"=>"costo_bruto_nominas_conceptos", "name" => "costo_bruto_nominas_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["factor_nomina_conceptos"] = array("type"=>14,"varname"=>"factor_nomina_conceptos", "name" => "factor_nomina_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["fecha_de_inicio_conceptos"] = array("type"=>7,"varname"=>"fecha_de_inicio_conceptos", "name" => "fecha_de_inicio_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["fecha_de_termino_conceptos"] = array("type"=>7,"varname"=>"fecha_de_termino_conceptos", "name" => "fecha_de_termino_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["llave_trabajador_concepto_uuid"] = array("type"=>200,"varname"=>"llave_trabajador_concepto_uuid", "name" => "llave_trabajador_concepto_uuid", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["time_stamp"] = array("type"=>135,"varname"=>"time_stamp", "name" => "time_stamp", "autoInc" => "0");
+$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos["vigente"] = array("type"=>3,"varname"=>"vigente", "name" => "vigente", "autoInc" => "0");
+
+$dal_info["wwinte_app_at_intelagro_mx__cat_nominas_03_trabajadores_costo_bruto_conceptos"] = &$dalTablecat_nominas_03_trabajadores_costo_bruto_conceptos;
+?>

@@ -1,0 +1,2059 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-list"   
+		>
+	{BEGIN body}
+		<style>
+		{$containerCss}
+		</style>
+		<div class="r-vbar-page">
+			<div data-width="250px" data-fixed class="r-left clearfix {$leftbar_class}" >
+								<div data-location="left" id="form_left_{$pageid}" data-makeup="leftbar" {$form_left} data-pageid="{$pageid}">
+{BEGIN left_block}
+ 
+     
+         
+
+			<div data-cellId="left_c0" data-pageid="{$pageid}" data-logo-cell class="clearfix " data-itemid="logo" {$item_logo}>
+				{BEGIN logo_block}
+	<A data-itemtype="logo" data-itemid="logo" {$item_logo} data-pageid="{$pageid}" class="navbar-brand" href="{$home_link}" data-pageid="{$pageid}" {$logo_hiddenattr}>
+		{$logo}
+	</A>
+{END logo_block}
+				<button data-pageid="1" type="button" class="navbar-toggle collapsed" data-runner-toggle="collapse" data-target="[data-mobile-controlled]">	
+					<span class="sr-only">Toggle navigation</span>	
+					<span class="icon-bar"></span>					
+				</button>				
+			</div>
+		
+ 
+
+			<div class="clearfix " data-cellId="left_c0" data-pageid="{$pageid}" data-logo-cell data-itemid="expand_button" {$item_expand_button} data-topcell-item-type="expand_button" >
+				<span data-itemtype="expand_button" data-itemid="expand_button" {$item_expand_button} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="Expandir" class="btn btn-link   
+	" href="#" >
+					<span class="glyphicon glyphicon-triangle-right"></span>
+										</a>
+</span>
+			</div>
+		
+     
+     
+         
+
+			<div data-cellId="left_c1" data-pageid="{$pageid}" class="clearfix  r-ori-vert " data-itemtype="menu" data-itemid="menu" {$item_menu} data-pageid="{$pageid}">
+				{BEGIN menuitems_main}
+<ul data-itemtype="menu" data-itemid="menu" {$item_menu} data-pageid="{$pageid}"	class="r-menu nav menu-treelike" 
+	data-menulevel="1"
+>
+
+{BEGIN item_children1}
+<li class="
+	{$item_current}">
+<a {$item_attrs} title="{$item_tooltip}" data-menu-link data-menu-v data-menu-inline data-menu-top >
+	{$item_separator}
+	<span class="r-menu-link r-menu-expanded "> 
+		<span class="r-menu-title">
+		{$item_icon} {$item_title}
+		</span>
+		{BEGIN item_haschildren2}
+		{BEGIN item_expand_icon}
+		<span class="r-menu-expand-icon fa fa-angle-left"></span>
+		<span class="r-menu-mobile-expand-icon fa fa-angle-left"></span>
+		{END item_expand_icon}
+		{END item_haschildren2}
+	</span>
+		<span class="r-menu-collapsed">{$item_collicon}{$item_firstcap}</span>
+	</a>
+{BEGIN item_showchildren2}
+<ul class="
+			nav collapse 
+			{$submenu_class}" 
+		id="submenu{$item_id}" data-menulevel="2">
+	{BEGIN item_children2}
+		{BEGIN item_menulink2}
+		<li class="
+						{$item_current}"
+		>
+			<a {$item_attrs} title="{$item_tooltip}" data-menu-link data-menu-v data-menu-inline >
+	{$item_separator}
+	<span class="r-menu-link  "> 
+		<span class="r-menu-title">
+		{$item_icon} {$item_title}
+		</span>
+		{BEGIN item_haschildren2}
+		{BEGIN item_expand_icon}
+		<span class="r-menu-expand-icon fa fa-angle-left"></span>
+		<span class="r-menu-mobile-expand-icon fa fa-angle-left"></span>
+		{END item_expand_icon}
+		{END item_haschildren2}
+	</span>
+	</a>
+			{BEGIN item_showchildren3}
+<ul class="
+			nav collapse 
+			{$submenu_class}" 
+		id="submenu{$item_id}" data-menulevel="3">
+	{BEGIN item_children3}
+		{BEGIN item_menulink3}
+		<li class="
+						{$item_current}"
+		>
+			<a {$item_attrs} title="{$item_tooltip}" data-menu-link data-menu-v data-menu-inline >
+	{$item_separator}
+	<span class="r-menu-link  "> 
+		<span class="r-menu-title">
+		{$item_icon} {$item_title}
+		</span>
+		{BEGIN item_haschildren3}
+		{BEGIN item_expand_icon}
+		<span class="r-menu-expand-icon fa fa-angle-left"></span>
+		<span class="r-menu-mobile-expand-icon fa fa-angle-left"></span>
+		{END item_expand_icon}
+		{END item_haschildren3}
+	</span>
+	</a>
+			{BEGIN item_showchildren4}
+<ul class="
+			nav collapse 
+			{$submenu_class}" 
+		id="submenu{$item_id}" data-menulevel="4">
+	{BEGIN item_children4}
+		{BEGIN item_menulink4}
+		<li class="
+						{$item_current}"
+		>
+			<a {$item_attrs} title="{$item_tooltip}" data-menu-link data-menu-v data-menu-inline >
+	{$item_separator}
+	<span class="r-menu-link  "> 
+		<span class="r-menu-title">
+		{$item_icon} {$item_title}
+		</span>
+		{BEGIN item_haschildren4}
+		{BEGIN item_expand_icon}
+		<span class="r-menu-expand-icon fa fa-angle-left"></span>
+		<span class="r-menu-mobile-expand-icon fa fa-angle-left"></span>
+		{END item_expand_icon}
+		{END item_haschildren4}
+	</span>
+	</a>
+			{BEGIN item_showchildren5}
+<ul class="
+			nav collapse 
+			{$submenu_class}" 
+		id="submenu{$item_id}" data-menulevel="5">
+	{BEGIN item_children5}
+		{BEGIN item_menulink5}
+		<li class="
+						{$item_current}"
+		>
+			<a {$item_attrs} title="{$item_tooltip}" data-menu-link data-menu-v data-menu-inline >
+	{$item_separator}
+	<span class="r-menu-link  "> 
+		<span class="r-menu-title">
+		{$item_icon} {$item_title}
+		</span>
+		{BEGIN item_haschildren5}
+		{BEGIN item_expand_icon}
+		<span class="r-menu-expand-icon fa fa-angle-left"></span>
+		<span class="r-menu-mobile-expand-icon fa fa-angle-left"></span>
+		{END item_expand_icon}
+		{END item_haschildren5}
+	</span>
+	</a>
+					</li>
+		{END item_menulink5}
+	{END item_children5}
+</ul>
+{END item_showchildren5}
+		</li>
+		{END item_menulink4}
+	{END item_children4}
+</ul>
+{END item_showchildren4}
+		</li>
+		{END item_menulink3}
+	{END item_children3}
+</ul>
+{END item_showchildren3}
+		</li>
+		{END item_menulink2}
+	{END item_children2}
+</ul>
+{END item_showchildren2}
+</li>
+{END item_children1}
+</ul>
+{END menuitems_main}
+			</div>
+		
+ 
+
+			<div class="clearfix  r-ori-vert" data-cellId="left_c1" data-pageid="{$pageid}" data-itemid="search_panel" {$item_search_panel} data-topcell-item-type="search_panel" >
+				<!-- Begin Search panel content -->
+<div class="searchOptions panel panel-primary searchPanelContainer " {$srchOpt_attrs} data-itemtype="search_panel" data-itemid="search_panel" {$item_search_panel} data-pageid="{$pageid}"	 >
+
+	<div class="panel-heading">
+		<div class="btn-group r-sp-addfield" id="addSearchFieldButton{$id}">
+			<button id="showHideControlChooseMenu{$id}" type="button" class="btn btn-default dropdown-toggle btn-sm )" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Búsqueda			<span class="caret"></span>
+			</button>
+		</div>
+
+
+		<div class="btn-group r-sp-options" id="searchPanelOptions{$id}">
+			<button type="button" class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="glyphicon glyphicon glyphicon-option-vertical"></span>
+			</button>
+			<ul class="dropdown-menu dropdown-left">
+				<li id="showHideSearchType{$id}" {$showHideCtrlsOpt_attrs}><a>Mostrar opciones</a></li>
+				<li role="separator" class="divider"></li>
+				<li class="srchCritTop" style="display: none;"><a><input type="radio" name="srchType{$id}" id="radioAll" {$all_checkbox}><label for="radioAll"><span class="glyphicon">&nbsp;</span>todas las condiciones</label></a></li>
+				<li class="srchCritTop" style="display: none;"><a><input type="radio" name="srchType{$id}" id="radioAny" {$any_checkbox}><label for="radioAny"><span class="glyphicon">&nbsp;</span>cualquier condición</label></a></li>
+				<li role="separator" class="divider"></li>
+				<li><a class="close-button"><span class="glyphicon glyphicon-remove">&nbsp;</span>esconder</a></li>
+			</ul>
+		</div>
+
+
+		</div>
+	<div class="panel-body controlsBlock" {$bottomSearchButt_attrs} >
+
+
+		
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow form-group" {$filterRow_attrs}>
+			<label>{$fLabel}</label>	{$delCtrlButt}
+				<span class="rnr-searchtype">{$searchtype}</span>
+				<span class="rnr-searchcontrol">{$searchcontrol}</span>
+				<span class="rnr-searchcontrol">{$searchcontrol1}</span>
+		</div>
+		{END searchCtrlBlock}
+																		{BEGIN searchCtrlBlock_cat_compras_proveedores_id}
+
+
+		<div class="form-group srchPanelRow {$filterRow_class_cat_compras_proveedores_id}" {$filterRow_attrs_cat_compras_proveedores_id}>
+			<label>{$label tr_compras_requisiciones_02_productos_autorizacion cat_compras_proveedores_id }</label>
+
+							{$delCtrlButt}
+			
+								<span class="rnr-searchtype">{$searchtype_cat_compras_proveedores_id}</span>
+								<span class="rnr-searchcontrol">{$searchcontrol_cat_compras_proveedores_id}</span>
+								<span class="rnr-searchcontrol">{$searchcontrol1_cat_compras_proveedores_id}</span>
+						</div>
+		{END searchCtrlBlock_cat_compras_proveedores_id}
+																{BEGIN searchCtrlBlock_cat_compras_productos_id}
+
+
+		<div class="form-group srchPanelRow {$filterRow_class_cat_compras_productos_id}" {$filterRow_attrs_cat_compras_productos_id}>
+			<label>{$label tr_compras_requisiciones_02_productos_autorizacion cat_compras_productos_id }</label>
+
+							{$delCtrlButt}
+			
+								<span class="rnr-searchtype">{$searchtype_cat_compras_productos_id}</span>
+								<span class="rnr-searchcontrol">{$searchcontrol_cat_compras_productos_id}</span>
+								<span class="rnr-searchcontrol">{$searchcontrol1_cat_compras_productos_id}</span>
+						</div>
+		{END searchCtrlBlock_cat_compras_productos_id}
+		
+
+	</div>
+
+	<div class="panel-footer bottomSearchButt" {$bottomSearchButt_attrs}>
+		<button class="btn btn-primary btn-sm" id="searchButton{$id}" {$searchbutton_attrs}>Buscar</button>
+
+				<button class="btn btn-default btn-sm" {$showAllCont_attrs} {$showallbutton_attrs}>Mostrar todo</button>
+	</div>
+</div>
+<!-- End Search panel content -->
+			</div>
+		
+    {END left_block}
+</div>				</div>
+			<div class="r-content-col" data-resize-left="leftbar">
+				<div  class="r-topheader" data-resize-name="topbar">
+									{BEGIN supertop_block}
+<nav class="navbar navbar-default" 
+	data-location="supertop" id="form_supertop_{$pageid}" data-makeup="leftbar" {$form_supertop} data-pageid="{$pageid}" >
+			 
+							 
+				<span class="navbar-form  navbar-header" data-cellId="supertop_c1" data-pageid="{$pageid}" data-itemid="expand_menu_button" {$item_expand_menu_button} data-topcell-item-type="expand_menu_button" >
+				<span data-itemtype="expand_menu_button" data-itemid="expand_menu_button" {$item_expand_menu_button} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="Muestrame el menu" class="btn-link   
+	 glyphicon glyphicon-menu-hamburger" href="#" >		
+				
+								</a>
+</span>
+			</span>
+		 
+				<span class="navbar-form  navbar-collapse" data-cellId="supertop_c1" data-pageid="{$pageid}" data-itemid="collapse_button" {$item_collapse_button} data-topcell-item-type="collapse_button" >
+				<span data-itemtype="collapse_button" data-itemid="collapse_button" {$item_collapse_button} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="Encubrir" class="btn-link   
+	 glyphicon glyphicon-triangle-left" href="#" >		
+				
+								</a>
+</span>
+			</span>
+		 
+				<span class="navbar-form  navbar-collapse" data-cellId="supertop_c1" data-pageid="{$pageid}" data-itemid="breadcrumb" {$item_breadcrumb} data-topcell-item-type="breadcrumb" >
+				{BEGIN breadcrumb}
+<ol class="breadcrumb" data-itemtype="breadcrumb" data-itemid="breadcrumb" {$item_breadcrumb} data-pageid="{$pageid}">
+<li ><a href="{$crumb_home_link}"><span class="glyphicon glyphicon-home"></span></a>{$crumb_dropdown}</li>
+{BEGIN crumb}
+  <li class="{$crumb_item_class}">
+{BEGIN crumb_title_link}
+	<a {$crumb_attrs}>{$crumb_title}</a>
+{END crumb_title_link}
+{BEGIN crumb_title_span}
+	<span {$crumb_attrs}>{$crumb_title}</span>
+{END crumb_title_span}	
+	{$crumb_dropdown}
+  </li>
+{END crumb}
+</ol>
+{END breadcrumb}			</span>
+							 
+							 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="{$pageid}" data-itemid="simple_search_field" {$item_simple_search_field} data-topcell-item-type="simple_search_field" >
+				{$simpleSearchFieldCombo}			</span>
+		 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="{$pageid}" data-itemid="simple_search_option" {$item_simple_search_option} data-topcell-item-type="simple_search_option" >
+				{$simpleSearchTypeCombo}			</span>
+		 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="{$pageid}" data-itemid="simple_search" {$item_simple_search} data-topcell-item-type="simple_search" >
+				<span data-itemtype="simple_search" data-itemid="simple_search" {$item_simple_search} data-pageid="{$pageid}" class="form-group">
+
+<div  class="input-group">
+{BEGIN searchform_text}
+	<input type="search" class="form-control" {$searchfor_attrs} size="25">
+{END searchform_text}
+	<span class="input-group-btn">
+	{BEGIN searchform_showall}
+				<button class="btn btn-default" {$showAllCont_attrs} {$showallbutton_attrs} title="Mostrar todo">
+			<span class="glyphicon glyphicon-remove"></span>
+		</button>
+	{END searchform_showall}
+
+	{BEGIN searchform_search}
+	<button {$searchbutton_attrs} class="btn btn-primary" >
+		<span class="glyphicon glyphicon-search"></span>
+	</button>
+	{END searchform_search}
+	</span>
+</div>
+		
+</span>			</span>
+		 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="{$pageid}" data-itemid="list_options" {$item_list_options} data-topcell-item-type="list_options" >
+				<span data-itemtype="list_options" data-itemid="list_options" {$item_list_options} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown ">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-cog"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN editselected_link}
+	<li data-itemtype="edit_selected" data-itemid="edit_selected" {$item_edit_selected} data-pageid="{$pageid}" data-small >
+				<a  href="#" {$editselectedlink_attrs} {$editselectedlink_span}  title="" >
+				
+		Editar los seleccionados		
+		</a>
+	</li>
+{END editselected_link}
+							<li role="separator" class="divider"></li>								<li data-itemtype="advsearch_link" data-itemid="advsearch_link" {$item_advsearch_link} data-pageid="{$pageid}" data-small >
+				<a   href="tr_compras_requisiciones_02_productos_autorizacion_search.php{$stateLink_full}" {$advsearchlink_attrs}  title="" >
+				
+		Búsqueda avanzada		
+		</a>
+	</li>
+							{BEGIN searchPanelTopButtons}
+	<li data-itemtype="show_search_panel" data-itemid="show_search_panel" {$item_show_search_panel} data-pageid="{$pageid}" data-small >
+				<a  id="showOptPanel{$id}"  title="" >
+				
+		Mostrar panel de búsqueda		
+		</a>
+	</li>
+{END searchPanelTopButtons}
+							{BEGIN searchPanelTopButtons}
+	<li data-itemtype="hide_search_panel" data-itemid="hide_search_panel" {$item_hide_search_panel} data-pageid="{$pageid}" data-small >
+				<a  id="hideOptPanel{$id}"  title="" >
+				
+		Ocultar panel de búsqueda		
+		</a>
+	</li>
+{END searchPanelTopButtons}
+					</ul>
+	</span>
+</span>
+			</span>
+		 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="{$pageid}" data-itemid="loginform_login" {$item_loginform_login} data-topcell-item-type="loginform_login" >
+				{BEGIN guestloginbutton}
+<span data-itemtype="loginform_login" data-itemid="loginform_login" {$item_loginform_login} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" href="#" {$guestloginlink_attrs} >
+							Conectar			</a>
+</span>
+{END guestloginbutton}
+			</span>
+		 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="{$pageid}" data-itemid="username_button" {$item_username_button} data-topcell-item-type="username_button" >
+				{BEGIN loggedas_message}
+<span data-itemtype="username_button" data-itemid="username_button" {$item_username_button} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown ">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+			{BEGIN userbutton_icon}							<span class="glyphicon glyphicon-user"></span>
+						{END userbutton_icon}{$userbutton_image}			{$username}			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN userinfo_link}
+	<li data-itemtype="userinfo_link" data-itemid="userinfo_link" {$item_userinfo_link} data-pageid="{$pageid}" data-small >
+				<a  href="userinfo.php"  title="" >
+				
+		Perfil del usuario		
+		</a>
+	</li>
+{END userinfo_link}
+							{BEGIN logoutbutton}
+	<li data-itemtype="logout_link" data-itemid="logout_link" {$item_logout_link} data-pageid="{$pageid}" data-small >
+				<a  href="#" {$logoutlink_attrs}  title="" >
+				
+		Desconectarse		
+		</a>
+	</li>
+{END logoutbutton}
+							{BEGIN adminarea_link}
+	<li data-itemtype="adminarea_link" data-itemid="adminarea_link" {$item_adminarea_link} data-pageid="{$pageid}" data-small >
+				<a  href="admin_rights_list.php"  title="" >
+				
+		Area Admin		
+		</a>
+	</li>
+{END adminarea_link}
+							{BEGIN changepwd_link}
+	<li data-itemtype="changepassword_link" data-itemid="changepassword_link" {$item_changepassword_link} data-pageid="{$pageid}" data-small >
+				<a  href="changepwd.php" {$changepwdlink_attrs} id="changePasswordButton{$id}"  title="" >
+				
+		Cambiar contraseña		
+		</a>
+	</li>
+{END changepwd_link}
+					</ul>
+	</span>
+</span>
+{END loggedas_message}
+			</span>
+								</nav>
+{END supertop_block}
+						{$locking}
+				</div>
+				<div class="r-body" data-resize-top="topbar" data-body-width="standard">
+					{$header}
+					<div class="r-top">
+									{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="leftbar" {$form_top} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="top_c2" data-pageid="{$pageid}"	{$cell_top_c2}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		{BEGIN mastertable_block}
+<div data-itemtype="master_info" data-itemid="master_info" {$item_master_info} data-pageid="{$pageid}">
+	{$showmasterfile}
+</div>
+{END mastertable_block}		</div>					</div>
+			</div>		
+{END top_block}
+						</div>
+											<div class="r-above">
+					{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="leftbar" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class="			col-md-6
+	
+">
+		{BEGIN firstAboveGridCell}
+		 
+		{BEGIN inlineadd_link}
+<span data-itemtype="inline_add" data-itemid="inline_add" {$item_inline_add} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$inlineaddlink_attrs} >
+							Añadir nuevo			</a>
+</span>
+{END inlineadd_link}
+	 
+		{BEGIN saveall_link}
+<span data-itemtype="inline_save_all" data-itemid="inline_save_all" {$item_inline_save_all} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savealllink_attrs} {$savealllink_span} >
+							Guardar todo			</a>
+</span>
+{END saveall_link}
+	 
+		{BEGIN cancelall_link}
+<span data-itemtype="inline_cancel_all" data-itemid="inline_cancel_all" {$item_inline_cancel_all} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$cancelalllink_attrs} {$cancelalllink_span} >
+							Cancelar			</a>
+</span>
+{END cancelall_link}
+	 
+		{BEGIN updateselected_link}
+<span data-itemtype="update_selected" data-itemid="update_selected" {$item_update_selected} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="tr_compras_requisiciones_02_productos_autorizacion_edit.php{$stateLink_full}" {$updateselectedlink_attrs} disabled >
+							Actualizar los seleccionados			</a>
+</span>
+{END updateselected_link}
+			{END firstAboveGridCell}	
+	</div>			 
+				<div 
+	data-cellId="above-grid_c2" data-pageid="{$pageid}"	{$cell_above-grid_c2}
+	class="r-align-right			col-md-6
+	
+">
+		 
+		<span data-itemtype="details_found" data-itemid="details_found" {$item_details_found} data-pageid="{$pageid}" data-small >
+{$mlp_push}{$mlparam first var first_shown}{$mlparam last var last_shown}{$mlparam total var records_found}{mlang_message DISPLAYING}{$mlp_pop}</span>	 
+		<span data-itemtype="page_size" data-itemid="page_size" {$item_page_size} data-pageid="{$pageid}" >
+		{$recsPerPage}
+</span>		</div>					</div>
+			</div>		
+{END above-grid_block}
+	</div>
+<div class="r-grid">
+	{BEGIN grid_tabs}
+  <ul class="nav nav-tabs bsgrid_tabs">
+	{$grid_tabs_content}
+  </ul>
+{END grid_tabs}
+					{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}	<style>
+@media screen and (max-width: 767px) {
+		[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="tr_compras_requisiciones_02_productos_id"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion tr_compras_requisiciones_02_productos_id}";
+	}
+					[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="capturista"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion capturista}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="cat_compras_productos_id"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion cat_compras_productos_id}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="precio_neto"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion precio_neto}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="cantidad"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion cantidad}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="importe_neto"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion importe_neto}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="cat_compras_proveedores_id"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion cat_compras_proveedores_id}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="utilizacion"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion utilizacion}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="autorizado_check"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion autorizado_check}";
+	}
+				[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="capturista_que_autoriza"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion capturista_que_autoriza}";
+	}
+				[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="especificacion_producto"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion especificacion_producto}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="observacion"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion observacion}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="tr_compras_requisiciones_01_uuid"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion tr_compras_requisiciones_01_uuid}";
+	}
+							[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="orden_de_compra_proveedor"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion orden_de_compra_proveedor}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="fecha_de_cotizacion"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion fecha_de_cotizacion}";
+	}
+				[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="ubicacion"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion ubicacion}";
+	}
+			[data-pageid="{$pageid}"][data-itemtype="grid_field"][data-field="observacion_autoriza"]:before {
+		content: "{$label tr_compras_requisiciones_02_productos_autorizacion observacion_autoriza}";
+	}
+	}
+</style>
+<table data-location="grid" id="form_grid_{$pageid}" data-makeup="leftbar" {$form_grid} data-pageid="{$pageid}" class=" table table-striped table-bordered r-horizontal-grid  r-flexgrid rnr-b-grid rnr-gridtable"
+	cellpadding="0"
+	data-body-height="1"
+>
+						<thead>
+			{BEGIN grid_header}
+			
+																									<tr {$rowattrs} {$row_grid_0} class="{$rowclass}
+									{$gridHeader_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_headcell_icons}
+	<th
+	
+	{$cell_grid_headcell_icons}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_headcell_icons" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"		data-control-cell
+	
+	>
+
+	
+	</th>
+	{END cellblock_grid_headcell_icons}
+									{BEGIN cellblock_grid_headcell_checkbox}
+	<th
+	
+	{$cell_grid_headcell_checkbox}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_headcell_checkbox" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+		data-checkbox-cell
+	>
+
+	 
+		{BEGIN checkbox_column}
+<span data-itemtype="grid_checkbox_head" data-itemid="grid_checkbox_head" {$item_grid_checkbox_head} data-pageid="{$pageid}" data-record-id="{$recId}" >
+	<input type="checkbox" {$checkboxheader_attrs}>
+</span>
+{END checkbox_column}
+	
+	</th>
+	{END cellblock_grid_headcell_checkbox}
+									{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$autorizado_check_class}	"
+
+			data-field="autorizado_check"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN autorizado_check_fieldheadercolumn}
+	{BEGIN autorizado_check_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field11" {$item_simple_grid_field11} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="autorizado_check" data-fieldname="autorizado_check" 
+
+			{$autorizado_check_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion autorizado_check }</span>
+					{$arrow_icon_autorizado_check}
+			</span>
+	</span>
+	{END autorizado_check_fieldheader}
+{END autorizado_check_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+									{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_autoriza_class}	"
+
+			data-field="observacion_autoriza"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN observacion_autoriza_fieldheadercolumn}
+	{BEGIN observacion_autoriza_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field22" {$item_simple_grid_field22} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="observacion_autoriza" data-fieldname="observacion_autoriza" 
+
+			{$observacion_autoriza_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion observacion_autoriza }</span>
+					{$arrow_icon_observacion_autoriza}
+			</span>
+	</span>
+	{END observacion_autoriza_fieldheader}
+{END observacion_autoriza_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+									{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_cotizacion_class}	"
+
+			data-field="fecha_de_cotizacion"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_cotizacion_fieldheadercolumn}
+	{BEGIN fecha_de_cotizacion_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field19" {$item_simple_grid_field19} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_cotizacion" data-fieldname="fecha_de_cotizacion" 
+
+			{$fecha_de_cotizacion_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion fecha_de_cotizacion }</span>
+					{$arrow_icon_fecha_de_cotizacion}
+			</span>
+	</span>
+	{END fecha_de_cotizacion_fieldheader}
+{END fecha_de_cotizacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+									{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_proveedores_id_class}	"
+
+			data-field="cat_compras_proveedores_id"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_proveedores_id_fieldheadercolumn}
+	{BEGIN cat_compras_proveedores_id_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field13" {$item_simple_grid_field13} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_proveedores_id" data-fieldname="cat_compras_proveedores_id" 
+
+			{$cat_compras_proveedores_id_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion cat_compras_proveedores_id }</span>
+					{$arrow_icon_cat_compras_proveedores_id}
+			</span>
+	</span>
+	{END cat_compras_proveedores_id_fieldheader}
+{END cat_compras_proveedores_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+									{BEGIN cellblock_grid_headcell_field4}
+	<th
+	
+	{$cell_grid_headcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+			data-field="cat_compras_productos_id"
+	
+	data-cellId="grid_headcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_id_fieldheadercolumn}
+	{BEGIN cat_compras_productos_id_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field8" {$item_simple_grid_field8} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id" 
+
+			{$cat_compras_productos_id_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion cat_compras_productos_id }</span>
+					{$arrow_icon_cat_compras_productos_id}
+			</span>
+	</span>
+	{END cat_compras_productos_id_fieldheader}
+{END cat_compras_productos_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field4}
+									{BEGIN cellblock_grid_headcell_field5}
+	<th
+	
+	{$cell_grid_headcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$especificacion_producto_class}	"
+
+			data-field="especificacion_producto"
+	
+	data-cellId="grid_headcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN especificacion_producto_fieldheadercolumn}
+	{BEGIN especificacion_producto_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field15" {$item_simple_grid_field15} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="especificacion_producto" data-fieldname="especificacion_producto" 
+
+			{$especificacion_producto_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion especificacion_producto }</span>
+					{$arrow_icon_especificacion_producto}
+			</span>
+	</span>
+	{END especificacion_producto_fieldheader}
+{END especificacion_producto_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field5}
+									{BEGIN cellblock_grid_headcell_field6}
+	<th
+	
+	{$cell_grid_headcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_class}	"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_headcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_fieldheadercolumn}
+	{BEGIN cantidad_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field23" {$item_simple_grid_field23} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad" 
+
+			{$cantidad_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion cantidad }</span>
+					{$arrow_icon_cantidad}
+			</span>
+	</span>
+	{END cantidad_fieldheader}
+{END cantidad_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field6}
+									{BEGIN cellblock_grid_headcell_field7}
+	<th
+	
+	{$cell_grid_headcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$precio_neto_class}	"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_headcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN precio_neto_fieldheadercolumn}
+	{BEGIN precio_neto_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="grid_field1" {$item_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="precio_neto" data-fieldname="precio_neto" 
+
+			{$precio_neto_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion precio_neto }</span>
+					{$arrow_icon_precio_neto}
+			</span>
+	</span>
+	{END precio_neto_fieldheader}
+{END precio_neto_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field7}
+									{BEGIN cellblock_grid_headcell_field8}
+	<th
+	
+	{$cell_grid_headcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$importe_neto_class}	"
+
+			data-field="importe_neto"
+	
+	data-cellId="grid_headcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN importe_neto_fieldheadercolumn}
+	{BEGIN importe_neto_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field25" {$item_simple_grid_field25} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="importe_neto" data-fieldname="importe_neto" 
+
+			{$importe_neto_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion importe_neto }</span>
+					{$arrow_icon_importe_neto}
+			</span>
+	</span>
+	{END importe_neto_fieldheader}
+{END importe_neto_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field8}
+									{BEGIN cellblock_grid_headcell_field9}
+	<th
+	
+	{$cell_grid_headcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_class}	"
+
+			data-field="ubicacion"
+	
+	data-cellId="grid_headcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN ubicacion_fieldheadercolumn}
+	{BEGIN ubicacion_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field27" {$item_simple_grid_field27} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="ubicacion" data-fieldname="ubicacion" 
+
+			{$ubicacion_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion ubicacion }</span>
+					{$arrow_icon_ubicacion}
+			</span>
+	</span>
+	{END ubicacion_fieldheader}
+{END ubicacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field9}
+									{BEGIN cellblock_grid_headcell_field10}
+	<th
+	
+	{$cell_grid_headcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$utilizacion_class}	"
+
+			data-field="utilizacion"
+	
+	data-cellId="grid_headcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN utilizacion_fieldheadercolumn}
+	{BEGIN utilizacion_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field28" {$item_simple_grid_field28} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="utilizacion" data-fieldname="utilizacion" 
+
+			{$utilizacion_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion utilizacion }</span>
+					{$arrow_icon_utilizacion}
+			</span>
+	</span>
+	{END utilizacion_fieldheader}
+{END utilizacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field10}
+									{BEGIN cellblock_grid_headcell_field11}
+	<th
+	
+	{$cell_grid_headcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_class}	"
+
+			data-field="observacion"
+	
+	data-cellId="grid_headcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN observacion_fieldheadercolumn}
+	{BEGIN observacion_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field29" {$item_simple_grid_field29} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="observacion" data-fieldname="observacion" 
+
+			{$observacion_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion observacion }</span>
+					{$arrow_icon_observacion}
+			</span>
+	</span>
+	{END observacion_fieldheader}
+{END observacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field11}
+									{BEGIN cellblock_grid_headcell_field12}
+	<th
+	
+	{$cell_grid_headcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$orden_de_compra_proveedor_class}	"
+
+			data-field="orden_de_compra_proveedor"
+	
+	data-cellId="grid_headcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN orden_de_compra_proveedor_fieldheadercolumn}
+	{BEGIN orden_de_compra_proveedor_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field30" {$item_simple_grid_field30} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="orden_de_compra_proveedor" data-fieldname="orden_de_compra_proveedor" 
+
+			{$orden_de_compra_proveedor_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion orden_de_compra_proveedor }</span>
+					{$arrow_icon_orden_de_compra_proveedor}
+			</span>
+	</span>
+	{END orden_de_compra_proveedor_fieldheader}
+{END orden_de_compra_proveedor_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field12}
+									{BEGIN cellblock_grid_headcell_field13}
+	<th
+	
+	{$cell_grid_headcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_que_autoriza_class}	"
+
+			data-field="capturista_que_autoriza"
+	
+	data-cellId="grid_headcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_que_autoriza_fieldheadercolumn}
+	{BEGIN capturista_que_autoriza_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field31" {$item_simple_grid_field31} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista_que_autoriza" data-fieldname="capturista_que_autoriza" 
+
+			{$capturista_que_autoriza_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion capturista_que_autoriza }</span>
+					{$arrow_icon_capturista_que_autoriza}
+			</span>
+	</span>
+	{END capturista_que_autoriza_fieldheader}
+{END capturista_que_autoriza_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field13}
+									{BEGIN cellblock_grid_headcell_field14}
+	<th
+	
+	{$cell_grid_headcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_01_uuid_class}	"
+
+			data-field="tr_compras_requisiciones_01_uuid"
+	
+	data-cellId="grid_headcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_01_uuid_fieldheadercolumn}
+	{BEGIN tr_compras_requisiciones_01_uuid_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field32" {$item_simple_grid_field32} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_01_uuid" data-fieldname="tr_compras_requisiciones_01_uuid" 
+
+			{$tr_compras_requisiciones_01_uuid_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion tr_compras_requisiciones_01_uuid }</span>
+					{$arrow_icon_tr_compras_requisiciones_01_uuid}
+			</span>
+	</span>
+	{END tr_compras_requisiciones_01_uuid_fieldheader}
+{END tr_compras_requisiciones_01_uuid_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field14}
+									{BEGIN cellblock_grid_headcell_field15}
+	<th
+	
+	{$cell_grid_headcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_02_productos_id_class}	"
+
+			data-field="tr_compras_requisiciones_02_productos_id"
+	
+	data-cellId="grid_headcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_02_productos_id_fieldheadercolumn}
+	{BEGIN tr_compras_requisiciones_02_productos_id_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field33" {$item_simple_grid_field33} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_02_productos_id" data-fieldname="tr_compras_requisiciones_02_productos_id" 
+
+			{$tr_compras_requisiciones_02_productos_id_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion tr_compras_requisiciones_02_productos_id }</span>
+					{$arrow_icon_tr_compras_requisiciones_02_productos_id}
+			</span>
+	</span>
+	{END tr_compras_requisiciones_02_productos_id_fieldheader}
+{END tr_compras_requisiciones_02_productos_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field15}
+									{BEGIN cellblock_grid_headcell_field16}
+	<th
+	
+	{$cell_grid_headcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_class}	"
+
+			data-field="capturista"
+	
+	data-cellId="grid_headcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_fieldheadercolumn}
+	{BEGIN capturista_fieldheader}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field34" {$item_simple_grid_field34} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista" data-fieldname="capturista" 
+
+			{$capturista_orderlinkattrs}
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_requisiciones_02_productos_autorizacion capturista }</span>
+					{$arrow_icon_capturista}
+			</span>
+	</span>
+	{END capturista_fieldheader}
+{END capturista_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field16}
+							</tr>
+															
+					{END grid_header}
+			</thead>
+															<tbody>
+					{BEGIN grid_row}
+							
+																														<tr {$rowattrs} {$row_grid_1} class="{$rowclass}
+				
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_cell_icons}
+	<td
+	
+	{$cell_grid_cell_icons}
+	{$recordattrs}
+	class="
+					"
+
+	
+	data-cellId="grid_cell_icons" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"		data-control-cell
+	
+	>
+
+	 
+		{BEGIN edit_column}
+{BEGIN edit_link}
+<span data-itemtype="grid_edit" data-itemid="grid_edit" {$item_grid_edit} data-pageid="{$pageid}" data-record-id="{$recId}" data-small data-button-item>
+	<a type="button" title="Editar" class="btn-link   
+	 glyphicon glyphicon-pencil" href="tr_compras_requisiciones_02_productos_autorizacion_edit.php?{$editlink}" {$editlink_attrs} title="Editar" >		
+				
+								</a>
+</span>
+{END edit_link}
+{END edit_column}
+	 
+		{BEGIN inlineedit_column}
+{BEGIN inlineedit_link}
+<span data-itemtype="grid_inline_edit" data-itemid="grid_inline_edit" {$item_grid_inline_edit} data-pageid="{$pageid}" data-record-id="{$recId}" data-small data-button-item>
+	<a type="button" title="Editar" class="btn-link   
+	 glyphicon glyphicon-edit" {$inlineeditlink_attrs} title="Editar" >		
+				
+								</a>
+</span>
+{END inlineedit_link}
+{END inlineedit_column}
+	 
+		{BEGIN inline_save}
+<span data-itemtype="grid_inline_save" data-itemid="grid_inline_save" {$item_grid_inline_save} data-pageid="{$pageid}" data-record-id="{$recId}" data-small data-button-item>
+	<a type="button" title="Guardar" class="btn-link   
+	 glyphicon glyphicon-ok" {$inlinesavelink_attrs} title="Guardar" >		
+				
+								</a>
+</span>
+{END inline_save}
+	 
+		{BEGIN inline_cancel}
+<span data-itemtype="grid_inline_cancel" data-itemid="grid_inline_cancel" {$item_grid_inline_cancel} data-pageid="{$pageid}" data-record-id="{$recId}" data-small data-button-item>
+	<a type="button" title="Cancelar" class="btn-link   
+	 glyphicon glyphicon-remove" {$inlinerevertlink_attrs} title="Cancelar" >		
+				
+								</a>
+</span>
+{END inline_cancel}
+	
+	</td>
+	{END cellblock_grid_cell_icons}
+									{BEGIN cellblock_grid_cell_checkbox}
+	<td
+	
+	{$cell_grid_cell_checkbox}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_checkbox" data-pageid="{$pageid}" data-record-id="{$recId}"		data-control-cell
+	
+		data-checkbox-cell
+	>
+
+	 
+		{BEGIN checkbox_column}
+<span data-itemtype="grid_checkbox" data-itemid="grid_checkbox" {$item_grid_checkbox} data-pageid="{$pageid}" data-record-id="{$recId}" >
+	<input type="checkbox" {$checkbox_attrs}
+		>
+</span>	
+{END checkbox_column}
+	
+	</td>
+	{END cellblock_grid_cell_checkbox}
+									{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$autorizado_check_class}	"
+
+			data-field="autorizado_check"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN autorizado_check_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field10" {$item_simple_grid_field10} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="autorizado_check" data-fieldname="autorizado_check" data-default-width >
+{$autorizado_check_value}
+</span>
+{END autorizado_check_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field}
+									{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_autoriza_class}	"
+
+			data-field="observacion_autoriza"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN observacion_autoriza_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field21" {$item_simple_grid_field21} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="observacion_autoriza" data-fieldname="observacion_autoriza" data-default-width >
+{$observacion_autoriza_value}
+</span>
+{END observacion_autoriza_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field1}
+									{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_cotizacion_class}	"
+
+			data-field="fecha_de_cotizacion"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_cotizacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field18" {$item_simple_grid_field18} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_cotizacion" data-fieldname="fecha_de_cotizacion" data-default-width >
+{$fecha_de_cotizacion_value}
+</span>
+{END fecha_de_cotizacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field2}
+									{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_proveedores_id_class}	"
+
+			data-field="cat_compras_proveedores_id"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_proveedores_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field9" {$item_simple_grid_field9} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_proveedores_id" data-fieldname="cat_compras_proveedores_id" data-default-width >
+{$cat_compras_proveedores_id_value}
+</span>
+{END cat_compras_proveedores_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field3}
+									{BEGIN cellblock_grid_cell_field4}
+	<td
+	
+	{$cell_grid_cell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+			data-field="cat_compras_productos_id"
+	
+	data-cellId="grid_cell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field5" {$item_simple_grid_field5} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id" data-default-width >
+{$cat_compras_productos_id_value}
+</span>
+{END cat_compras_productos_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field4}
+									{BEGIN cellblock_grid_cell_field5}
+	<td
+	
+	{$cell_grid_cell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$especificacion_producto_class}	"
+
+			data-field="especificacion_producto"
+	
+	data-cellId="grid_cell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN especificacion_producto_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" {$item_simple_grid_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="especificacion_producto" data-fieldname="especificacion_producto" data-default-width >
+{$especificacion_producto_value}
+</span>
+{END especificacion_producto_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field5}
+									{BEGIN cellblock_grid_cell_field6}
+	<td
+	
+	{$cell_grid_cell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_class}	"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_cell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field7" {$item_simple_grid_field7} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad" data-default-width >
+{$cantidad_value}
+</span>
+{END cantidad_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field6}
+									{BEGIN cellblock_grid_cell_field7}
+	<td
+	
+	{$cell_grid_cell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$precio_neto_class}	"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_cell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN precio_neto_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="grid_field" {$item_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="precio_neto" data-fieldname="precio_neto" data-default-width >
+{$precio_neto_value}
+</span>
+{END precio_neto_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field7}
+									{BEGIN cellblock_grid_cell_field8}
+	<td
+	
+	{$cell_grid_cell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$importe_neto_class}	"
+
+			data-field="importe_neto"
+	
+	data-cellId="grid_cell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN importe_neto_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2" {$item_simple_grid_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="importe_neto" data-fieldname="importe_neto" data-default-width >
+{$importe_neto_value}
+</span>
+{END importe_neto_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field8}
+									{BEGIN cellblock_grid_cell_field9}
+	<td
+	
+	{$cell_grid_cell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_class}	"
+
+			data-field="ubicacion"
+	
+	data-cellId="grid_cell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN ubicacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field20" {$item_simple_grid_field20} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="ubicacion" data-fieldname="ubicacion" data-default-width >
+{$ubicacion_value}
+</span>
+{END ubicacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field9}
+									{BEGIN cellblock_grid_cell_field10}
+	<td
+	
+	{$cell_grid_cell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$utilizacion_class}	"
+
+			data-field="utilizacion"
+	
+	data-cellId="grid_cell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN utilizacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field12" {$item_simple_grid_field12} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="utilizacion" data-fieldname="utilizacion" data-default-width >
+{$utilizacion_value}
+</span>
+{END utilizacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field10}
+									{BEGIN cellblock_grid_cell_field11}
+	<td
+	
+	{$cell_grid_cell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_class}	"
+
+			data-field="observacion"
+	
+	data-cellId="grid_cell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN observacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field6" {$item_simple_grid_field6} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="observacion" data-fieldname="observacion" data-default-width >
+{$observacion_value}
+</span>
+{END observacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field11}
+									{BEGIN cellblock_grid_cell_field12}
+	<td
+	
+	{$cell_grid_cell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$orden_de_compra_proveedor_class}	"
+
+			data-field="orden_de_compra_proveedor"
+	
+	data-cellId="grid_cell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN orden_de_compra_proveedor_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field17" {$item_simple_grid_field17} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="orden_de_compra_proveedor" data-fieldname="orden_de_compra_proveedor" data-default-width >
+{$orden_de_compra_proveedor_value}
+</span>
+{END orden_de_compra_proveedor_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field12}
+									{BEGIN cellblock_grid_cell_field13}
+	<td
+	
+	{$cell_grid_cell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_que_autoriza_class}	"
+
+			data-field="capturista_que_autoriza"
+	
+	data-cellId="grid_cell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_que_autoriza_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field16" {$item_simple_grid_field16} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista_que_autoriza" data-fieldname="capturista_que_autoriza" data-default-width >
+{$capturista_que_autoriza_value}
+</span>
+{END capturista_que_autoriza_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field13}
+									{BEGIN cellblock_grid_cell_field14}
+	<td
+	
+	{$cell_grid_cell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_01_uuid_class}	"
+
+			data-field="tr_compras_requisiciones_01_uuid"
+	
+	data-cellId="grid_cell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_01_uuid_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1" {$item_simple_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_01_uuid" data-fieldname="tr_compras_requisiciones_01_uuid" data-default-width >
+{$tr_compras_requisiciones_01_uuid_value}
+</span>
+{END tr_compras_requisiciones_01_uuid_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field14}
+									{BEGIN cellblock_grid_cell_field15}
+	<td
+	
+	{$cell_grid_cell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_02_productos_id_class}	"
+
+			data-field="tr_compras_requisiciones_02_productos_id"
+	
+	data-cellId="grid_cell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_02_productos_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field" {$item_simple_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_02_productos_id" data-fieldname="tr_compras_requisiciones_02_productos_id" data-default-width >
+{$tr_compras_requisiciones_02_productos_id_value}
+</span>
+{END tr_compras_requisiciones_02_productos_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field15}
+									{BEGIN cellblock_grid_cell_field16}
+	<td
+	
+	{$cell_grid_cell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_class}	"
+
+			data-field="capturista"
+	
+	data-cellId="grid_cell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field4" {$item_simple_grid_field4} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista" data-fieldname="capturista" data-default-width >
+{$capturista_value}
+</span>
+{END capturista_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field16}
+							</tr>
+										
+											{END grid_row}
+					</tbody>
+													<tfoot>
+			
+																																			<tr {$rowattrs} {$row_grid_2} class="{$rowclass}
+									{$gridFooter_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_footcell_icons}
+	<td
+	
+	{$cell_grid_footcell_icons}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_footcell_icons" data-pageid="{$pageid}" data-record-id="{$recId}"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_icons}
+									{BEGIN cellblock_grid_footcell_checkbox}
+	<td
+	
+	{$cell_grid_footcell_checkbox}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_footcell_checkbox" data-pageid="{$pageid}" data-record-id="{$recId}"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_checkbox}
+									{BEGIN cellblock_grid_footcell_field}
+	<td
+	
+	{$cell_grid_footcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$autorizado_check_class}	"
+
+	
+	data-cellId="grid_footcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field}
+									{BEGIN cellblock_grid_footcell_field1}
+	<td
+	
+	{$cell_grid_footcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_autoriza_class}	"
+
+	
+	data-cellId="grid_footcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field1}
+									{BEGIN cellblock_grid_footcell_field2}
+	<td
+	
+	{$cell_grid_footcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_cotizacion_class}	"
+
+	
+	data-cellId="grid_footcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field2}
+									{BEGIN cellblock_grid_footcell_field3}
+	<td
+	
+	{$cell_grid_footcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_proveedores_id_class}	"
+
+	
+	data-cellId="grid_footcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field3}
+									{BEGIN cellblock_grid_footcell_field4}
+	<td
+	
+	{$cell_grid_footcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+			data-field="cat_compras_productos_id"
+	
+	data-cellId="grid_footcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_id_fieldfootercolumn}
+{BEGIN cat_compras_productos_id_showtotal}
+<span data-itemtype="grid_field_totals" data-itemid="simple_grid_field14" {$item_simple_grid_field14} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id">
+	Contar	{$cat_compras_productos_id_total}
+</span>
+{END cat_compras_productos_id_showtotal}
+{END cat_compras_productos_id_fieldfootercolumn}
+
+	
+	</td>
+	{END cellblock_grid_footcell_field4}
+									{BEGIN cellblock_grid_footcell_field5}
+	<td
+	
+	{$cell_grid_footcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$especificacion_producto_class}	"
+
+	
+	data-cellId="grid_footcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field5}
+									{BEGIN cellblock_grid_footcell_field6}
+	<td
+	
+	{$cell_grid_footcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_class}	"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_footcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	 
+		{BEGIN cantidad_fieldfootercolumn}
+{BEGIN cantidad_showtotal}
+<span data-itemtype="grid_field_totals" data-itemid="simple_grid_field24" {$item_simple_grid_field24} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad">
+	Total	{$cantidad_total}
+</span>
+{END cantidad_showtotal}
+{END cantidad_fieldfootercolumn}
+
+	
+	</td>
+	{END cellblock_grid_footcell_field6}
+									{BEGIN cellblock_grid_footcell_field7}
+	<td
+	
+	{$cell_grid_footcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$precio_neto_class}	"
+
+	
+	data-cellId="grid_footcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field7}
+									{BEGIN cellblock_grid_footcell_field8}
+	<td
+	
+	{$cell_grid_footcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$importe_neto_class}	"
+
+			data-field="importe_neto"
+	
+	data-cellId="grid_footcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	 
+		{BEGIN importe_neto_fieldfootercolumn}
+{BEGIN importe_neto_showtotal}
+<span data-itemtype="grid_field_totals" data-itemid="simple_grid_field26" {$item_simple_grid_field26} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="importe_neto" data-fieldname="importe_neto">
+	Total	{$importe_neto_total}
+</span>
+{END importe_neto_showtotal}
+{END importe_neto_fieldfootercolumn}
+
+	
+	</td>
+	{END cellblock_grid_footcell_field8}
+									{BEGIN cellblock_grid_footcell_field9}
+	<td
+	
+	{$cell_grid_footcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_class}	"
+
+	
+	data-cellId="grid_footcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field9}
+									{BEGIN cellblock_grid_footcell_field10}
+	<td
+	
+	{$cell_grid_footcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$utilizacion_class}	"
+
+	
+	data-cellId="grid_footcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field10}
+									{BEGIN cellblock_grid_footcell_field11}
+	<td
+	
+	{$cell_grid_footcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_class}	"
+
+	
+	data-cellId="grid_footcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field11}
+									{BEGIN cellblock_grid_footcell_field12}
+	<td
+	
+	{$cell_grid_footcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$orden_de_compra_proveedor_class}	"
+
+	
+	data-cellId="grid_footcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field12}
+									{BEGIN cellblock_grid_footcell_field13}
+	<td
+	
+	{$cell_grid_footcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_que_autoriza_class}	"
+
+	
+	data-cellId="grid_footcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field13}
+									{BEGIN cellblock_grid_footcell_field14}
+	<td
+	
+	{$cell_grid_footcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_01_uuid_class}	"
+
+	
+	data-cellId="grid_footcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field14}
+									{BEGIN cellblock_grid_footcell_field15}
+	<td
+	
+	{$cell_grid_footcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_02_productos_id_class}	"
+
+	
+	data-cellId="grid_footcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field15}
+									{BEGIN cellblock_grid_footcell_field16}
+	<td
+	
+	{$cell_grid_footcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_class}	"
+
+	
+	data-cellId="grid_footcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_requisiciones_02_productos_autorizacion_list"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field16}
+							</tr>
+					
+					</tfoot>
+				</table>
+{END grid_block}
+	</div>
+<div class="r-below">
+					{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="leftbar" {$form_below-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="r-align-center r-ori-vert			col-md-12
+	
+">
+		 
+		{BEGIN pagination_block}
+<span data-itemtype="pagination" data-itemid="pagination" {$item_pagination} data-pageid="{$pageid}" >
+{$pagination}
+</span>
+{END pagination_block}
+		</div>					</div>
+			</div>		
+{END below-grid_block}
+	</div>
+
+
+
+
+										{$footer}
+				</div>
+			</div>
+			<div class="r-body-shadow">
+			</div>
+		</div>
+	{END body}
+	</body>
+</html>

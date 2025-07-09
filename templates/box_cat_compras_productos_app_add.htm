@@ -1,0 +1,277 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-add" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="add_header" data-itemid="add_header" {$item_add_header} data-pageid="{$pageid}" >{$pagetitlelabel box_cat_compras_productos_app add}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		{BEGIN message_block}
+<div data-itemtype="add_message" data-itemid="add_message" {$item_add_message} data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN message_back_button}
+		
+	<button class="btn btn-sm btn-default" {$backbutton_attrs}>Volver a la lista</button>
+	{END message_back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>Ver</button>
+{END view_page_button}
+{BEGIN edit_page_button}
+	<button class="btn btn-sm btn-default" {$edit_page_button_attrs}>Editar</button>
+{END edit_page_button}
+</div>
+</div>
+{END message_block}	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN cat_compras_productos_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_productos_id}  r-vertical-field" 
+	data-signal-error-for="cat_compras_productos_id{$id}" {$required_attr_cat_compras_productos_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_compras_productos_id}">
+		{BEGIN cat_compras_productos_id_label}{$label box_cat_compras_productos_app cat_compras_productos_id }{END cat_compras_productos_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_compras_productos_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_compras_productos_id" {$tooltipAttr box_cat_compras_productos_app cat_compras_productos_id } >
+		<div class="text-muted" >
+		{$tooltip box_cat_compras_productos_app cat_compras_productos_id }		</div>
+	</div>
+</div>
+
+
+{END cat_compras_productos_id_fieldblock}
+											
+{BEGIN producto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_producto}  r-vertical-field" 
+	data-signal-error-for="producto{$id}" {$required_attr_producto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="producto" data-fieldname="producto" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_producto}">
+		{BEGIN producto_label}{$label box_cat_compras_productos_app producto }{END producto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$producto_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="producto" {$tooltipAttr box_cat_compras_productos_app producto } >
+		<div class="text-muted" >
+		{$tooltip box_cat_compras_productos_app producto }		</div>
+	</div>
+</div>
+
+
+{END producto_fieldblock}
+											
+{BEGIN cat_usuarios_licencias_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_usuarios_licencias_id}  r-vertical-field" 
+	data-signal-error-for="cat_usuarios_licencias_id{$id}" {$required_attr_cat_usuarios_licencias_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_usuarios_licencias_id}">
+		{BEGIN cat_usuarios_licencias_id_label}{$label box_cat_compras_productos_app cat_usuarios_licencias_id }{END cat_usuarios_licencias_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_usuarios_licencias_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_usuarios_licencias_id" {$tooltipAttr box_cat_compras_productos_app cat_usuarios_licencias_id } >
+		<div class="text-muted" >
+		{$tooltip box_cat_compras_productos_app cat_usuarios_licencias_id }		</div>
+	</div>
+</div>
+
+
+{END cat_usuarios_licencias_id_fieldblock}
+											
+{BEGIN upc_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_upc}  r-vertical-field" 
+	data-signal-error-for="upc{$id}" {$required_attr_upc}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="{$pageid}" data-field="upc" data-fieldname="upc" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_upc}">
+		{BEGIN upc_label}{$label box_cat_compras_productos_app upc }{END upc_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$upc_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="upc" {$tooltipAttr box_cat_compras_productos_app upc } >
+		<div class="text-muted" >
+		{$tooltip box_cat_compras_productos_app upc }		</div>
+	</div>
+</div>
+
+
+{END upc_fieldblock}
+											
+{BEGIN sku_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sku}  r-vertical-field" 
+	data-signal-error-for="sku{$id}" {$required_attr_sku}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="sku" data-fieldname="sku" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_sku}">
+		{BEGIN sku_label}{$label box_cat_compras_productos_app sku }{END sku_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$sku_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="sku" {$tooltipAttr box_cat_compras_productos_app sku } >
+		<div class="text-muted" >
+		{$tooltip box_cat_compras_productos_app sku }		</div>
+	</div>
+</div>
+
+
+{END sku_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="add_save" data-itemid="add_save" {$item_add_save} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							Guardar			</a>
+</span>
+	 
+		<span data-itemtype="add_reset" data-itemid="add_reset" {$item_add_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="resetButton{$id}" >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="add_back_list" data-itemid="add_back_list" {$item_add_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="backButton{$id}" >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="add_cancel" data-itemid="add_cancel" {$item_add_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

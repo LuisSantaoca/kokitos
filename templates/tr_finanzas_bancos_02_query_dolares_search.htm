@@ -1,0 +1,942 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_finanzas_bancos_02_query_dolares search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c1}
+<td
+	{$cell_grid_c1}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c1" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN cat_finanzas_bancos_cuentas_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_bancos_cuentas_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_finanzas_bancos_cuentas_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="cat_finanzas_bancos_cuentas_id" data-fieldname="cat_finanzas_bancos_cuentas_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_finanzas_bancos_cuentas_id}">
+		{$label tr_finanzas_bancos_02_query_dolares cat_finanzas_bancos_cuentas_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_finanzas_bancos_cuentas_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_bancos_cuentas_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_bancos_cuentas_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_finanzas_bancos_cuentas_id_fieldblock}
+											
+{BEGIN fecha_bancos_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_bancos}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_bancos{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="fecha_bancos" data-fieldname="fecha_bancos" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_bancos}">
+		{$label tr_finanzas_bancos_02_query_dolares fecha_bancos }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_bancos}
+	</div>
+	<div class="r-search-field">
+		{$fecha_bancos_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_bancos_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_bancos_fieldblock}
+											
+{BEGIN concepto_general_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_concepto_general}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="concepto_general{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="concepto_general" data-fieldname="concepto_general" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_concepto_general}">
+		{$label tr_finanzas_bancos_02_query_dolares concepto_general }	</label>
+	<div class="r-search-option">
+		{$searchtype_concepto_general}
+	</div>
+	<div class="r-search-field">
+		{$concepto_general_editcontrol}	</div>
+	<div class="r-search-field">
+		{$concepto_general_editcontrol1}
+	</div>
+	
+</div>
+
+{END concepto_general_fieldblock}
+											
+{BEGIN referencia_general_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_referencia_general}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="referencia_general{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="referencia_general" data-fieldname="referencia_general" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_referencia_general}">
+		{$label tr_finanzas_bancos_02_query_dolares referencia_general }	</label>
+	<div class="r-search-option">
+		{$searchtype_referencia_general}
+	</div>
+	<div class="r-search-field">
+		{$referencia_general_editcontrol}	</div>
+	<div class="r-search-field">
+		{$referencia_general_editcontrol1}
+	</div>
+	
+</div>
+
+{END referencia_general_fieldblock}
+											
+{BEGIN egreso_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_egreso}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="egreso{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="egreso" data-fieldname="egreso" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_egreso}">
+		{$label tr_finanzas_bancos_02_query_dolares egreso }	</label>
+	<div class="r-search-option">
+		{$searchtype_egreso}
+	</div>
+	<div class="r-search-field">
+		{$egreso_editcontrol}	</div>
+	<div class="r-search-field">
+		{$egreso_editcontrol1}
+	</div>
+	
+</div>
+
+{END egreso_fieldblock}
+											
+{BEGIN ingreso_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ingreso}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="ingreso{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="ingreso" data-fieldname="ingreso" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_ingreso}">
+		{$label tr_finanzas_bancos_02_query_dolares ingreso }	</label>
+	<div class="r-search-option">
+		{$searchtype_ingreso}
+	</div>
+	<div class="r-search-field">
+		{$ingreso_editcontrol}	</div>
+	<div class="r-search-field">
+		{$ingreso_editcontrol1}
+	</div>
+	
+</div>
+
+{END ingreso_fieldblock}
+											
+{BEGIN id_trans_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_trans}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="id_trans{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="id_trans" data-fieldname="id_trans" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_id_trans}">
+		{$label tr_finanzas_bancos_02_query_dolares id_trans }	</label>
+	<div class="r-search-option">
+		{$searchtype_id_trans}
+	</div>
+	<div class="r-search-field">
+		{$id_trans_editcontrol}	</div>
+	<div class="r-search-field">
+		{$id_trans_editcontrol1}
+	</div>
+	
+</div>
+
+{END id_trans_fieldblock}
+											
+{BEGIN id_cliente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_cliente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="id_cliente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="id_cliente" data-fieldname="id_cliente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_id_cliente}">
+		{$label tr_finanzas_bancos_02_query_dolares id_cliente }	</label>
+	<div class="r-search-option">
+		{$searchtype_id_cliente}
+	</div>
+	<div class="r-search-field">
+		{$id_cliente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$id_cliente_editcontrol1}
+	</div>
+	
+</div>
+
+{END id_cliente_fieldblock}
+											
+{BEGIN cat_ventas_clientes_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_ventas_clientes_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_ventas_clientes_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="cat_ventas_clientes_id" data-fieldname="cat_ventas_clientes_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_ventas_clientes_id}">
+		{$label tr_finanzas_bancos_02_query_dolares cat_ventas_clientes_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_ventas_clientes_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_ventas_clientes_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_ventas_clientes_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_ventas_clientes_id_fieldblock}
+											
+{BEGIN id_prov_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_prov}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="id_prov{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="id_prov" data-fieldname="id_prov" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_id_prov}">
+		{$label tr_finanzas_bancos_02_query_dolares id_prov }	</label>
+	<div class="r-search-option">
+		{$searchtype_id_prov}
+	</div>
+	<div class="r-search-field">
+		{$id_prov_editcontrol}	</div>
+	<div class="r-search-field">
+		{$id_prov_editcontrol1}
+	</div>
+	
+</div>
+
+{END id_prov_fieldblock}
+											
+{BEGIN cat_compras_proveedores_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_proveedores_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_compras_proveedores_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="cat_compras_proveedores_id" data-fieldname="cat_compras_proveedores_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_compras_proveedores_id}">
+		{$label tr_finanzas_bancos_02_query_dolares cat_compras_proveedores_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_compras_proveedores_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_compras_proveedores_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_compras_proveedores_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_compras_proveedores_id_fieldblock}
+											
+{BEGIN poliza_ok_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_poliza_ok}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="poliza_ok{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="poliza_ok" data-fieldname="poliza_ok" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_poliza_ok}">
+		{$label tr_finanzas_bancos_02_query_dolares poliza_ok }	</label>
+	<div class="r-search-option">
+		{$searchtype_poliza_ok}
+	</div>
+	<div class="r-search-field">
+		{$poliza_ok_editcontrol}	</div>
+	<div class="r-search-field">
+		{$poliza_ok_editcontrol1}
+	</div>
+	
+</div>
+
+{END poliza_ok_fieldblock}
+											
+{BEGIN referencia_documento_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_referencia_documento}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="referencia_documento{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="referencia_documento" data-fieldname="referencia_documento" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_referencia_documento}">
+		{$label tr_finanzas_bancos_02_query_dolares referencia_documento }	</label>
+	<div class="r-search-option">
+		{$searchtype_referencia_documento}
+	</div>
+	<div class="r-search-field">
+		{$referencia_documento_editcontrol}	</div>
+	<div class="r-search-field">
+		{$referencia_documento_editcontrol1}
+	</div>
+	
+</div>
+
+{END referencia_documento_fieldblock}
+											
+{BEGIN tr_finanzas_bancos_01_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tr_finanzas_bancos_01_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="tr_finanzas_bancos_01_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field14" {$item_integrated_search_field14} data-pageid="{$pageid}" data-field="tr_finanzas_bancos_01_id" data-fieldname="tr_finanzas_bancos_01_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_tr_finanzas_bancos_01_id}">
+		{$label tr_finanzas_bancos_02_query_dolares tr_finanzas_bancos_01_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_tr_finanzas_bancos_01_id}
+	</div>
+	<div class="r-search-field">
+		{$tr_finanzas_bancos_01_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$tr_finanzas_bancos_01_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END tr_finanzas_bancos_01_id_fieldblock}
+											
+{BEGIN vigente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="vigente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field15" {$item_integrated_search_field15} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_vigente}">
+		{$label tr_finanzas_bancos_02_query_dolares vigente }	</label>
+	<div class="r-search-option">
+		{$searchtype_vigente}
+	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol1}
+	</div>
+	
+</div>
+
+{END vigente_fieldblock}
+											
+{BEGIN anual_mes_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_anual_mes}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="anual_mes{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field16" {$item_integrated_search_field16} data-pageid="{$pageid}" data-field="anual_mes" data-fieldname="anual_mes" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_anual_mes}">
+		{$label tr_finanzas_bancos_02_query_dolares anual_mes }	</label>
+	<div class="r-search-option">
+		{$searchtype_anual_mes}
+	</div>
+	<div class="r-search-field">
+		{$anual_mes_editcontrol}	</div>
+	<div class="r-search-field">
+		{$anual_mes_editcontrol1}
+	</div>
+	
+</div>
+
+{END anual_mes_fieldblock}
+											
+{BEGIN fecha_registro_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_registro}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_registro{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field17" {$item_integrated_search_field17} data-pageid="{$pageid}" data-field="fecha_registro" data-fieldname="fecha_registro" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_registro}">
+		{$label tr_finanzas_bancos_02_query_dolares fecha_registro }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_registro}
+	</div>
+	<div class="r-search-field">
+		{$fecha_registro_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_registro_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_registro_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field18" {$item_integrated_search_field18} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label tr_finanzas_bancos_02_query_dolares capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+											
+{BEGIN poliza_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_poliza}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="poliza{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field19" {$item_integrated_search_field19} data-pageid="{$pageid}" data-field="poliza" data-fieldname="poliza" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_poliza}">
+		{$label tr_finanzas_bancos_02_query_dolares poliza }	</label>
+	<div class="r-search-option">
+		{$searchtype_poliza}
+	</div>
+	<div class="r-search-field">
+		{$poliza_editcontrol}	</div>
+	<div class="r-search-field">
+		{$poliza_editcontrol1}
+	</div>
+	
+</div>
+
+{END poliza_fieldblock}
+											
+{BEGIN centro_de_costos_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_centro_de_costos}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="centro_de_costos{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field20" {$item_integrated_search_field20} data-pageid="{$pageid}" data-field="centro_de_costos" data-fieldname="centro_de_costos" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_centro_de_costos}">
+		{$label tr_finanzas_bancos_02_query_dolares centro_de_costos }	</label>
+	<div class="r-search-option">
+		{$searchtype_centro_de_costos}
+	</div>
+	<div class="r-search-field">
+		{$centro_de_costos_editcontrol}	</div>
+	<div class="r-search-field">
+		{$centro_de_costos_editcontrol1}
+	</div>
+	
+</div>
+
+{END centro_de_costos_fieldblock}
+											
+{BEGIN cat_almacen_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_almacen_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_almacen_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field21" {$item_integrated_search_field21} data-pageid="{$pageid}" data-field="cat_almacen_id" data-fieldname="cat_almacen_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_almacen_id}">
+		{$label tr_finanzas_bancos_02_query_dolares cat_almacen_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_almacen_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_almacen_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_almacen_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_almacen_id_fieldblock}
+											
+{BEGIN poliza_contpaq_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_poliza_contpaq}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="poliza_contpaq{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field22" {$item_integrated_search_field22} data-pageid="{$pageid}" data-field="poliza_contpaq" data-fieldname="poliza_contpaq" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_poliza_contpaq}">
+		{$label tr_finanzas_bancos_02_query_dolares poliza_contpaq }	</label>
+	<div class="r-search-option">
+		{$searchtype_poliza_contpaq}
+	</div>
+	<div class="r-search-field">
+		{$poliza_contpaq_editcontrol}	</div>
+	<div class="r-search-field">
+		{$poliza_contpaq_editcontrol1}
+	</div>
+	
+</div>
+
+{END poliza_contpaq_fieldblock}
+											
+{BEGIN llave_contpaq_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_llave_contpaq}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="llave_contpaq{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field23" {$item_integrated_search_field23} data-pageid="{$pageid}" data-field="llave_contpaq" data-fieldname="llave_contpaq" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_llave_contpaq}">
+		{$label tr_finanzas_bancos_02_query_dolares llave_contpaq }	</label>
+	<div class="r-search-option">
+		{$searchtype_llave_contpaq}
+	</div>
+	<div class="r-search-field">
+		{$llave_contpaq_editcontrol}	</div>
+	<div class="r-search-field">
+		{$llave_contpaq_editcontrol1}
+	</div>
+	
+</div>
+
+{END llave_contpaq_fieldblock}
+											
+{BEGIN cuenta_contable_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cuenta_contable}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cuenta_contable{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field24" {$item_integrated_search_field24} data-pageid="{$pageid}" data-field="cuenta_contable" data-fieldname="cuenta_contable" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cuenta_contable}">
+		{$label tr_finanzas_bancos_02_query_dolares cuenta_contable }	</label>
+	<div class="r-search-option">
+		{$searchtype_cuenta_contable}
+	</div>
+	<div class="r-search-field">
+		{$cuenta_contable_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cuenta_contable_editcontrol1}
+	</div>
+	
+</div>
+
+{END cuenta_contable_fieldblock}
+											
+{BEGIN cuenta_contable_ok_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cuenta_contable_ok}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cuenta_contable_ok{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field25" {$item_integrated_search_field25} data-pageid="{$pageid}" data-field="cuenta_contable_ok" data-fieldname="cuenta_contable_ok" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cuenta_contable_ok}">
+		{$label tr_finanzas_bancos_02_query_dolares cuenta_contable_ok }	</label>
+	<div class="r-search-option">
+		{$searchtype_cuenta_contable_ok}
+	</div>
+	<div class="r-search-field">
+		{$cuenta_contable_ok_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cuenta_contable_ok_editcontrol1}
+	</div>
+	
+</div>
+
+{END cuenta_contable_ok_fieldblock}
+											
+{BEGIN cat_usuarios_licencias_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_usuarios_licencias_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_usuarios_licencias_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field26" {$item_integrated_search_field26} data-pageid="{$pageid}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_usuarios_licencias_id}">
+		{$label tr_finanzas_bancos_02_query_dolares cat_usuarios_licencias_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_usuarios_licencias_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_usuarios_licencias_id_fieldblock}
+											
+{BEGIN cat_finanzas_movimientos_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_movimientos_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_finanzas_movimientos_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="cat_finanzas_movimientos_id" data-fieldname="cat_finanzas_movimientos_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_finanzas_movimientos_id}">
+		{$label tr_finanzas_bancos_02_query_dolares cat_finanzas_movimientos_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_finanzas_movimientos_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_movimientos_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_movimientos_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_finanzas_movimientos_id_fieldblock}
+											
+{BEGIN numero_de_cuenta_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_numero_de_cuenta}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="numero_de_cuenta{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field27" {$item_integrated_search_field27} data-pageid="{$pageid}" data-field="numero_de_cuenta" data-fieldname="numero_de_cuenta" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_numero_de_cuenta}">
+		{$label tr_finanzas_bancos_02_query_dolares numero_de_cuenta }	</label>
+	<div class="r-search-option">
+		{$searchtype_numero_de_cuenta}
+	</div>
+	<div class="r-search-field">
+		{$numero_de_cuenta_editcontrol}	</div>
+	<div class="r-search-field">
+		{$numero_de_cuenta_editcontrol1}
+	</div>
+	
+</div>
+
+{END numero_de_cuenta_fieldblock}
+											
+{BEGIN descripcion_bancos_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_bancos}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_bancos{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field28" {$item_integrated_search_field28} data-pageid="{$pageid}" data-field="descripcion_bancos" data-fieldname="descripcion_bancos" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_bancos}">
+		{$label tr_finanzas_bancos_02_query_dolares descripcion_bancos }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_bancos}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_bancos_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_bancos_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_bancos_fieldblock}
+											
+{BEGIN valor_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_valor}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="valor{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field29" {$item_integrated_search_field29} data-pageid="{$pageid}" data-field="valor" data-fieldname="valor" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_valor}">
+		{$label tr_finanzas_bancos_02_query_dolares valor }	</label>
+	<div class="r-search-option">
+		{$searchtype_valor}
+	</div>
+	<div class="r-search-field">
+		{$valor_editcontrol}	</div>
+	<div class="r-search-field">
+		{$valor_editcontrol1}
+	</div>
+	
+</div>
+
+{END valor_fieldblock}
+											
+{BEGIN fecha_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field30" {$item_integrated_search_field30} data-pageid="{$pageid}" data-field="fecha" data-fieldname="fecha" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha}">
+		{$label tr_finanzas_bancos_02_query_dolares fecha }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha}
+	</div>
+	<div class="r-search-field">
+		{$fecha_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_fieldblock}
+											
+{BEGIN ingreso_pesos_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ingreso_pesos}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="ingreso_pesos{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field31" {$item_integrated_search_field31} data-pageid="{$pageid}" data-field="ingreso_pesos" data-fieldname="ingreso_pesos" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_ingreso_pesos}">
+		{$label tr_finanzas_bancos_02_query_dolares ingreso_pesos }	</label>
+	<div class="r-search-option">
+		{$searchtype_ingreso_pesos}
+	</div>
+	<div class="r-search-field">
+		{$ingreso_pesos_editcontrol}	</div>
+	<div class="r-search-field">
+		{$ingreso_pesos_editcontrol1}
+	</div>
+	
+</div>
+
+{END ingreso_pesos_fieldblock}
+											
+{BEGIN egresos_pesos_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_egresos_pesos}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="egresos_pesos{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field32" {$item_integrated_search_field32} data-pageid="{$pageid}" data-field="egresos_pesos" data-fieldname="egresos_pesos" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_egresos_pesos}">
+		{$label tr_finanzas_bancos_02_query_dolares egresos_pesos }	</label>
+	<div class="r-search-option">
+		{$searchtype_egresos_pesos}
+	</div>
+	<div class="r-search-field">
+		{$egresos_pesos_editcontrol}	</div>
+	<div class="r-search-field">
+		{$egresos_pesos_editcontrol1}
+	</div>
+	
+</div>
+
+{END egresos_pesos_fieldblock}
+											
+{BEGIN descripcion_movimientos_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_movimientos}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_movimientos{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field33" {$item_integrated_search_field33} data-pageid="{$pageid}" data-field="descripcion_movimientos" data-fieldname="descripcion_movimientos" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_movimientos}">
+		{$label tr_finanzas_bancos_02_query_dolares descripcion_movimientos }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_movimientos}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_movimientos_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_movimientos_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_movimientos_fieldblock}
+											
+{BEGIN descripcion_cliente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_cliente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_cliente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field34" {$item_integrated_search_field34} data-pageid="{$pageid}" data-field="descripcion_cliente" data-fieldname="descripcion_cliente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_cliente}">
+		{$label tr_finanzas_bancos_02_query_dolares descripcion_cliente }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_cliente}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_cliente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_cliente_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_cliente_fieldblock}
+											
+{BEGIN descripcion_proveedores_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_proveedores}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_proveedores{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field35" {$item_integrated_search_field35} data-pageid="{$pageid}" data-field="descripcion_proveedores" data-fieldname="descripcion_proveedores" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_proveedores}">
+		{$label tr_finanzas_bancos_02_query_dolares descripcion_proveedores }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_proveedores}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_proveedores_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_proveedores_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_proveedores_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c1}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

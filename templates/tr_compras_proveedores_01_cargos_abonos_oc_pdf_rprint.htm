@@ -1,0 +1,715 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-rprint" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="left"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		{BEGIN pdflink_block}
+<span data-itemtype="print_pdf" data-itemid="print_pdf" {$item_print_pdf} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	pdflink" data-pdfpage="rprint" 
+data-scope="0" 
+data-split="0" 
+data-records="10" 
+data-orientation="portrait" 
+data-scale="100" 
+data-filename="Proveedor OC.pdf" 
+data-pagesize="LETTER" 
+data-pagetype="rprint" 
+{$pdflink_attrs} >
+							Vista PDF			</a>
+</span>
+{END pdflink_block}
+		</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="top_c2" data-pageid="{$pageid}"	{$cell_top_c2}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h2 data-itemtype="print_header" data-itemid="print_header" {$item_print_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_compras_proveedores_01_cargos_abonos_oc_pdf rprint}</h2>
+	 
+		{BEGIN printtabheader}
+<span data-itemtype="print_subheader" data-itemid="print_subheader" {$item_print_subheader} data-pageid="{$pageid}" >
+{$printtabheader_text}
+</span>
+{END printtabheader}
+		</div>					</div>
+			</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+		 
+		<span data-itemtype="print_pages" data-itemid="print_pages" {$item_print_pages} data-pageid="{$pageid}" data-small >
+	{$print_pages_labelprint_pages}
+</span>			{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<style>
+	td.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary {
+		background-color: #ffffbb;
+	}
+	td.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary {background-color: #ffe0b0;
+	}
+	.rnr-report {
+		width: 100%;
+	}
+	td {
+		padding: 2px 4px;
+	}
+			td.group_Folio_OC{
+			background-color: #FFFFFF;
+		}
+		td.header_Folio_OC {
+			background-color: #D8D8D8; 
+			font-size: 120%;
+			padding: 2px 8px;
+			font-weight: bold;
+		}
+			td.group_fecha_solicitante{
+			background-color: #FFFFFF;
+		}
+		td.header_fecha_solicitante {
+			background-color: #D8D8D8; 
+			font-size: 120%;
+			padding: 2px 8px;
+			font-weight: bold;
+		}
+			td.group_Proveedor{
+			background-color: #FFFFFF;
+		}
+		td.header_Proveedor {
+			background-color: #D8D8D8; 
+			font-size: 120%;
+			padding: 2px 8px;
+			font-weight: bold;
+		}
+		.blackshade {
+		font-size: 120%;
+	}
+	.summaryrow > * {
+		border:solid #808080 1px; 
+		border-left: none; 
+		border-right: none;
+	}
+</style>
+<table data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" class=" table-striped table-bordered table  r-report " 
+	cellpadding="0" 
+	data-body-height="1"
+>
+<tbody>	
+{BEGIN grid_row}
+							{BEGIN Folio_OC_newgroup}
+
+ 
+	<tr data-section="group" data-group="Folio_OC" data-rowidx="0" {$rowattrs} {$row_grid_0} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_field_and_label3}
+	<td
+	
+	{$cell_grid_cell_group_field_and_label3}
+	{$recordattrs}
+	class="
+		header_Folio_OC 			"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_group_field_and_label3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text2" {$item_text2} data-pageid="{$pageid}" data-record-id="{$recId}" data-small > 
+	Folio OC:</span>
+	 
+		<span data-itemtype="grid_group_field" data-itemid="grid_group_field" {$item_grid_group_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Folio_OC" data-fieldname="Folio_OC" >
+{$Folio_OC_grval}&nbsp;
+</span>	
+	</td>
+	{END cellblock_grid_cell_group_field_and_label3}
+			</tr>
+
+	{END Folio_OC_newgroup}
+									{BEGIN fecha_solicitante_newgroup}
+
+ 
+	<tr data-section="group" data-group="fecha_solicitante" data-rowidx="1" {$rowattrs} {$row_grid_1} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_field_and_label7}
+	<td
+	
+	{$cell_grid_cell_group_field_and_label7}
+	{$recordattrs}
+	class="
+		header_fecha_solicitante 			"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_group_field_and_label7" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text3" {$item_text3} data-pageid="{$pageid}" data-record-id="{$recId}" data-small > 
+	Fecha/solicitante:</span>
+	 
+		<span data-itemtype="grid_group_field" data-itemid="grid_group_field1" {$item_grid_group_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_solicitante" data-fieldname="fecha_solicitante" >
+{$fecha_solicitante_grval}&nbsp;
+</span>	
+	</td>
+	{END cellblock_grid_cell_group_field_and_label7}
+			</tr>
+
+	{END fecha_solicitante_newgroup}
+									{BEGIN Proveedor_newgroup}
+
+ 
+	<tr data-section="group" data-group="Proveedor" data-rowidx="2" {$rowattrs} {$row_grid_2} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_field_and_label11}
+	<td
+	
+	{$cell_grid_cell_group_field_and_label11}
+	{$recordattrs}
+	class="
+		header_Proveedor 			"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_group_field_and_label11" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text4" {$item_text4} data-pageid="{$pageid}" data-record-id="{$recId}" data-small > 
+	Proveedor:</span>
+	 
+		<span data-itemtype="grid_group_field" data-itemid="grid_group_field2" {$item_grid_group_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Proveedor" data-fieldname="Proveedor" >
+{$Proveedor_grval}&nbsp;
+</span>	
+	</td>
+	{END cellblock_grid_cell_group_field_and_label11}
+			</tr>
+ 
+	<tr data-section="group" data-group="Proveedor" data-rowidx="3" {$rowattrs} {$row_grid_3} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_field_and_label}
+	<td
+	
+	{$cell_grid_cell_group_field_and_label}
+	{$recordattrs}
+	class="
+		header_Proveedor  r-ori-vert			"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_group_field_and_label" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text" {$item_text} data-pageid="{$pageid}" data-record-id="{$recId}" data-small > 
+	 </span>
+	
+	</td>
+	{END cellblock_grid_cell_group_field_and_label}
+			</tr>
+ 
+	<tr data-section="group" data-group="Proveedor" data-rowidx="4" {$rowattrs} {$row_grid_4} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_field_and_label1}
+	<td
+	
+	{$cell_grid_cell_group_field_and_label1}
+	{$recordattrs}
+	class="
+		header_Proveedor  r-ori-vert			"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_group_field_and_label1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text1" {$item_text1} data-pageid="{$pageid}" data-record-id="{$recId}" data-small > 
+	 </span>
+	
+	</td>
+	{END cellblock_grid_cell_group_field_and_label1}
+			</tr>
+ 
+	<tr data-section="group" data-group="Proveedor" data-rowidx="5" {$rowattrs} {$row_grid_5} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		blackshade   r-ori-vert			"
+
+			data-field="producto"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field_label" data-itemid="report_advanced_field_label" {$item_report_advanced_field_label} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="producto" data-fieldname="producto">
+{$label tr_compras_proveedores_01_cargos_abonos_oc_pdf producto }</span>
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+		 
+			{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		blackshade   r-ori-vert			"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field_label" data-itemid="report_advanced_field_label1" {$item_report_advanced_field_label1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad">
+{$label tr_compras_proveedores_01_cargos_abonos_oc_pdf cantidad }</span>
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+		 
+			{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		blackshade   r-ori-vert			"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field_label" data-itemid="report_advanced_field_label2" {$item_report_advanced_field_label2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="precio_neto" data-fieldname="precio_neto">
+{$label tr_compras_proveedores_01_cargos_abonos_oc_pdf precio_neto }</span>
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+		 
+			{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		blackshade   r-ori-vert			"
+
+			data-field="total"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field_label" data-itemid="report_advanced_field_label3" {$item_report_advanced_field_label3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="total" data-fieldname="total">
+{$label tr_compras_proveedores_01_cargos_abonos_oc_pdf total }</span>
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+			</tr>
+
+	{END Proveedor_newgroup}
+									{BEGIN row_data}
+
+ 
+	<tr data-section="body" data-group="" data-rowidx="6" {$rowattrs} {$row_grid_6} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 {$producto_class}  r-ori-vert		 {$producto_class}	"
+
+			data-field="producto"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field" data-itemid="report_advanced_field" {$item_report_advanced_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="producto" data-fieldname="producto" >
+{$producto_value}
+</span>
+	
+	</td>
+	{END cellblock_grid_cell_field}
+		 
+			{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 {$cantidad_class}  r-ori-vert		 {$cantidad_class}	"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field" data-itemid="report_advanced_field1" {$item_report_advanced_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad" >
+{$cantidad_value}
+</span>
+	
+	</td>
+	{END cellblock_grid_cell_field1}
+		 
+			{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 {$precio_neto_class}  r-ori-vert		 {$precio_neto_class}	"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field" data-itemid="report_advanced_field2" {$item_report_advanced_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="precio_neto" data-fieldname="precio_neto" >
+{$precio_neto_value}
+</span>
+	
+	</td>
+	{END cellblock_grid_cell_field2}
+		 
+			{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 {$total_class}  r-ori-vert		 {$total_class}	"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="report_advanced_field" data-itemid="report_advanced_field3" {$item_report_advanced_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="total" data-fieldname="total" >
+{$total_value}
+</span>
+	
+	</td>
+	{END cellblock_grid_cell_field3}
+			</tr>
+
+	{END row_data}
+									{BEGIN Folio_OC_endgroup}
+
+ 
+	<tr data-section="group-summary" data-group="Folio_OC" data-rowidx="7" {$rowattrs} {$row_grid_7} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_summary}
+	<td
+	
+	{$cell_grid_cell_group_summary}
+	{$recordattrs}
+	class="
+		group_Folio_OC 			"
+
+			data-field="producto"
+	
+	data-cellId="grid_cell_group_summary" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="group_summary_label1" data-itemid="group_summary_label1" {$item_group_summary_label1} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Resumen de</span>
+	 
+		<span data-itemtype="group_summary_field_label" data-itemid="group_summary_field_label" {$item_group_summary_field_label} data-pageid="{$pageid}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint" data-record-id="{$recId}" data-field="Folio_OC" data-fieldname="Folio_OC">
+{$label tr_compras_proveedores_01_cargos_abonos_oc_pdf Folio_OC }</span>
+
+	 
+		<span data-itemtype="group_summary_field_value" data-itemid="group_summary_field_value" {$item_group_summary_field_value} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Folio_OC" data-fieldname="Folio_OC" >
+{$Folio_OC_grval}&nbsp;
+</span>	 
+		<span data-itemtype="group_summary_dash" data-itemid="group_summary_dash" {$item_group_summary_dash} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="group_summary_count" data-itemid="group_summary_count" {$item_group_summary_count} data-pageid="{$pageid}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint" data-record-id="{$recId}" data-field="Folio_OC" data-fieldname="Folio_OC">
+{$groupFolio_OC_total_cnt}
+</span>	 
+		<span data-itemtype="group_summary_label2" data-itemid="group_summary_label2" {$item_group_summary_label2} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Registros</span>
+	
+	</td>
+	{END cellblock_grid_cell_group_summary}
+		 
+			{BEGIN cellblock_grid_cell_group_summary1}
+	<td
+	
+	{$cell_grid_cell_group_summary1}
+	{$recordattrs}
+	class="
+		group_Folio_OC  r-ori-vert			"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_cell_group_summary1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_cell_group_summary1}
+		 
+			{BEGIN cellblock_grid_cell_group_summary2}
+	<td
+	
+	{$cell_grid_cell_group_summary2}
+	{$recordattrs}
+	class="
+		group_Folio_OC  r-ori-vert			"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_cell_group_summary2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_cell_group_summary2}
+		 
+			{BEGIN cellblock_grid_cell_group_summary3}
+	<td
+	
+	{$cell_grid_cell_group_summary3}
+	{$recordattrs}
+	class="
+		group_Folio_OC  r-ori-vert			"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_group_summary3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_cell_group_summary3}
+			</tr>
+ 
+	<tr data-section="group-summary" data-group="Folio_OC" data-rowidx="8" {$rowattrs} {$row_grid_8} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_summary_field_sum}
+	<td
+	
+	{$cell_grid_cell_group_summary_field_sum}
+	{$recordattrs}
+	class="
+		group_Folio_OC  r-ori-vert			"
+
+			data-field="producto"
+	
+	data-cellId="grid_cell_group_summary_field_sum" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="group_summary_type_sum" data-itemid="group_summary_type_sum" {$item_group_summary_type_sum} data-pageid="{$pageid}" data-record-id="{$recId}" data-small>
+Totales</span>	
+	</td>
+	{END cellblock_grid_cell_group_summary_field_sum}
+		 
+			{BEGIN cellblock_grid_cell_group_summary_field_sum1}
+	<td
+	
+	{$cell_grid_cell_group_summary_field_sum1}
+	{$recordattrs}
+	class="
+		group_Folio_OC {$cantidad_class}  r-ori-vert		 {$cantidad_class}	"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_cell_group_summary_field_sum1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="group_summary_field_sum" data-itemid="group_summary_field_sum" {$item_group_summary_field_sum} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad" class="summary-Folio_OC" data-type="sum" data-field="cantidad">
+{$groupFolio_OC_totalcantidad_sum}
+</span>
+	
+	</td>
+	{END cellblock_grid_cell_group_summary_field_sum1}
+		 
+			{BEGIN cellblock_grid_cell_group_summary_field_sum2}
+	<td
+	
+	{$cell_grid_cell_group_summary_field_sum2}
+	{$recordattrs}
+	class="
+		group_Folio_OC  r-ori-vert			"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_cell_group_summary_field_sum2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_cell_group_summary_field_sum2}
+		 
+			{BEGIN cellblock_grid_cell_group_summary_field_sum3}
+	<td
+	
+	{$cell_grid_cell_group_summary_field_sum3}
+	{$recordattrs}
+	class="
+		group_Folio_OC {$total_class}  r-ori-vert		 {$total_class}	"
+
+			data-field="total"
+	
+	data-cellId="grid_cell_group_summary_field_sum3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_proveedores_01_cargos_abonos_oc_pdf_rprint"	
+	>
+
+	 
+		<span data-itemtype="group_summary_field_sum" data-itemid="group_summary_field_sum1" {$item_group_summary_field_sum1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="total" data-fieldname="total" class="summary-Folio_OC" data-type="sum" data-field="total">
+{$groupFolio_OC_totaltotal_sum}
+</span>
+	
+	</td>
+	{END cellblock_grid_cell_group_summary_field_sum3}
+			</tr>
+
+	{END Folio_OC_endgroup}
+			{END grid_row}
+																
+</tbody>	
+	
+</table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<span data-itemtype="text" data-itemid="text5" {$item_text5} data-pageid="{$pageid}" data-small > 
+	 </span>
+		</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<span data-itemtype="text" data-itemid="text6" {$item_text6} data-pageid="{$pageid}" data-small > 
+	 </span>
+		</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c" data-pageid="{$pageid}"	{$cell_below-grid_c}
+	class=" r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

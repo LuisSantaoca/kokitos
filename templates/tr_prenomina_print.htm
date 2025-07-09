@@ -1,0 +1,2042 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-print" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="left"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="top_c2" data-pageid="{$pageid}"	{$cell_top_c2}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h2 data-itemtype="print_header" data-itemid="print_header" {$item_print_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_prenomina print}</h2>
+	 
+		{BEGIN printtabheader}
+<span data-itemtype="print_subheader" data-itemid="print_subheader" {$item_print_subheader} data-pageid="{$pageid}" >
+{$printtabheader_text}
+</span>
+{END printtabheader}
+		</div>					</div>
+			</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+		 
+		<span data-itemtype="print_pages" data-itemid="print_pages" {$item_print_pages} data-pageid="{$pageid}" data-small >
+	{$print_pages_labelprint_pages}
+</span>			{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<table data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" class=" table table-striped table-bordered r-horizontal-grid  rnr-b-grid rnr-gridtable"
+	cellpadding="0"
+	data-body-height="1"
+>
+						<thead>
+			{BEGIN grid_header}
+			
+																									<tr {$rowattrs} {$row_grid_0} class="{$rowclass}
+									{$gridHeader_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_activos_periodo_id_class}	"
+
+			data-field="cat_trabajadores_activos_periodo_id"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_activos_periodo_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field29" {$item_simple_grid_field29} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_activos_periodo_id" data-fieldname="cat_trabajadores_activos_periodo_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cat_trabajadores_activos_periodo_id }</span>
+			</span>
+	</span>
+{END cat_trabajadores_activos_periodo_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+									{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_class}	"
+
+			data-field="fecha"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field30" {$item_simple_grid_field30} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha" data-fieldname="fecha" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina fecha }</span>
+			</span>
+	</span>
+{END fecha_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+									{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$dia_semana_class}	"
+
+			data-field="dia_semana"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN dia_semana_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field31" {$item_simple_grid_field31} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="dia_semana" data-fieldname="dia_semana" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina dia_semana }</span>
+			</span>
+	</span>
+{END dia_semana_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+									{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$nombre_completo_class}	"
+
+			data-field="nombre_completo"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN nombre_completo_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field32" {$item_simple_grid_field32} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="nombre_completo" data-fieldname="nombre_completo" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina nombre_completo }</span>
+			</span>
+	</span>
+{END nombre_completo_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+									{BEGIN cellblock_grid_headcell_field4}
+	<th
+	
+	{$cell_grid_headcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_empresa_class}	"
+
+			data-field="cat_trabajadores_altas_id_empresa"
+	
+	data-cellId="grid_headcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_empresa_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field33" {$item_simple_grid_field33} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id_empresa" data-fieldname="cat_trabajadores_altas_id_empresa" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cat_trabajadores_altas_id_empresa }</span>
+			</span>
+	</span>
+{END cat_trabajadores_altas_id_empresa_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field4}
+									{BEGIN cellblock_grid_headcell_field5}
+	<th
+	
+	{$cell_grid_headcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+			data-field="cat_trabajadores_altas_id"
+	
+	data-cellId="grid_headcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field34" {$item_simple_grid_field34} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id" data-fieldname="cat_trabajadores_altas_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cat_trabajadores_altas_id }</span>
+			</span>
+	</span>
+{END cat_trabajadores_altas_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field5}
+									{BEGIN cellblock_grid_headcell_field6}
+	<th
+	
+	{$cell_grid_headcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_puestos_id_class}	"
+
+			data-field="cat_trabajadores_puestos_id"
+	
+	data-cellId="grid_headcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_puestos_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field35" {$item_simple_grid_field35} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_puestos_id" data-fieldname="cat_trabajadores_puestos_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cat_trabajadores_puestos_id }</span>
+			</span>
+	</span>
+{END cat_trabajadores_puestos_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field6}
+									{BEGIN cellblock_grid_headcell_field7}
+	<th
+	
+	{$cell_grid_headcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$configuracion_pago_class}	"
+
+			data-field="configuracion_pago"
+	
+	data-cellId="grid_headcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN configuracion_pago_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field36" {$item_simple_grid_field36} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="configuracion_pago" data-fieldname="configuracion_pago" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina configuracion_pago }</span>
+			</span>
+	</span>
+{END configuracion_pago_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field7}
+									{BEGIN cellblock_grid_headcell_field8}
+	<th
+	
+	{$cell_grid_headcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$total_a_pagar_class}	"
+
+			data-field="total_a_pagar"
+	
+	data-cellId="grid_headcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN total_a_pagar_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field37" {$item_simple_grid_field37} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="total_a_pagar" data-fieldname="total_a_pagar" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina total_a_pagar }</span>
+			</span>
+	</span>
+{END total_a_pagar_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field8}
+									{BEGIN cellblock_grid_headcell_field9}
+	<th
+	
+	{$cell_grid_headcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_normales_class}	"
+
+			data-field="cantidad_horas_normales"
+	
+	data-cellId="grid_headcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_horas_normales_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field38" {$item_simple_grid_field38} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_horas_normales" data-fieldname="cantidad_horas_normales" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cantidad_horas_normales }</span>
+			</span>
+	</span>
+{END cantidad_horas_normales_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field9}
+									{BEGIN cellblock_grid_headcell_field10}
+	<th
+	
+	{$cell_grid_headcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_extra_class}	"
+
+			data-field="cantidad_horas_extra"
+	
+	data-cellId="grid_headcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_horas_extra_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field39" {$item_simple_grid_field39} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_horas_extra" data-fieldname="cantidad_horas_extra" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cantidad_horas_extra }</span>
+			</span>
+	</span>
+{END cantidad_horas_extra_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field10}
+									{BEGIN cellblock_grid_headcell_field11}
+	<th
+	
+	{$cell_grid_headcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_class}	"
+
+			data-field="cantidad_botes"
+	
+	data-cellId="grid_headcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_botes_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field40" {$item_simple_grid_field40} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_botes" data-fieldname="cantidad_botes" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cantidad_botes }</span>
+			</span>
+	</span>
+{END cantidad_botes_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field11}
+									{BEGIN cellblock_grid_headcell_field12}
+	<th
+	
+	{$cell_grid_headcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_frambuesa_class}	"
+
+			data-field="cantidad_botes_frambuesa"
+	
+	data-cellId="grid_headcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_botes_frambuesa_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field41" {$item_simple_grid_field41} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_botes_frambuesa" data-fieldname="cantidad_botes_frambuesa" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cantidad_botes_frambuesa }</span>
+			</span>
+	</span>
+{END cantidad_botes_frambuesa_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field12}
+									{BEGIN cellblock_grid_headcell_field13}
+	<th
+	
+	{$cell_grid_headcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_zarzamora_class}	"
+
+			data-field="cantidad_botes_zarzamora"
+	
+	data-cellId="grid_headcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_botes_zarzamora_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field42" {$item_simple_grid_field42} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_botes_zarzamora" data-fieldname="cantidad_botes_zarzamora" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cantidad_botes_zarzamora }</span>
+			</span>
+	</span>
+{END cantidad_botes_zarzamora_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field13}
+									{BEGIN cellblock_grid_headcell_field14}
+	<th
+	
+	{$cell_grid_headcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_vespertino_class}	"
+
+			data-field="cantidad_horas_vespertino"
+	
+	data-cellId="grid_headcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_horas_vespertino_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field43" {$item_simple_grid_field43} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_horas_vespertino" data-fieldname="cantidad_horas_vespertino" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina cantidad_horas_vespertino }</span>
+			</span>
+	</span>
+{END cantidad_horas_vespertino_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field14}
+									{BEGIN cellblock_grid_headcell_field15}
+	<th
+	
+	{$cell_grid_headcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_diario_class}	"
+
+			data-field="pago_sueldo_diario"
+	
+	data-cellId="grid_headcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_sueldo_diario_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field44" {$item_simple_grid_field44} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_sueldo_diario" data-fieldname="pago_sueldo_diario" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_sueldo_diario }</span>
+			</span>
+	</span>
+{END pago_sueldo_diario_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field15}
+									{BEGIN cellblock_grid_headcell_field16}
+	<th
+	
+	{$cell_grid_headcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_variable_class}	"
+
+			data-field="pago_sueldo_variable"
+	
+	data-cellId="grid_headcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_sueldo_variable_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field45" {$item_simple_grid_field45} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_sueldo_variable" data-fieldname="pago_sueldo_variable" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_sueldo_variable }</span>
+			</span>
+	</span>
+{END pago_sueldo_variable_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field16}
+									{BEGIN cellblock_grid_headcell_field17}
+	<th
+	
+	{$cell_grid_headcell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_variable_cosecha_class}	"
+
+			data-field="pago_sueldo_variable_cosecha"
+	
+	data-cellId="grid_headcell_field17" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_sueldo_variable_cosecha_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field46" {$item_simple_grid_field46} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_sueldo_variable_cosecha" data-fieldname="pago_sueldo_variable_cosecha" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_sueldo_variable_cosecha }</span>
+			</span>
+	</span>
+{END pago_sueldo_variable_cosecha_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field17}
+									{BEGIN cellblock_grid_headcell_field18}
+	<th
+	
+	{$cell_grid_headcell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_prima_class}	"
+
+			data-field="pago_prima"
+	
+	data-cellId="grid_headcell_field18" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_prima_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field47" {$item_simple_grid_field47} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_prima" data-fieldname="pago_prima" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_prima }</span>
+			</span>
+	</span>
+{END pago_prima_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field18}
+									{BEGIN cellblock_grid_headcell_field19}
+	<th
+	
+	{$cell_grid_headcell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_bono_class}	"
+
+			data-field="pago_bono"
+	
+	data-cellId="grid_headcell_field19" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_bono_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field48" {$item_simple_grid_field48} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_bono" data-fieldname="pago_bono" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_bono }</span>
+			</span>
+	</span>
+{END pago_bono_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field19}
+									{BEGIN cellblock_grid_headcell_field20}
+	<th
+	
+	{$cell_grid_headcell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_horas_extra_class}	"
+
+			data-field="pago_horas_extra"
+	
+	data-cellId="grid_headcell_field20" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_horas_extra_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field49" {$item_simple_grid_field49} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_horas_extra" data-fieldname="pago_horas_extra" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_horas_extra }</span>
+			</span>
+	</span>
+{END pago_horas_extra_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field20}
+									{BEGIN cellblock_grid_headcell_field21}
+	<th
+	
+	{$cell_grid_headcell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_turno_vespertino_class}	"
+
+			data-field="pago_turno_vespertino"
+	
+	data-cellId="grid_headcell_field21" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_turno_vespertino_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field50" {$item_simple_grid_field50} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_turno_vespertino" data-fieldname="pago_turno_vespertino" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_turno_vespertino }</span>
+			</span>
+	</span>
+{END pago_turno_vespertino_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field21}
+									{BEGIN cellblock_grid_headcell_field22}
+	<th
+	
+	{$cell_grid_headcell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$asistencia_class}	"
+
+			data-field="asistencia"
+	
+	data-cellId="grid_headcell_field22" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN asistencia_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field51" {$item_simple_grid_field51} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="asistencia" data-fieldname="asistencia" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina asistencia }</span>
+			</span>
+	</span>
+{END asistencia_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field22}
+									{BEGIN cellblock_grid_headcell_field23}
+	<th
+	
+	{$cell_grid_headcell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$justificado_class}	"
+
+			data-field="justificado"
+	
+	data-cellId="grid_headcell_field23" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN justificado_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field52" {$item_simple_grid_field52} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="justificado" data-fieldname="justificado" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina justificado }</span>
+			</span>
+	</span>
+{END justificado_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field23}
+									{BEGIN cellblock_grid_headcell_field24}
+	<th
+	
+	{$cell_grid_headcell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$total_de_asistencias_class}	"
+
+			data-field="total_de_asistencias"
+	
+	data-cellId="grid_headcell_field24" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN total_de_asistencias_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field53" {$item_simple_grid_field53} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="total_de_asistencias" data-fieldname="total_de_asistencias" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina total_de_asistencias }</span>
+			</span>
+	</span>
+{END total_de_asistencias_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field24}
+									{BEGIN cellblock_grid_headcell_field25}
+	<th
+	
+	{$cell_grid_headcell_field25}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$es_nuevo_reingreso_class}	"
+
+			data-field="es_nuevo_reingreso"
+	
+	data-cellId="grid_headcell_field25" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN es_nuevo_reingreso_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field54" {$item_simple_grid_field54} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="es_nuevo_reingreso" data-fieldname="es_nuevo_reingreso" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina es_nuevo_reingreso }</span>
+			</span>
+	</span>
+{END es_nuevo_reingreso_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field25}
+									{BEGIN cellblock_grid_headcell_field26}
+	<th
+	
+	{$cell_grid_headcell_field26}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$bono_nuevo_reingreso_class}	"
+
+			data-field="bono_nuevo_reingreso"
+	
+	data-cellId="grid_headcell_field26" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN bono_nuevo_reingreso_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field55" {$item_simple_grid_field55} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="bono_nuevo_reingreso" data-fieldname="bono_nuevo_reingreso" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina bono_nuevo_reingreso }</span>
+			</span>
+	</span>
+{END bono_nuevo_reingreso_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field26}
+									{BEGIN cellblock_grid_headcell_field27}
+	<th
+	
+	{$cell_grid_headcell_field27}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_ingreso_class}	"
+
+			data-field="fecha_de_ingreso"
+	
+	data-cellId="grid_headcell_field27" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_ingreso_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field56" {$item_simple_grid_field56} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_ingreso" data-fieldname="fecha_de_ingreso" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina fecha_de_ingreso }</span>
+			</span>
+	</span>
+{END fecha_de_ingreso_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field27}
+									{BEGIN cellblock_grid_headcell_field28}
+	<th
+	
+	{$cell_grid_headcell_field28}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_festivo_class}	"
+
+			data-field="pago_festivo"
+	
+	data-cellId="grid_headcell_field28" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_festivo_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field57" {$item_simple_grid_field57} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_festivo" data-fieldname="pago_festivo" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_prenomina pago_festivo }</span>
+			</span>
+	</span>
+{END pago_festivo_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field28}
+							</tr>
+															
+					{END grid_header}
+			</thead>
+															{BEGIN grid_row}
+					<tbody>
+							
+																														<tr {$rowattrs} {$row_grid_1} class="{$rowclass}
+				
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_activos_periodo_id_class}	"
+
+			data-field="cat_trabajadores_activos_periodo_id"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_activos_periodo_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field" {$item_simple_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_activos_periodo_id" data-fieldname="cat_trabajadores_activos_periodo_id" data-default-width >
+{$cat_trabajadores_activos_periodo_id_value}
+</span>
+{END cat_trabajadores_activos_periodo_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field}
+									{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_class}	"
+
+			data-field="fecha"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1" {$item_simple_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha" data-fieldname="fecha" data-default-width >
+{$fecha_value}
+</span>
+{END fecha_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field1}
+									{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$dia_semana_class}	"
+
+			data-field="dia_semana"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN dia_semana_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2" {$item_simple_grid_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="dia_semana" data-fieldname="dia_semana" data-default-width >
+{$dia_semana_value}
+</span>
+{END dia_semana_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field2}
+									{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$nombre_completo_class}	"
+
+			data-field="nombre_completo"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN nombre_completo_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" {$item_simple_grid_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="nombre_completo" data-fieldname="nombre_completo" data-default-width >
+{$nombre_completo_value}
+</span>
+{END nombre_completo_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field3}
+									{BEGIN cellblock_grid_cell_field4}
+	<td
+	
+	{$cell_grid_cell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_empresa_class}	"
+
+			data-field="cat_trabajadores_altas_id_empresa"
+	
+	data-cellId="grid_cell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_empresa_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field4" {$item_simple_grid_field4} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id_empresa" data-fieldname="cat_trabajadores_altas_id_empresa" data-default-width >
+{$cat_trabajadores_altas_id_empresa_value}
+</span>
+{END cat_trabajadores_altas_id_empresa_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field4}
+									{BEGIN cellblock_grid_cell_field5}
+	<td
+	
+	{$cell_grid_cell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+			data-field="cat_trabajadores_altas_id"
+	
+	data-cellId="grid_cell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field5" {$item_simple_grid_field5} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id" data-fieldname="cat_trabajadores_altas_id" data-default-width >
+{$cat_trabajadores_altas_id_value}
+</span>
+{END cat_trabajadores_altas_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field5}
+									{BEGIN cellblock_grid_cell_field6}
+	<td
+	
+	{$cell_grid_cell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_puestos_id_class}	"
+
+			data-field="cat_trabajadores_puestos_id"
+	
+	data-cellId="grid_cell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_puestos_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field6" {$item_simple_grid_field6} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_puestos_id" data-fieldname="cat_trabajadores_puestos_id" data-default-width >
+{$cat_trabajadores_puestos_id_value}
+</span>
+{END cat_trabajadores_puestos_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field6}
+									{BEGIN cellblock_grid_cell_field7}
+	<td
+	
+	{$cell_grid_cell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$configuracion_pago_class}	"
+
+			data-field="configuracion_pago"
+	
+	data-cellId="grid_cell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN configuracion_pago_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field7" {$item_simple_grid_field7} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="configuracion_pago" data-fieldname="configuracion_pago" data-default-width >
+{$configuracion_pago_value}
+</span>
+{END configuracion_pago_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field7}
+									{BEGIN cellblock_grid_cell_field8}
+	<td
+	
+	{$cell_grid_cell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$total_a_pagar_class}	"
+
+			data-field="total_a_pagar"
+	
+	data-cellId="grid_cell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN total_a_pagar_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field8" {$item_simple_grid_field8} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="total_a_pagar" data-fieldname="total_a_pagar" data-default-width >
+{$total_a_pagar_value}
+</span>
+{END total_a_pagar_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field8}
+									{BEGIN cellblock_grid_cell_field9}
+	<td
+	
+	{$cell_grid_cell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_normales_class}	"
+
+			data-field="cantidad_horas_normales"
+	
+	data-cellId="grid_cell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_horas_normales_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field9" {$item_simple_grid_field9} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_horas_normales" data-fieldname="cantidad_horas_normales" data-default-width >
+{$cantidad_horas_normales_value}
+</span>
+{END cantidad_horas_normales_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field9}
+									{BEGIN cellblock_grid_cell_field10}
+	<td
+	
+	{$cell_grid_cell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_extra_class}	"
+
+			data-field="cantidad_horas_extra"
+	
+	data-cellId="grid_cell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_horas_extra_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field10" {$item_simple_grid_field10} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_horas_extra" data-fieldname="cantidad_horas_extra" data-default-width >
+{$cantidad_horas_extra_value}
+</span>
+{END cantidad_horas_extra_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field10}
+									{BEGIN cellblock_grid_cell_field11}
+	<td
+	
+	{$cell_grid_cell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_class}	"
+
+			data-field="cantidad_botes"
+	
+	data-cellId="grid_cell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_botes_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field11" {$item_simple_grid_field11} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_botes" data-fieldname="cantidad_botes" data-default-width >
+{$cantidad_botes_value}
+</span>
+{END cantidad_botes_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field11}
+									{BEGIN cellblock_grid_cell_field12}
+	<td
+	
+	{$cell_grid_cell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_frambuesa_class}	"
+
+			data-field="cantidad_botes_frambuesa"
+	
+	data-cellId="grid_cell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_botes_frambuesa_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field12" {$item_simple_grid_field12} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_botes_frambuesa" data-fieldname="cantidad_botes_frambuesa" data-default-width >
+{$cantidad_botes_frambuesa_value}
+</span>
+{END cantidad_botes_frambuesa_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field12}
+									{BEGIN cellblock_grid_cell_field13}
+	<td
+	
+	{$cell_grid_cell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_zarzamora_class}	"
+
+			data-field="cantidad_botes_zarzamora"
+	
+	data-cellId="grid_cell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_botes_zarzamora_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field13" {$item_simple_grid_field13} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_botes_zarzamora" data-fieldname="cantidad_botes_zarzamora" data-default-width >
+{$cantidad_botes_zarzamora_value}
+</span>
+{END cantidad_botes_zarzamora_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field13}
+									{BEGIN cellblock_grid_cell_field14}
+	<td
+	
+	{$cell_grid_cell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_vespertino_class}	"
+
+			data-field="cantidad_horas_vespertino"
+	
+	data-cellId="grid_cell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_horas_vespertino_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field14" {$item_simple_grid_field14} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad_horas_vespertino" data-fieldname="cantidad_horas_vespertino" data-default-width >
+{$cantidad_horas_vespertino_value}
+</span>
+{END cantidad_horas_vespertino_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field14}
+									{BEGIN cellblock_grid_cell_field15}
+	<td
+	
+	{$cell_grid_cell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_diario_class}	"
+
+			data-field="pago_sueldo_diario"
+	
+	data-cellId="grid_cell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_sueldo_diario_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field15" {$item_simple_grid_field15} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_sueldo_diario" data-fieldname="pago_sueldo_diario" data-default-width >
+{$pago_sueldo_diario_value}
+</span>
+{END pago_sueldo_diario_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field15}
+									{BEGIN cellblock_grid_cell_field16}
+	<td
+	
+	{$cell_grid_cell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_variable_class}	"
+
+			data-field="pago_sueldo_variable"
+	
+	data-cellId="grid_cell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_sueldo_variable_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field16" {$item_simple_grid_field16} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_sueldo_variable" data-fieldname="pago_sueldo_variable" data-default-width >
+{$pago_sueldo_variable_value}
+</span>
+{END pago_sueldo_variable_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field16}
+									{BEGIN cellblock_grid_cell_field17}
+	<td
+	
+	{$cell_grid_cell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_variable_cosecha_class}	"
+
+			data-field="pago_sueldo_variable_cosecha"
+	
+	data-cellId="grid_cell_field17" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_sueldo_variable_cosecha_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field17" {$item_simple_grid_field17} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_sueldo_variable_cosecha" data-fieldname="pago_sueldo_variable_cosecha" data-default-width >
+{$pago_sueldo_variable_cosecha_value}
+</span>
+{END pago_sueldo_variable_cosecha_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field17}
+									{BEGIN cellblock_grid_cell_field18}
+	<td
+	
+	{$cell_grid_cell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_prima_class}	"
+
+			data-field="pago_prima"
+	
+	data-cellId="grid_cell_field18" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_prima_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field18" {$item_simple_grid_field18} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_prima" data-fieldname="pago_prima" data-default-width >
+{$pago_prima_value}
+</span>
+{END pago_prima_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field18}
+									{BEGIN cellblock_grid_cell_field19}
+	<td
+	
+	{$cell_grid_cell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_bono_class}	"
+
+			data-field="pago_bono"
+	
+	data-cellId="grid_cell_field19" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_bono_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field19" {$item_simple_grid_field19} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_bono" data-fieldname="pago_bono" data-default-width >
+{$pago_bono_value}
+</span>
+{END pago_bono_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field19}
+									{BEGIN cellblock_grid_cell_field20}
+	<td
+	
+	{$cell_grid_cell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_horas_extra_class}	"
+
+			data-field="pago_horas_extra"
+	
+	data-cellId="grid_cell_field20" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_horas_extra_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field20" {$item_simple_grid_field20} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_horas_extra" data-fieldname="pago_horas_extra" data-default-width >
+{$pago_horas_extra_value}
+</span>
+{END pago_horas_extra_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field20}
+									{BEGIN cellblock_grid_cell_field21}
+	<td
+	
+	{$cell_grid_cell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_turno_vespertino_class}	"
+
+			data-field="pago_turno_vespertino"
+	
+	data-cellId="grid_cell_field21" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_turno_vespertino_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field21" {$item_simple_grid_field21} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_turno_vespertino" data-fieldname="pago_turno_vespertino" data-default-width >
+{$pago_turno_vespertino_value}
+</span>
+{END pago_turno_vespertino_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field21}
+									{BEGIN cellblock_grid_cell_field22}
+	<td
+	
+	{$cell_grid_cell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$asistencia_class}	"
+
+			data-field="asistencia"
+	
+	data-cellId="grid_cell_field22" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN asistencia_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field22" {$item_simple_grid_field22} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="asistencia" data-fieldname="asistencia" data-default-width >
+{$asistencia_value}
+</span>
+{END asistencia_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field22}
+									{BEGIN cellblock_grid_cell_field23}
+	<td
+	
+	{$cell_grid_cell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$justificado_class}	"
+
+			data-field="justificado"
+	
+	data-cellId="grid_cell_field23" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN justificado_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field23" {$item_simple_grid_field23} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="justificado" data-fieldname="justificado" data-default-width >
+{$justificado_value}
+</span>
+{END justificado_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field23}
+									{BEGIN cellblock_grid_cell_field24}
+	<td
+	
+	{$cell_grid_cell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$total_de_asistencias_class}	"
+
+			data-field="total_de_asistencias"
+	
+	data-cellId="grid_cell_field24" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN total_de_asistencias_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field24" {$item_simple_grid_field24} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="total_de_asistencias" data-fieldname="total_de_asistencias" data-default-width >
+{$total_de_asistencias_value}
+</span>
+{END total_de_asistencias_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field24}
+									{BEGIN cellblock_grid_cell_field25}
+	<td
+	
+	{$cell_grid_cell_field25}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$es_nuevo_reingreso_class}	"
+
+			data-field="es_nuevo_reingreso"
+	
+	data-cellId="grid_cell_field25" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN es_nuevo_reingreso_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field25" {$item_simple_grid_field25} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="es_nuevo_reingreso" data-fieldname="es_nuevo_reingreso" data-default-width >
+{$es_nuevo_reingreso_value}
+</span>
+{END es_nuevo_reingreso_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field25}
+									{BEGIN cellblock_grid_cell_field26}
+	<td
+	
+	{$cell_grid_cell_field26}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$bono_nuevo_reingreso_class}	"
+
+			data-field="bono_nuevo_reingreso"
+	
+	data-cellId="grid_cell_field26" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN bono_nuevo_reingreso_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field26" {$item_simple_grid_field26} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="bono_nuevo_reingreso" data-fieldname="bono_nuevo_reingreso" data-default-width >
+{$bono_nuevo_reingreso_value}
+</span>
+{END bono_nuevo_reingreso_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field26}
+									{BEGIN cellblock_grid_cell_field27}
+	<td
+	
+	{$cell_grid_cell_field27}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_ingreso_class}	"
+
+			data-field="fecha_de_ingreso"
+	
+	data-cellId="grid_cell_field27" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_ingreso_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field27" {$item_simple_grid_field27} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_ingreso" data-fieldname="fecha_de_ingreso" data-default-width >
+{$fecha_de_ingreso_value}
+</span>
+{END fecha_de_ingreso_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field27}
+									{BEGIN cellblock_grid_cell_field28}
+	<td
+	
+	{$cell_grid_cell_field28}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_festivo_class}	"
+
+			data-field="pago_festivo"
+	
+	data-cellId="grid_cell_field28" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN pago_festivo_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field28" {$item_simple_grid_field28} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="pago_festivo" data-fieldname="pago_festivo" data-default-width >
+{$pago_festivo_value}
+</span>
+{END pago_festivo_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field28}
+							</tr>
+										
+											</tbody>
+					{END grid_row}
+													<tfoot>
+			
+																																			<tr {$rowattrs} {$row_grid_2} class="{$rowclass}
+									{$gridFooter_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_footcell_field}
+	<td
+	
+	{$cell_grid_footcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_activos_periodo_id_class}	"
+
+	
+	data-cellId="grid_footcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field}
+									{BEGIN cellblock_grid_footcell_field1}
+	<td
+	
+	{$cell_grid_footcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_class}	"
+
+	
+	data-cellId="grid_footcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field1}
+									{BEGIN cellblock_grid_footcell_field2}
+	<td
+	
+	{$cell_grid_footcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$dia_semana_class}	"
+
+	
+	data-cellId="grid_footcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field2}
+									{BEGIN cellblock_grid_footcell_field3}
+	<td
+	
+	{$cell_grid_footcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$nombre_completo_class}	"
+
+	
+	data-cellId="grid_footcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field3}
+									{BEGIN cellblock_grid_footcell_field4}
+	<td
+	
+	{$cell_grid_footcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_empresa_class}	"
+
+	
+	data-cellId="grid_footcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field4}
+									{BEGIN cellblock_grid_footcell_field5}
+	<td
+	
+	{$cell_grid_footcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+	
+	data-cellId="grid_footcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field5}
+									{BEGIN cellblock_grid_footcell_field6}
+	<td
+	
+	{$cell_grid_footcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_puestos_id_class}	"
+
+	
+	data-cellId="grid_footcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field6}
+									{BEGIN cellblock_grid_footcell_field7}
+	<td
+	
+	{$cell_grid_footcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$configuracion_pago_class}	"
+
+	
+	data-cellId="grid_footcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field7}
+									{BEGIN cellblock_grid_footcell_field8}
+	<td
+	
+	{$cell_grid_footcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$total_a_pagar_class}	"
+
+	
+	data-cellId="grid_footcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field8}
+									{BEGIN cellblock_grid_footcell_field9}
+	<td
+	
+	{$cell_grid_footcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_normales_class}	"
+
+	
+	data-cellId="grid_footcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field9}
+									{BEGIN cellblock_grid_footcell_field10}
+	<td
+	
+	{$cell_grid_footcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_extra_class}	"
+
+	
+	data-cellId="grid_footcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field10}
+									{BEGIN cellblock_grid_footcell_field11}
+	<td
+	
+	{$cell_grid_footcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_class}	"
+
+	
+	data-cellId="grid_footcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field11}
+									{BEGIN cellblock_grid_footcell_field12}
+	<td
+	
+	{$cell_grid_footcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_frambuesa_class}	"
+
+	
+	data-cellId="grid_footcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field12}
+									{BEGIN cellblock_grid_footcell_field13}
+	<td
+	
+	{$cell_grid_footcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_botes_zarzamora_class}	"
+
+	
+	data-cellId="grid_footcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field13}
+									{BEGIN cellblock_grid_footcell_field14}
+	<td
+	
+	{$cell_grid_footcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_horas_vespertino_class}	"
+
+	
+	data-cellId="grid_footcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field14}
+									{BEGIN cellblock_grid_footcell_field15}
+	<td
+	
+	{$cell_grid_footcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_diario_class}	"
+
+	
+	data-cellId="grid_footcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field15}
+									{BEGIN cellblock_grid_footcell_field16}
+	<td
+	
+	{$cell_grid_footcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_variable_class}	"
+
+	
+	data-cellId="grid_footcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field16}
+									{BEGIN cellblock_grid_footcell_field17}
+	<td
+	
+	{$cell_grid_footcell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_sueldo_variable_cosecha_class}	"
+
+	
+	data-cellId="grid_footcell_field17" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field17}
+									{BEGIN cellblock_grid_footcell_field18}
+	<td
+	
+	{$cell_grid_footcell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_prima_class}	"
+
+	
+	data-cellId="grid_footcell_field18" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field18}
+									{BEGIN cellblock_grid_footcell_field19}
+	<td
+	
+	{$cell_grid_footcell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_bono_class}	"
+
+	
+	data-cellId="grid_footcell_field19" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field19}
+									{BEGIN cellblock_grid_footcell_field20}
+	<td
+	
+	{$cell_grid_footcell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_horas_extra_class}	"
+
+	
+	data-cellId="grid_footcell_field20" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field20}
+									{BEGIN cellblock_grid_footcell_field21}
+	<td
+	
+	{$cell_grid_footcell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_turno_vespertino_class}	"
+
+	
+	data-cellId="grid_footcell_field21" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field21}
+									{BEGIN cellblock_grid_footcell_field22}
+	<td
+	
+	{$cell_grid_footcell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$asistencia_class}	"
+
+	
+	data-cellId="grid_footcell_field22" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field22}
+									{BEGIN cellblock_grid_footcell_field23}
+	<td
+	
+	{$cell_grid_footcell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$justificado_class}	"
+
+	
+	data-cellId="grid_footcell_field23" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field23}
+									{BEGIN cellblock_grid_footcell_field24}
+	<td
+	
+	{$cell_grid_footcell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$total_de_asistencias_class}	"
+
+	
+	data-cellId="grid_footcell_field24" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field24}
+									{BEGIN cellblock_grid_footcell_field25}
+	<td
+	
+	{$cell_grid_footcell_field25}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$es_nuevo_reingreso_class}	"
+
+	
+	data-cellId="grid_footcell_field25" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field25}
+									{BEGIN cellblock_grid_footcell_field26}
+	<td
+	
+	{$cell_grid_footcell_field26}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$bono_nuevo_reingreso_class}	"
+
+	
+	data-cellId="grid_footcell_field26" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field26}
+									{BEGIN cellblock_grid_footcell_field27}
+	<td
+	
+	{$cell_grid_footcell_field27}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_ingreso_class}	"
+
+	
+	data-cellId="grid_footcell_field27" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field27}
+									{BEGIN cellblock_grid_footcell_field28}
+	<td
+	
+	{$cell_grid_footcell_field28}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$pago_festivo_class}	"
+
+	
+	data-cellId="grid_footcell_field28" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_prenomina_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field28}
+							</tr>
+					
+					</tfoot>
+				</table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,1726 @@
+<div class="panel panel-primary">
+		<div class="panel-heading">
+						{BEGIN top_block}
+<div class="panel-title r-panel-top row" data-location="top" id="form_top_{$pageid}" data-makeup="panel-only" {$form_top} data-pageid="{$pageid}" >		
+	 
+		 
+			<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h3 class="panel-title" data-itemtype="masterprint_header" data-itemid="masterprint_header" {$item_masterprint_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_compras_orden_de_compra_pagos_03_abonos_productos masterprint}</h3>
+		</div>			</div>		
+{END top_block}
+			</div>
+		<div class="panel-body">
+							{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="panel-only" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+				{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+								{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<table data-location="grid" id="form_grid_{$pageid}" data-makeup="panel-only" {$form_grid} data-pageid="{$pageid}" class=" table table-striped table-bordered r-horizontal-grid  rnr-b-grid rnr-gridtable"
+	cellpadding="0"
+	data-body-height="1"
+>
+						<thead>
+			{BEGIN grid_header}
+			
+																									<tr {$rowattrs} {$row_grid_0} class="{$rowclass}
+									{$gridHeader_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_02_productos_id_class}	"
+
+			data-field="tr_compras_requisiciones_02_productos_id"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_02_productos_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field18" {$item_simple_grid_field18} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_02_productos_id" data-fieldname="tr_compras_requisiciones_02_productos_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos tr_compras_requisiciones_02_productos_id }</span>
+			</span>
+	</span>
+{END tr_compras_requisiciones_02_productos_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+									{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$time_stamp_class}	"
+
+			data-field="time_stamp"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN time_stamp_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field19" {$item_simple_grid_field19} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="time_stamp" data-fieldname="time_stamp" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos time_stamp }</span>
+			</span>
+	</span>
+{END time_stamp_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+									{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$vigente_class}	"
+
+			data-field="vigente"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN vigente_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field23" {$item_simple_grid_field23} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="vigente" data-fieldname="vigente" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos vigente }</span>
+			</span>
+	</span>
+{END vigente_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+									{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_class}	"
+
+			data-field="capturista"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field28" {$item_simple_grid_field28} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista" data-fieldname="capturista" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos capturista }</span>
+			</span>
+	</span>
+{END capturista_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+									{BEGIN cellblock_grid_headcell_field4}
+	<th
+	
+	{$cell_grid_headcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+			data-field="cat_compras_productos_id"
+	
+	data-cellId="grid_headcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field29" {$item_simple_grid_field29} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cat_compras_productos_id }</span>
+			</span>
+	</span>
+{END cat_compras_productos_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field4}
+									{BEGIN cellblock_grid_headcell_field5}
+	<th
+	
+	{$cell_grid_headcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$precio_neto_class}	"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_headcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN precio_neto_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field30" {$item_simple_grid_field30} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="precio_neto" data-fieldname="precio_neto" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos precio_neto }</span>
+			</span>
+	</span>
+{END precio_neto_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field5}
+									{BEGIN cellblock_grid_headcell_field6}
+	<th
+	
+	{$cell_grid_headcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_class}	"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_headcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field31" {$item_simple_grid_field31} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cantidad }</span>
+			</span>
+	</span>
+{END cantidad_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field6}
+									{BEGIN cellblock_grid_headcell_field7}
+	<th
+	
+	{$cell_grid_headcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$importe_neto_class}	"
+
+			data-field="importe_neto"
+	
+	data-cellId="grid_headcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN importe_neto_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field32" {$item_simple_grid_field32} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="importe_neto" data-fieldname="importe_neto" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos importe_neto }</span>
+			</span>
+	</span>
+{END importe_neto_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field7}
+									{BEGIN cellblock_grid_headcell_field8}
+	<th
+	
+	{$cell_grid_headcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_proveedores_id_class}	"
+
+			data-field="cat_compras_proveedores_id"
+	
+	data-cellId="grid_headcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_proveedores_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field33" {$item_simple_grid_field33} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_proveedores_id" data-fieldname="cat_compras_proveedores_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cat_compras_proveedores_id }</span>
+			</span>
+	</span>
+{END cat_compras_proveedores_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field8}
+									{BEGIN cellblock_grid_headcell_field9}
+	<th
+	
+	{$cell_grid_headcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_holding_03_empresas_unidades_productivas_id_class}	"
+
+			data-field="cat_holding_03_empresas_unidades_productivas_id"
+	
+	data-cellId="grid_headcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_holding_03_empresas_unidades_productivas_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field34" {$item_simple_grid_field34} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_holding_03_empresas_unidades_productivas_id" data-fieldname="cat_holding_03_empresas_unidades_productivas_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cat_holding_03_empresas_unidades_productivas_id }</span>
+			</span>
+	</span>
+{END cat_holding_03_empresas_unidades_productivas_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field9}
+									{BEGIN cellblock_grid_headcell_field10}
+	<th
+	
+	{$cell_grid_headcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+			data-field="cat_trabajadores_altas_id"
+	
+	data-cellId="grid_headcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field35" {$item_simple_grid_field35} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id" data-fieldname="cat_trabajadores_altas_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cat_trabajadores_altas_id }</span>
+			</span>
+	</span>
+{END cat_trabajadores_altas_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field10}
+									{BEGIN cellblock_grid_headcell_field11}
+	<th
+	
+	{$cell_grid_headcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$utilizacion_class}	"
+
+			data-field="utilizacion"
+	
+	data-cellId="grid_headcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN utilizacion_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field36" {$item_simple_grid_field36} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="utilizacion" data-fieldname="utilizacion" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos utilizacion }</span>
+			</span>
+	</span>
+{END utilizacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field11}
+									{BEGIN cellblock_grid_headcell_field12}
+	<th
+	
+	{$cell_grid_headcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_class}	"
+
+			data-field="ubicacion"
+	
+	data-cellId="grid_headcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN ubicacion_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field37" {$item_simple_grid_field37} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="ubicacion" data-fieldname="ubicacion" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos ubicacion }</span>
+			</span>
+	</span>
+{END ubicacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field12}
+									{BEGIN cellblock_grid_headcell_field13}
+	<th
+	
+	{$cell_grid_headcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_tr_compras_requisiciones_01_class}	"
+
+			data-field="llave_tr_compras_requisiciones_01"
+	
+	data-cellId="grid_headcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN llave_tr_compras_requisiciones_01_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field38" {$item_simple_grid_field38} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="llave_tr_compras_requisiciones_01" data-fieldname="llave_tr_compras_requisiciones_01" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos llave_tr_compras_requisiciones_01 }</span>
+			</span>
+	</span>
+{END llave_tr_compras_requisiciones_01_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field13}
+									{BEGIN cellblock_grid_headcell_field14}
+	<th
+	
+	{$cell_grid_headcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_presentacion_mu_id_class}	"
+
+			data-field="cat_compras_productos_presentacion_mu_id"
+	
+	data-cellId="grid_headcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_presentacion_mu_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field39" {$item_simple_grid_field39} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_presentacion_mu_id" data-fieldname="cat_compras_productos_presentacion_mu_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cat_compras_productos_presentacion_mu_id }</span>
+			</span>
+	</span>
+{END cat_compras_productos_presentacion_mu_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field14}
+									{BEGIN cellblock_grid_headcell_field15}
+	<th
+	
+	{$cell_grid_headcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$contenido_presentacion_class}	"
+
+			data-field="contenido_presentacion"
+	
+	data-cellId="grid_headcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN contenido_presentacion_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field40" {$item_simple_grid_field40} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="contenido_presentacion" data-fieldname="contenido_presentacion" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos contenido_presentacion }</span>
+			</span>
+	</span>
+{END contenido_presentacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field15}
+									{BEGIN cellblock_grid_headcell_field16}
+	<th
+	
+	{$cell_grid_headcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_unidad_de_medida_mu_id_class}	"
+
+			data-field="cat_compras_productos_unidad_de_medida_mu_id"
+	
+	data-cellId="grid_headcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_unidad_de_medida_mu_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field41" {$item_simple_grid_field41} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_unidad_de_medida_mu_id" data-fieldname="cat_compras_productos_unidad_de_medida_mu_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cat_compras_productos_unidad_de_medida_mu_id }</span>
+			</span>
+	</span>
+{END cat_compras_productos_unidad_de_medida_mu_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field16}
+									{BEGIN cellblock_grid_headcell_field17}
+	<th
+	
+	{$cell_grid_headcell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$autorizado_check_class}	"
+
+			data-field="autorizado_check"
+	
+	data-cellId="grid_headcell_field17" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN autorizado_check_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field42" {$item_simple_grid_field42} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="autorizado_check" data-fieldname="autorizado_check" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos autorizado_check }</span>
+			</span>
+	</span>
+{END autorizado_check_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field17}
+									{BEGIN cellblock_grid_headcell_field18}
+	<th
+	
+	{$cell_grid_headcell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_autorizacion_requisicion_class}	"
+
+			data-field="fecha_de_autorizacion_requisicion"
+	
+	data-cellId="grid_headcell_field18" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_autorizacion_requisicion_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field43" {$item_simple_grid_field43} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_autorizacion_requisicion" data-fieldname="fecha_de_autorizacion_requisicion" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos fecha_de_autorizacion_requisicion }</span>
+			</span>
+	</span>
+{END fecha_de_autorizacion_requisicion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field18}
+									{BEGIN cellblock_grid_headcell_field19}
+	<th
+	
+	{$cell_grid_headcell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_que_autoriza_class}	"
+
+			data-field="capturista_que_autoriza"
+	
+	data-cellId="grid_headcell_field19" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_que_autoriza_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field44" {$item_simple_grid_field44} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista_que_autoriza" data-fieldname="capturista_que_autoriza" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos capturista_que_autoriza }</span>
+			</span>
+	</span>
+{END capturista_que_autoriza_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field19}
+									{BEGIN cellblock_grid_headcell_field20}
+	<th
+	
+	{$cell_grid_headcell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_usuarios_licencias_id_class}	"
+
+			data-field="cat_usuarios_licencias_id"
+	
+	data-cellId="grid_headcell_field20" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_usuarios_licencias_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field45" {$item_simple_grid_field45} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos cat_usuarios_licencias_id }</span>
+			</span>
+	</span>
+{END cat_usuarios_licencias_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field20}
+									{BEGIN cellblock_grid_headcell_field21}
+	<th
+	
+	{$cell_grid_headcell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_oc_folio_proveedor_class}	"
+
+			data-field="llave_oc_folio_proveedor"
+	
+	data-cellId="grid_headcell_field21" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN llave_oc_folio_proveedor_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field46" {$item_simple_grid_field46} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="llave_oc_folio_proveedor" data-fieldname="llave_oc_folio_proveedor" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos llave_oc_folio_proveedor }</span>
+			</span>
+	</span>
+{END llave_oc_folio_proveedor_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field21}
+									{BEGIN cellblock_grid_headcell_field22}
+	<th
+	
+	{$cell_grid_headcell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$especificacion_producto_class}	"
+
+			data-field="especificacion_producto"
+	
+	data-cellId="grid_headcell_field22" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN especificacion_producto_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field47" {$item_simple_grid_field47} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="especificacion_producto" data-fieldname="especificacion_producto" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos especificacion_producto }</span>
+			</span>
+	</span>
+{END especificacion_producto_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field22}
+									{BEGIN cellblock_grid_headcell_field23}
+	<th
+	
+	{$cell_grid_headcell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_class}	"
+
+			data-field="observacion"
+	
+	data-cellId="grid_headcell_field23" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN observacion_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field48" {$item_simple_grid_field48} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="observacion" data-fieldname="observacion" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos observacion }</span>
+			</span>
+	</span>
+{END observacion_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field23}
+									{BEGIN cellblock_grid_headcell_field24}
+	<th
+	
+	{$cell_grid_headcell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_01_uuid_class}	"
+
+			data-field="tr_compras_requisiciones_01_uuid"
+	
+	data-cellId="grid_headcell_field24" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_01_uuid_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field49" {$item_simple_grid_field49} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_01_uuid" data-fieldname="tr_compras_requisiciones_01_uuid" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_compras_orden_de_compra_pagos_03_abonos_productos tr_compras_requisiciones_01_uuid }</span>
+			</span>
+	</span>
+{END tr_compras_requisiciones_01_uuid_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field24}
+							</tr>
+															
+					{END grid_header}
+			</thead>
+															<tbody>
+					{BEGIN grid_row}
+							
+																														<tr {$rowattrs} {$row_grid_1} class="{$rowclass}
+				
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_02_productos_id_class}	"
+
+			data-field="tr_compras_requisiciones_02_productos_id"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_02_productos_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field" {$item_simple_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_02_productos_id" data-fieldname="tr_compras_requisiciones_02_productos_id" data-default-width >
+{$tr_compras_requisiciones_02_productos_id_value}
+</span>
+{END tr_compras_requisiciones_02_productos_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field}
+									{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$time_stamp_class}	"
+
+			data-field="time_stamp"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN time_stamp_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1" {$item_simple_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="time_stamp" data-fieldname="time_stamp" data-default-width >
+{$time_stamp_value}
+</span>
+{END time_stamp_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field1}
+									{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$vigente_class}	"
+
+			data-field="vigente"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN vigente_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2" {$item_simple_grid_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="vigente" data-fieldname="vigente" data-default-width >
+{$vigente_value}
+</span>
+{END vigente_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field2}
+									{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_class}	"
+
+			data-field="capturista"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" {$item_simple_grid_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista" data-fieldname="capturista" data-default-width >
+{$capturista_value}
+</span>
+{END capturista_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field3}
+									{BEGIN cellblock_grid_cell_field4}
+	<td
+	
+	{$cell_grid_cell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+			data-field="cat_compras_productos_id"
+	
+	data-cellId="grid_cell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field4" {$item_simple_grid_field4} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_id" data-fieldname="cat_compras_productos_id" data-default-width >
+{$cat_compras_productos_id_value}
+</span>
+{END cat_compras_productos_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field4}
+									{BEGIN cellblock_grid_cell_field5}
+	<td
+	
+	{$cell_grid_cell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$precio_neto_class}	"
+
+			data-field="precio_neto"
+	
+	data-cellId="grid_cell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN precio_neto_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field5" {$item_simple_grid_field5} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="precio_neto" data-fieldname="precio_neto" data-default-width >
+{$precio_neto_value}
+</span>
+{END precio_neto_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field5}
+									{BEGIN cellblock_grid_cell_field6}
+	<td
+	
+	{$cell_grid_cell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_class}	"
+
+			data-field="cantidad"
+	
+	data-cellId="grid_cell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cantidad_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field6" {$item_simple_grid_field6} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cantidad" data-fieldname="cantidad" data-default-width >
+{$cantidad_value}
+</span>
+{END cantidad_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field6}
+									{BEGIN cellblock_grid_cell_field7}
+	<td
+	
+	{$cell_grid_cell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$importe_neto_class}	"
+
+			data-field="importe_neto"
+	
+	data-cellId="grid_cell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN importe_neto_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field7" {$item_simple_grid_field7} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="importe_neto" data-fieldname="importe_neto" data-default-width >
+{$importe_neto_value}
+</span>
+{END importe_neto_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field7}
+									{BEGIN cellblock_grid_cell_field8}
+	<td
+	
+	{$cell_grid_cell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_proveedores_id_class}	"
+
+			data-field="cat_compras_proveedores_id"
+	
+	data-cellId="grid_cell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_proveedores_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field9" {$item_simple_grid_field9} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_proveedores_id" data-fieldname="cat_compras_proveedores_id" data-default-width >
+{$cat_compras_proveedores_id_value}
+</span>
+{END cat_compras_proveedores_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field8}
+									{BEGIN cellblock_grid_cell_field9}
+	<td
+	
+	{$cell_grid_cell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_holding_03_empresas_unidades_productivas_id_class}	"
+
+			data-field="cat_holding_03_empresas_unidades_productivas_id"
+	
+	data-cellId="grid_cell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_holding_03_empresas_unidades_productivas_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field10" {$item_simple_grid_field10} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_holding_03_empresas_unidades_productivas_id" data-fieldname="cat_holding_03_empresas_unidades_productivas_id" data-default-width >
+{$cat_holding_03_empresas_unidades_productivas_id_value}
+</span>
+{END cat_holding_03_empresas_unidades_productivas_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field9}
+									{BEGIN cellblock_grid_cell_field10}
+	<td
+	
+	{$cell_grid_cell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+			data-field="cat_trabajadores_altas_id"
+	
+	data-cellId="grid_cell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field11" {$item_simple_grid_field11} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id" data-fieldname="cat_trabajadores_altas_id" data-default-width >
+{$cat_trabajadores_altas_id_value}
+</span>
+{END cat_trabajadores_altas_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field10}
+									{BEGIN cellblock_grid_cell_field11}
+	<td
+	
+	{$cell_grid_cell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$utilizacion_class}	"
+
+			data-field="utilizacion"
+	
+	data-cellId="grid_cell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN utilizacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field12" {$item_simple_grid_field12} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="utilizacion" data-fieldname="utilizacion" data-default-width >
+{$utilizacion_value}
+</span>
+{END utilizacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field11}
+									{BEGIN cellblock_grid_cell_field12}
+	<td
+	
+	{$cell_grid_cell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_class}	"
+
+			data-field="ubicacion"
+	
+	data-cellId="grid_cell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN ubicacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field13" {$item_simple_grid_field13} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="ubicacion" data-fieldname="ubicacion" data-default-width >
+{$ubicacion_value}
+</span>
+{END ubicacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field12}
+									{BEGIN cellblock_grid_cell_field13}
+	<td
+	
+	{$cell_grid_cell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_tr_compras_requisiciones_01_class}	"
+
+			data-field="llave_tr_compras_requisiciones_01"
+	
+	data-cellId="grid_cell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN llave_tr_compras_requisiciones_01_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field14" {$item_simple_grid_field14} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="llave_tr_compras_requisiciones_01" data-fieldname="llave_tr_compras_requisiciones_01" data-default-width >
+{$llave_tr_compras_requisiciones_01_value}
+</span>
+{END llave_tr_compras_requisiciones_01_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field13}
+									{BEGIN cellblock_grid_cell_field14}
+	<td
+	
+	{$cell_grid_cell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_presentacion_mu_id_class}	"
+
+			data-field="cat_compras_productos_presentacion_mu_id"
+	
+	data-cellId="grid_cell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_presentacion_mu_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field15" {$item_simple_grid_field15} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_presentacion_mu_id" data-fieldname="cat_compras_productos_presentacion_mu_id" data-default-width >
+{$cat_compras_productos_presentacion_mu_id_value}
+</span>
+{END cat_compras_productos_presentacion_mu_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field14}
+									{BEGIN cellblock_grid_cell_field15}
+	<td
+	
+	{$cell_grid_cell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$contenido_presentacion_class}	"
+
+			data-field="contenido_presentacion"
+	
+	data-cellId="grid_cell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN contenido_presentacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field16" {$item_simple_grid_field16} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="contenido_presentacion" data-fieldname="contenido_presentacion" data-default-width >
+{$contenido_presentacion_value}
+</span>
+{END contenido_presentacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field15}
+									{BEGIN cellblock_grid_cell_field16}
+	<td
+	
+	{$cell_grid_cell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_unidad_de_medida_mu_id_class}	"
+
+			data-field="cat_compras_productos_unidad_de_medida_mu_id"
+	
+	data-cellId="grid_cell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_compras_productos_unidad_de_medida_mu_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field17" {$item_simple_grid_field17} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_compras_productos_unidad_de_medida_mu_id" data-fieldname="cat_compras_productos_unidad_de_medida_mu_id" data-default-width >
+{$cat_compras_productos_unidad_de_medida_mu_id_value}
+</span>
+{END cat_compras_productos_unidad_de_medida_mu_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field16}
+									{BEGIN cellblock_grid_cell_field17}
+	<td
+	
+	{$cell_grid_cell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$autorizado_check_class}	"
+
+			data-field="autorizado_check"
+	
+	data-cellId="grid_cell_field17" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN autorizado_check_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field20" {$item_simple_grid_field20} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="autorizado_check" data-fieldname="autorizado_check" data-default-width >
+{$autorizado_check_value}
+</span>
+{END autorizado_check_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field17}
+									{BEGIN cellblock_grid_cell_field18}
+	<td
+	
+	{$cell_grid_cell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_autorizacion_requisicion_class}	"
+
+			data-field="fecha_de_autorizacion_requisicion"
+	
+	data-cellId="grid_cell_field18" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_autorizacion_requisicion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field21" {$item_simple_grid_field21} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_autorizacion_requisicion" data-fieldname="fecha_de_autorizacion_requisicion" data-default-width >
+{$fecha_de_autorizacion_requisicion_value}
+</span>
+{END fecha_de_autorizacion_requisicion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field18}
+									{BEGIN cellblock_grid_cell_field19}
+	<td
+	
+	{$cell_grid_cell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_que_autoriza_class}	"
+
+			data-field="capturista_que_autoriza"
+	
+	data-cellId="grid_cell_field19" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN capturista_que_autoriza_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field22" {$item_simple_grid_field22} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="capturista_que_autoriza" data-fieldname="capturista_que_autoriza" data-default-width >
+{$capturista_que_autoriza_value}
+</span>
+{END capturista_que_autoriza_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field19}
+									{BEGIN cellblock_grid_cell_field20}
+	<td
+	
+	{$cell_grid_cell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_usuarios_licencias_id_class}	"
+
+			data-field="cat_usuarios_licencias_id"
+	
+	data-cellId="grid_cell_field20" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_usuarios_licencias_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field24" {$item_simple_grid_field24} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" data-default-width >
+{$cat_usuarios_licencias_id_value}
+</span>
+{END cat_usuarios_licencias_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field20}
+									{BEGIN cellblock_grid_cell_field21}
+	<td
+	
+	{$cell_grid_cell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_oc_folio_proveedor_class}	"
+
+			data-field="llave_oc_folio_proveedor"
+	
+	data-cellId="grid_cell_field21" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN llave_oc_folio_proveedor_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field25" {$item_simple_grid_field25} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="llave_oc_folio_proveedor" data-fieldname="llave_oc_folio_proveedor" data-default-width >
+{$llave_oc_folio_proveedor_value}
+</span>
+{END llave_oc_folio_proveedor_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field21}
+									{BEGIN cellblock_grid_cell_field22}
+	<td
+	
+	{$cell_grid_cell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$especificacion_producto_class}	"
+
+			data-field="especificacion_producto"
+	
+	data-cellId="grid_cell_field22" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN especificacion_producto_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field27" {$item_simple_grid_field27} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="especificacion_producto" data-fieldname="especificacion_producto" data-default-width >
+{$especificacion_producto_value}
+</span>
+{END especificacion_producto_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field22}
+									{BEGIN cellblock_grid_cell_field23}
+	<td
+	
+	{$cell_grid_cell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_class}	"
+
+			data-field="observacion"
+	
+	data-cellId="grid_cell_field23" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN observacion_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field8" {$item_simple_grid_field8} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="observacion" data-fieldname="observacion" data-default-width >
+{$observacion_value}
+</span>
+{END observacion_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field23}
+									{BEGIN cellblock_grid_cell_field24}
+	<td
+	
+	{$cell_grid_cell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_01_uuid_class}	"
+
+			data-field="tr_compras_requisiciones_01_uuid"
+	
+	data-cellId="grid_cell_field24" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_compras_requisiciones_01_uuid_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field26" {$item_simple_grid_field26} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_compras_requisiciones_01_uuid" data-fieldname="tr_compras_requisiciones_01_uuid" data-default-width >
+{$tr_compras_requisiciones_01_uuid_value}
+</span>
+{END tr_compras_requisiciones_01_uuid_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field24}
+							</tr>
+										
+											{END grid_row}
+					</tbody>
+													<tfoot>
+			
+																																			<tr {$rowattrs} {$row_grid_2} class="{$rowclass}
+									{$gridFooter_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_footcell_field}
+	<td
+	
+	{$cell_grid_footcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_02_productos_id_class}	"
+
+	
+	data-cellId="grid_footcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field}
+									{BEGIN cellblock_grid_footcell_field1}
+	<td
+	
+	{$cell_grid_footcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$time_stamp_class}	"
+
+	
+	data-cellId="grid_footcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field1}
+									{BEGIN cellblock_grid_footcell_field2}
+	<td
+	
+	{$cell_grid_footcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$vigente_class}	"
+
+	
+	data-cellId="grid_footcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field2}
+									{BEGIN cellblock_grid_footcell_field3}
+	<td
+	
+	{$cell_grid_footcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_class}	"
+
+	
+	data-cellId="grid_footcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field3}
+									{BEGIN cellblock_grid_footcell_field4}
+	<td
+	
+	{$cell_grid_footcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_id_class}	"
+
+	
+	data-cellId="grid_footcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field4}
+									{BEGIN cellblock_grid_footcell_field5}
+	<td
+	
+	{$cell_grid_footcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$precio_neto_class}	"
+
+	
+	data-cellId="grid_footcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field5}
+									{BEGIN cellblock_grid_footcell_field6}
+	<td
+	
+	{$cell_grid_footcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cantidad_class}	"
+
+	
+	data-cellId="grid_footcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field6}
+									{BEGIN cellblock_grid_footcell_field7}
+	<td
+	
+	{$cell_grid_footcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$importe_neto_class}	"
+
+	
+	data-cellId="grid_footcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field7}
+									{BEGIN cellblock_grid_footcell_field8}
+	<td
+	
+	{$cell_grid_footcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_proveedores_id_class}	"
+
+	
+	data-cellId="grid_footcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field8}
+									{BEGIN cellblock_grid_footcell_field9}
+	<td
+	
+	{$cell_grid_footcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_holding_03_empresas_unidades_productivas_id_class}	"
+
+	
+	data-cellId="grid_footcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field9}
+									{BEGIN cellblock_grid_footcell_field10}
+	<td
+	
+	{$cell_grid_footcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+	
+	data-cellId="grid_footcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field10}
+									{BEGIN cellblock_grid_footcell_field11}
+	<td
+	
+	{$cell_grid_footcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$utilizacion_class}	"
+
+	
+	data-cellId="grid_footcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field11}
+									{BEGIN cellblock_grid_footcell_field12}
+	<td
+	
+	{$cell_grid_footcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$ubicacion_class}	"
+
+	
+	data-cellId="grid_footcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field12}
+									{BEGIN cellblock_grid_footcell_field13}
+	<td
+	
+	{$cell_grid_footcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_tr_compras_requisiciones_01_class}	"
+
+	
+	data-cellId="grid_footcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field13}
+									{BEGIN cellblock_grid_footcell_field14}
+	<td
+	
+	{$cell_grid_footcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_presentacion_mu_id_class}	"
+
+	
+	data-cellId="grid_footcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field14}
+									{BEGIN cellblock_grid_footcell_field15}
+	<td
+	
+	{$cell_grid_footcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$contenido_presentacion_class}	"
+
+	
+	data-cellId="grid_footcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field15}
+									{BEGIN cellblock_grid_footcell_field16}
+	<td
+	
+	{$cell_grid_footcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_compras_productos_unidad_de_medida_mu_id_class}	"
+
+	
+	data-cellId="grid_footcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field16}
+									{BEGIN cellblock_grid_footcell_field17}
+	<td
+	
+	{$cell_grid_footcell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$autorizado_check_class}	"
+
+	
+	data-cellId="grid_footcell_field17" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field17}
+									{BEGIN cellblock_grid_footcell_field18}
+	<td
+	
+	{$cell_grid_footcell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_autorizacion_requisicion_class}	"
+
+	
+	data-cellId="grid_footcell_field18" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field18}
+									{BEGIN cellblock_grid_footcell_field19}
+	<td
+	
+	{$cell_grid_footcell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$capturista_que_autoriza_class}	"
+
+	
+	data-cellId="grid_footcell_field19" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field19}
+									{BEGIN cellblock_grid_footcell_field20}
+	<td
+	
+	{$cell_grid_footcell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_usuarios_licencias_id_class}	"
+
+	
+	data-cellId="grid_footcell_field20" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field20}
+									{BEGIN cellblock_grid_footcell_field21}
+	<td
+	
+	{$cell_grid_footcell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_oc_folio_proveedor_class}	"
+
+	
+	data-cellId="grid_footcell_field21" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field21}
+									{BEGIN cellblock_grid_footcell_field22}
+	<td
+	
+	{$cell_grid_footcell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$especificacion_producto_class}	"
+
+	
+	data-cellId="grid_footcell_field22" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field22}
+									{BEGIN cellblock_grid_footcell_field23}
+	<td
+	
+	{$cell_grid_footcell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$observacion_class}	"
+
+	
+	data-cellId="grid_footcell_field23" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field23}
+									{BEGIN cellblock_grid_footcell_field24}
+	<td
+	
+	{$cell_grid_footcell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_compras_requisiciones_01_uuid_class}	"
+
+	
+	data-cellId="grid_footcell_field24" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_compras_orden_de_compra_pagos_03_abonos_productos_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field24}
+							</tr>
+					
+					</tfoot>
+				</table>
+{END grid_block}
+								</div>
+</div>

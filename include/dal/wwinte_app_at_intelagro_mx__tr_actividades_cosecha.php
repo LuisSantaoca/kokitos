@@ -1,0 +1,42 @@
+<?php
+$dalTabletr_actividades_cosecha = array();
+$dalTabletr_actividades_cosecha["tr_actividades_cosecha_id"] = array("type"=>3,"varname"=>"tr_actividades_cosecha_id", "name" => "tr_actividades_cosecha_id", "autoInc" => "1");
+$dalTabletr_actividades_cosecha["tr_actividades_cosecha_uuid"] = array("type"=>200,"varname"=>"tr_actividades_cosecha_uuid", "name" => "tr_actividades_cosecha_uuid", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["time_stamp"] = array("type"=>135,"varname"=>"time_stamp", "name" => "time_stamp", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["vigente"] = array("type"=>3,"varname"=>"vigente", "name" => "vigente", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["capturista"] = array("type"=>200,"varname"=>"capturista", "name" => "capturista", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["fecha_de_captura"] = array("type"=>135,"varname"=>"fecha_de_captura", "name" => "fecha_de_captura", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_trabajador_altas_id"] = array("type"=>3,"varname"=>"cat_trabajador_altas_id", "name" => "cat_trabajador_altas_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_holding_03_empresas_unidades_productivas_id"] = array("type"=>3,"varname"=>"cat_holding_03_empresas_unidades_productivas_id", "name" => "cat_holding_03_empresas_unidades_productivas_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cantidad"] = array("type"=>14,"varname"=>"cantidad", "name" => "cantidad", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["peso"] = array("type"=>14,"varname"=>"peso", "name" => "peso", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_holding_04_unidades_productivas_lotes_id"] = array("type"=>3,"varname"=>"cat_holding_04_unidades_productivas_lotes_id", "name" => "cat_holding_04_unidades_productivas_lotes_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["surco"] = array("type"=>3,"varname"=>"surco", "name" => "surco", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["tunel"] = array("type"=>3,"varname"=>"tunel", "name" => "tunel", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["consecutivo_id"] = array("type"=>3,"varname"=>"consecutivo_id", "name" => "consecutivo_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["descuento"] = array("type"=>3,"varname"=>"descuento", "name" => "descuento", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["Lat"] = array("type"=>14,"varname"=>"Lat", "name" => "Lat", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["Lng"] = array("type"=>14,"varname"=>"Lng", "name" => "Lng", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["identificador_dispositivo"] = array("type"=>200,"varname"=>"identificador_dispositivo", "name" => "identificador_dispositivo", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["calidad"] = array("type"=>3,"varname"=>"calidad", "name" => "calidad", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_produccion_cultivos_01_productos_id"] = array("type"=>3,"varname"=>"cat_produccion_cultivos_01_productos_id", "name" => "cat_produccion_cultivos_01_productos_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_produccion_empaques_id"] = array("type"=>3,"varname"=>"cat_produccion_empaques_id", "name" => "cat_produccion_empaques_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_nominas_01_generales_uuid"] = array("type"=>200,"varname"=>"cat_nominas_01_generales_uuid", "name" => "cat_nominas_01_generales_uuid", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_nominas_tabulador_actividades_sueldos_variables_id"] = array("type"=>3,"varname"=>"cat_nominas_tabulador_actividades_sueldos_variables_id", "name" => "cat_nominas_tabulador_actividades_sueldos_variables_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_usuarios_licencias_id"] = array("type"=>3,"varname"=>"cat_usuarios_licencias_id", "name" => "cat_usuarios_licencias_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["fecha"] = array("type"=>7,"varname"=>"fecha", "name" => "fecha", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["numero_de_bote"] = array("type"=>3,"varname"=>"numero_de_bote", "name" => "numero_de_bote", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_fecha_nominas_uuid"] = array("type"=>200,"varname"=>"llave_fecha_nominas_uuid", "name" => "llave_fecha_nominas_uuid", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_fecha_trabajador_actividad"] = array("type"=>200,"varname"=>"llave_fecha_trabajador_actividad", "name" => "llave_fecha_trabajador_actividad", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_fecha_trabajador_catnominas02actividades"] = array("type"=>200,"varname"=>"llave_fecha_trabajador_catnominas02actividades", "name" => "llave_fecha_trabajador_catnominas02actividades", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_fecha_up_consecutivo"] = array("type"=>200,"varname"=>"llave_fecha_up_consecutivo", "name" => "llave_fecha_up_consecutivo", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_up_lote_actesp_prod"] = array("type"=>200,"varname"=>"llave_up_lote_actesp_prod", "name" => "llave_up_lote_actesp_prod", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_up_lote_actesp_prod_uuid"] = array("type"=>200,"varname"=>"llave_up_lote_actesp_prod_uuid", "name" => "llave_up_lote_actesp_prod_uuid", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_fecha_up_consecutivo_trab"] = array("type"=>200,"varname"=>"llave_fecha_up_consecutivo_trab", "name" => "llave_fecha_up_consecutivo_trab", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["llave_fecha_trabajador"] = array("type"=>200,"varname"=>"llave_fecha_trabajador", "name" => "llave_fecha_trabajador", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_nominas_02_actividades_id"] = array("type"=>3,"varname"=>"cat_nominas_02_actividades_id", "name" => "cat_nominas_02_actividades_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["cat_actividades_especificas_id"] = array("type"=>3,"varname"=>"cat_actividades_especificas_id", "name" => "cat_actividades_especificas_id", "autoInc" => "0");
+$dalTabletr_actividades_cosecha["tr_actividades_cosecha_id"]["key"]=true;
+
+$dal_info["wwinte_app_at_intelagro_mx__tr_actividades_cosecha"] = &$dalTabletr_actividades_cosecha;
+?>

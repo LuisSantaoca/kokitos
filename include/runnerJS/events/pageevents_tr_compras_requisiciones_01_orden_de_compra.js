@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('tr_compras_requisiciones_01_orden_de_compra',Runner.pages.constants.PAGE_ADD,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){if(!pageObj.myAfterInline){this.on('afterInlineAdd',function(fieldsData){pageObj.reload({});});pageObj.myAfterInline=true;}});

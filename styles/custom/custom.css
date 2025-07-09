@@ -1,0 +1,18 @@
+.rnr-orderlink {
+    cursor: pointer;
+    text-decoration: none;
+}
+.r-above .btn {
+    border-radius: 35px;
+}
+.r-above .btn:hover {
+    border-color:#000000;
+}
+
+.btn-primary:hover{
+border-radius: 35px;
+border-color:#ddd;
+}
+.btn-primary{
+border-radius: 30px;
+}

@@ -1,0 +1,668 @@
+<div class="panel panel-primary">
+		<div class="panel-heading">
+						{BEGIN top_block}
+<div class="panel-title r-panel-top row" data-location="top" id="form_top_{$pageid}" data-makeup="panel-only" {$form_top} data-pageid="{$pageid}" >		
+	 
+		 
+			<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h3 class="panel-title" data-itemtype="masterprint_header" data-itemid="masterprint_header" {$item_masterprint_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_actividades_cosecha_consecutivo_detalle masterprint}</h3>
+		</div>			</div>		
+{END top_block}
+			</div>
+		<div class="panel-body">
+							{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="panel-only" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+		 
+		{BEGIN inlineadd_link}
+<span data-itemtype="inline_add" data-itemid="inline_add" {$item_inline_add} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$inlineaddlink_attrs} >
+							Añadir nuevo			</a>
+</span>
+{END inlineadd_link}
+			{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+								{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<table data-location="grid" id="form_grid_{$pageid}" data-makeup="panel-only" {$form_grid} data-pageid="{$pageid}" class=" table table-striped table-bordered r-horizontal-grid  rnr-b-grid rnr-gridtable"
+	cellpadding="0"
+	data-body-height="1"
+>
+						<thead>
+			{BEGIN grid_header}
+			
+																									<tr {$rowattrs} {$row_grid_0} class="{$rowclass}
+									{$gridHeader_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_headcell_icons}
+	<th
+	
+	{$cell_grid_headcell_icons}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_headcell_icons" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"		data-control-cell
+	
+	>
+
+	
+	</th>
+	{END cellblock_grid_headcell_icons}
+									{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$consecutivo_id_class}	"
+
+			data-field="consecutivo_id"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN consecutivo_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field15" {$item_simple_grid_field15} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="consecutivo_id" data-fieldname="consecutivo_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle consecutivo_id }</span>
+			</span>
+	</span>
+{END consecutivo_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+									{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_actividades_especificas_id_class}	"
+
+			data-field="cat_actividades_especificas_id"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_actividades_especificas_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field36" {$item_simple_grid_field36} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_actividades_especificas_id" data-fieldname="cat_actividades_especificas_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle cat_actividades_especificas_id }</span>
+			</span>
+	</span>
+{END cat_actividades_especificas_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+									{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_actividades_cosecha_id_class}	"
+
+			data-field="tr_actividades_cosecha_id"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_actividades_cosecha_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field6" {$item_simple_grid_field6} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_actividades_cosecha_id" data-fieldname="tr_actividades_cosecha_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle tr_actividades_cosecha_id }</span>
+			</span>
+	</span>
+{END tr_actividades_cosecha_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+									{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Total_Botes_class}	"
+
+			data-field="Total_Botes"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN Total_Botes_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field7" {$item_simple_grid_field7} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Total_Botes" data-fieldname="Total_Botes" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle Total_Botes }</span>
+			</span>
+	</span>
+{END Total_Botes_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+									{BEGIN cellblock_grid_headcell_field4}
+	<th
+	
+	{$cell_grid_headcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Total_Descuento_class}	"
+
+			data-field="Total_Descuento"
+	
+	data-cellId="grid_headcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN Total_Descuento_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field8" {$item_simple_grid_field8} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Total_Descuento" data-fieldname="Total_Descuento" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle Total_Descuento }</span>
+			</span>
+	</span>
+{END Total_Descuento_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field4}
+									{BEGIN cellblock_grid_headcell_field5}
+	<th
+	
+	{$cell_grid_headcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Botes_Neto_class}	"
+
+			data-field="Botes_Neto"
+	
+	data-cellId="grid_headcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN Botes_Neto_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field9" {$item_simple_grid_field9} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Botes_Neto" data-fieldname="Botes_Neto" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle Botes_Neto }</span>
+			</span>
+	</span>
+{END Botes_Neto_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field5}
+									{BEGIN cellblock_grid_headcell_field6}
+	<th
+	
+	{$cell_grid_headcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_fcup_class}	"
+
+			data-field="llave_fcup"
+	
+	data-cellId="grid_headcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN llave_fcup_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field10" {$item_simple_grid_field10} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="llave_fcup" data-fieldname="llave_fcup" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle llave_fcup }</span>
+			</span>
+	</span>
+{END llave_fcup_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field6}
+									{BEGIN cellblock_grid_headcell_field7}
+	<th
+	
+	{$cell_grid_headcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajador_altas_id_class}	"
+
+			data-field="cat_trabajador_altas_id"
+	
+	data-cellId="grid_headcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajador_altas_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field11" {$item_simple_grid_field11} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajador_altas_id" data-fieldname="cat_trabajador_altas_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label tr_actividades_cosecha_consecutivo_detalle cat_trabajador_altas_id }</span>
+			</span>
+	</span>
+{END cat_trabajador_altas_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field7}
+							</tr>
+															
+					{END grid_header}
+			</thead>
+															<tbody>
+					{BEGIN grid_row}
+							
+																														<tr {$rowattrs} {$row_grid_1} class="{$rowclass}
+				
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_cell_icons}
+	<td
+	
+	{$cell_grid_cell_icons}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_icons" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"		data-control-cell
+	
+	>
+
+	 
+		{BEGIN inline_cancel}
+<span data-itemtype="grid_inline_cancel" data-itemid="grid_inline_cancel" {$item_grid_inline_cancel} data-pageid="{$pageid}" data-record-id="{$recId}" data-small data-button-item>
+	<a type="button" title="Cancelar" class="btn-link   
+	 glyphicon glyphicon-remove" {$inlinerevertlink_attrs} title="Cancelar" >		
+				
+								</a>
+</span>
+{END inline_cancel}
+	
+	</td>
+	{END cellblock_grid_cell_icons}
+									{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$consecutivo_id_class}	"
+
+			data-field="consecutivo_id"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN consecutivo_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field14" {$item_simple_grid_field14} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="consecutivo_id" data-fieldname="consecutivo_id" data-default-width >
+{$consecutivo_id_value}
+</span>
+{END consecutivo_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field}
+									{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_actividades_especificas_id_class}	"
+
+			data-field="cat_actividades_especificas_id"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_actividades_especificas_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field35" {$item_simple_grid_field35} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_actividades_especificas_id" data-fieldname="cat_actividades_especificas_id" data-default-width >
+{$cat_actividades_especificas_id_value}
+</span>
+{END cat_actividades_especificas_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field1}
+									{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_actividades_cosecha_id_class}	"
+
+			data-field="tr_actividades_cosecha_id"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN tr_actividades_cosecha_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1" {$item_simple_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="tr_actividades_cosecha_id" data-fieldname="tr_actividades_cosecha_id" data-default-width >
+{$tr_actividades_cosecha_id_value}
+</span>
+{END tr_actividades_cosecha_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field2}
+									{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Total_Botes_class}	"
+
+			data-field="Total_Botes"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN Total_Botes_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2" {$item_simple_grid_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Total_Botes" data-fieldname="Total_Botes" data-default-width >
+{$Total_Botes_value}
+</span>
+{END Total_Botes_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field3}
+									{BEGIN cellblock_grid_cell_field4}
+	<td
+	
+	{$cell_grid_cell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Total_Descuento_class}	"
+
+			data-field="Total_Descuento"
+	
+	data-cellId="grid_cell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN Total_Descuento_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" {$item_simple_grid_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Total_Descuento" data-fieldname="Total_Descuento" data-default-width >
+{$Total_Descuento_value}
+</span>
+{END Total_Descuento_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field4}
+									{BEGIN cellblock_grid_cell_field5}
+	<td
+	
+	{$cell_grid_cell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Botes_Neto_class}	"
+
+			data-field="Botes_Neto"
+	
+	data-cellId="grid_cell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN Botes_Neto_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field4" {$item_simple_grid_field4} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Botes_Neto" data-fieldname="Botes_Neto" data-default-width >
+{$Botes_Neto_value}
+</span>
+{END Botes_Neto_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field5}
+									{BEGIN cellblock_grid_cell_field6}
+	<td
+	
+	{$cell_grid_cell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_fcup_class}	"
+
+			data-field="llave_fcup"
+	
+	data-cellId="grid_cell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN llave_fcup_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field" {$item_simple_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="llave_fcup" data-fieldname="llave_fcup" data-default-width >
+{$llave_fcup_value}
+</span>
+{END llave_fcup_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field6}
+									{BEGIN cellblock_grid_cell_field7}
+	<td
+	
+	{$cell_grid_cell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajador_altas_id_class}	"
+
+			data-field="cat_trabajador_altas_id"
+	
+	data-cellId="grid_cell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajador_altas_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field5" {$item_simple_grid_field5} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajador_altas_id" data-fieldname="cat_trabajador_altas_id" data-default-width >
+{$cat_trabajador_altas_id_value}
+</span>
+{END cat_trabajador_altas_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field7}
+							</tr>
+										
+											{END grid_row}
+					</tbody>
+													<tfoot>
+			
+																																			<tr {$rowattrs} {$row_grid_2} class="{$rowclass}
+									{$gridFooter_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_footcell_icons}
+	<td
+	
+	{$cell_grid_footcell_icons}
+	{$recordattrs}
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_footcell_icons" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_icons}
+									{BEGIN cellblock_grid_footcell_field}
+	<td
+	
+	{$cell_grid_footcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$consecutivo_id_class}	"
+
+	
+	data-cellId="grid_footcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field}
+									{BEGIN cellblock_grid_footcell_field1}
+	<td
+	
+	{$cell_grid_footcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_actividades_especificas_id_class}	"
+
+	
+	data-cellId="grid_footcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field1}
+									{BEGIN cellblock_grid_footcell_field2}
+	<td
+	
+	{$cell_grid_footcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$tr_actividades_cosecha_id_class}	"
+
+	
+	data-cellId="grid_footcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field2}
+									{BEGIN cellblock_grid_footcell_field3}
+	<td
+	
+	{$cell_grid_footcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Total_Botes_class}	"
+
+	
+	data-cellId="grid_footcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field3}
+									{BEGIN cellblock_grid_footcell_field4}
+	<td
+	
+	{$cell_grid_footcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Total_Descuento_class}	"
+
+	
+	data-cellId="grid_footcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field4}
+									{BEGIN cellblock_grid_footcell_field5}
+	<td
+	
+	{$cell_grid_footcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$Botes_Neto_class}	"
+
+	
+	data-cellId="grid_footcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field5}
+									{BEGIN cellblock_grid_footcell_field6}
+	<td
+	
+	{$cell_grid_footcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$llave_fcup_class}	"
+
+	
+	data-cellId="grid_footcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field6}
+									{BEGIN cellblock_grid_footcell_field7}
+	<td
+	
+	{$cell_grid_footcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajador_altas_id_class}	"
+
+	
+	data-cellId="grid_footcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="tr_actividades_cosecha_consecutivo_detalle_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field7}
+							</tr>
+					
+					</tfoot>
+				</table>
+{END grid_block}
+								</div>
+</div>

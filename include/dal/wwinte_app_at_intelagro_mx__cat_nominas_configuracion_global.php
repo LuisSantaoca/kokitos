@@ -1,0 +1,45 @@
+<?php
+$dalTablecat_nominas_configuracion_global = array();
+$dalTablecat_nominas_configuracion_global["cat_trabajadores_altas_id"] = array("type"=>3,"varname"=>"cat_trabajadores_altas_id", "name" => "cat_trabajadores_altas_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["nombre"] = array("type"=>201,"varname"=>"nombre", "name" => "nombre", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_nominas_periodicidad_mu_id"] = array("type"=>3,"varname"=>"cat_nominas_periodicidad_mu_id", "name" => "cat_nominas_periodicidad_mu_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_periodicidad"] = array("type"=>200,"varname"=>"descripcion_periodicidad", "name" => "descripcion_periodicidad", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_nominas_dias_semana_mu_id_inicio"] = array("type"=>3,"varname"=>"cat_nominas_dias_semana_mu_id_inicio", "name" => "cat_nominas_dias_semana_mu_id_inicio", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_dias"] = array("type"=>200,"varname"=>"descripcion_dias", "name" => "descripcion_dias", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_nominas_conceptos_id"] = array("type"=>3,"varname"=>"cat_nominas_conceptos_id", "name" => "cat_nominas_conceptos_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_nominas_conceptos1"] = array("type"=>200,"varname"=>"descripcion_nominas_conceptos1", "name" => "descripcion_nominas_conceptos1", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_nomina_conceptos_factor_de_calculo_mu_id"] = array("type"=>3,"varname"=>"cat_nomina_conceptos_factor_de_calculo_mu_id", "name" => "cat_nomina_conceptos_factor_de_calculo_mu_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_factor_de_calculo"] = array("type"=>200,"varname"=>"descripcion_factor_de_calculo", "name" => "descripcion_factor_de_calculo", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["factor_nomina_conceptos"] = array("type"=>14,"varname"=>"factor_nomina_conceptos", "name" => "factor_nomina_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["costo_bruto_nominas_conceptos"] = array("type"=>14,"varname"=>"costo_bruto_nominas_conceptos", "name" => "costo_bruto_nominas_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["fecha_de_inicio_conceptos"] = array("type"=>7,"varname"=>"fecha_de_inicio_conceptos", "name" => "fecha_de_inicio_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["fecha_de_termino_conceptos"] = array("type"=>7,"varname"=>"fecha_de_termino_conceptos", "name" => "fecha_de_termino_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_holding_03_empresas_unidades_productivas_id"] = array("type"=>3,"varname"=>"cat_holding_03_empresas_unidades_productivas_id", "name" => "cat_holding_03_empresas_unidades_productivas_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_unidades_productivas"] = array("type"=>200,"varname"=>"descripcion_unidades_productivas", "name" => "descripcion_unidades_productivas", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_actividades_id"] = array("type"=>3,"varname"=>"cat_actividades_id", "name" => "cat_actividades_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_actividad"] = array("type"=>200,"varname"=>"descripcion_actividad", "name" => "descripcion_actividad", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_actividades_unidades_de_costo_id"] = array("type"=>3,"varname"=>"cat_actividades_unidades_de_costo_id", "name" => "cat_actividades_unidades_de_costo_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_unidades_de_costo"] = array("type"=>200,"varname"=>"descripcion_unidades_de_costo", "name" => "descripcion_unidades_de_costo", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["factor_de_calculo"] = array("type"=>14,"varname"=>"factor_de_calculo", "name" => "factor_de_calculo", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_nomina_conceptos_id"] = array("type"=>3,"varname"=>"cat_nomina_conceptos_id", "name" => "cat_nomina_conceptos_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_nominas_conceptos"] = array("type"=>200,"varname"=>"descripcion_nominas_conceptos", "name" => "descripcion_nominas_conceptos", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_actividades_alcance_mu_id"] = array("type"=>3,"varname"=>"cat_actividades_alcance_mu_id", "name" => "cat_actividades_alcance_mu_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_alcance"] = array("type"=>200,"varname"=>"descripcion_alcance", "name" => "descripcion_alcance", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_nominas_intervalos_mu_id"] = array("type"=>200,"varname"=>"cat_nominas_intervalos_mu_id", "name" => "cat_nominas_intervalos_mu_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_intervalos"] = array("type"=>200,"varname"=>"descripcion_intervalos", "name" => "descripcion_intervalos", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_actividades_metodo_de_costeo_variables_id"] = array("type"=>3,"varname"=>"cat_actividades_metodo_de_costeo_variables_id", "name" => "cat_actividades_metodo_de_costeo_variables_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_variable"] = array("type"=>200,"varname"=>"descripcion_variable", "name" => "descripcion_variable", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_metodo_de_costeo"] = array("type"=>200,"varname"=>"descripcion_metodo_de_costeo", "name" => "descripcion_metodo_de_costeo", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["fecha_de_inicio_actividad"] = array("type"=>7,"varname"=>"fecha_de_inicio_actividad", "name" => "fecha_de_inicio_actividad", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["fecha_de_termino_actividad"] = array("type"=>7,"varname"=>"fecha_de_termino_actividad", "name" => "fecha_de_termino_actividad", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["limite_inferior"] = array("type"=>14,"varname"=>"limite_inferior", "name" => "limite_inferior", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["limite_superior"] = array("type"=>14,"varname"=>"limite_superior", "name" => "limite_superior", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["costo_bruto_actividad"] = array("type"=>14,"varname"=>"costo_bruto_actividad", "name" => "costo_bruto_actividad", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_holding_04_unidades_productivas_lotes_id"] = array("type"=>3,"varname"=>"cat_holding_04_unidades_productivas_lotes_id", "name" => "cat_holding_04_unidades_productivas_lotes_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_lote"] = array("type"=>200,"varname"=>"descripcion_lote", "name" => "descripcion_lote", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_usuarios_licencias_id"] = array("type"=>3,"varname"=>"cat_usuarios_licencias_id", "name" => "cat_usuarios_licencias_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["cat_nominas_conceptos_clasificacion_mu_id"] = array("type"=>3,"varname"=>"cat_nominas_conceptos_clasificacion_mu_id", "name" => "cat_nominas_conceptos_clasificacion_mu_id", "autoInc" => "0");
+$dalTablecat_nominas_configuracion_global["descripcion_nominas_conceptos_clasificacion"] = array("type"=>200,"varname"=>"descripcion_nominas_conceptos_clasificacion", "name" => "descripcion_nominas_conceptos_clasificacion", "autoInc" => "0");
+
+$dal_info["wwinte_app_at_intelagro_mx__cat_nominas_configuracion_global"] = &$dalTablecat_nominas_configuracion_global;
+?>

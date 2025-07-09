@@ -1,0 +1,634 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_actividades_cosecha_detalle_tags search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN tr_actividades_cosecha_detalle_tags_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tr_actividades_cosecha_detalle_tags_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="tr_actividades_cosecha_detalle_tags_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="tr_actividades_cosecha_detalle_tags_id" data-fieldname="tr_actividades_cosecha_detalle_tags_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_tr_actividades_cosecha_detalle_tags_id}">
+		{$label tr_actividades_cosecha_detalle_tags tr_actividades_cosecha_detalle_tags_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_tr_actividades_cosecha_detalle_tags_id}
+	</div>
+	<div class="r-search-field">
+		{$tr_actividades_cosecha_detalle_tags_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$tr_actividades_cosecha_detalle_tags_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END tr_actividades_cosecha_detalle_tags_id_fieldblock}
+											
+{BEGIN tag_uuid_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tag_uuid}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="tag_uuid{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="tag_uuid" data-fieldname="tag_uuid" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_tag_uuid}">
+		{$label tr_actividades_cosecha_detalle_tags tag_uuid }	</label>
+	<div class="r-search-option">
+		{$searchtype_tag_uuid}
+	</div>
+	<div class="r-search-field">
+		{$tag_uuid_editcontrol}	</div>
+	<div class="r-search-field">
+		{$tag_uuid_editcontrol1}
+	</div>
+	
+</div>
+
+{END tag_uuid_fieldblock}
+											
+{BEGIN vigente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="vigente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_vigente}">
+		{$label tr_actividades_cosecha_detalle_tags vigente }	</label>
+	<div class="r-search-option">
+		{$searchtype_vigente}
+	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol1}
+	</div>
+	
+</div>
+
+{END vigente_fieldblock}
+											
+{BEGIN fecha_de_captura_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_captura}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_de_captura{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="fecha_de_captura" data-fieldname="fecha_de_captura" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_de_captura}">
+		{$label tr_actividades_cosecha_detalle_tags fecha_de_captura }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_de_captura}
+	</div>
+	<div class="r-search-field">
+		{$fecha_de_captura_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_de_captura_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_de_captura_fieldblock}
+											
+{BEGIN consecutivo_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_consecutivo_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="consecutivo_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="consecutivo_id" data-fieldname="consecutivo_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_consecutivo_id}">
+		{$label tr_actividades_cosecha_detalle_tags consecutivo_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_consecutivo_id}
+	</div>
+	<div class="r-search-field">
+		{$consecutivo_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$consecutivo_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END consecutivo_id_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label tr_actividades_cosecha_detalle_tags capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+											
+{BEGIN time_stamp_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_time_stamp}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="time_stamp{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="time_stamp" data-fieldname="time_stamp" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_time_stamp}">
+		{$label tr_actividades_cosecha_detalle_tags time_stamp }	</label>
+	<div class="r-search-option">
+		{$searchtype_time_stamp}
+	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol}	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol1}
+	</div>
+	
+</div>
+
+{END time_stamp_fieldblock}
+											
+{BEGIN cat_trabajador_altas_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_trabajador_altas_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_trabajador_altas_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="cat_trabajador_altas_id" data-fieldname="cat_trabajador_altas_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_trabajador_altas_id}">
+		{$label tr_actividades_cosecha_detalle_tags cat_trabajador_altas_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_trabajador_altas_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_trabajador_altas_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_trabajador_altas_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_trabajador_altas_id_fieldblock}
+											
+{BEGIN cat_holding_03_empresas_unidades_productivas_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_holding_03_empresas_unidades_productivas_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_holding_03_empresas_unidades_productivas_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="cat_holding_03_empresas_unidades_productivas_id" data-fieldname="cat_holding_03_empresas_unidades_productivas_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_holding_03_empresas_unidades_productivas_id}">
+		{$label tr_actividades_cosecha_detalle_tags cat_holding_03_empresas_unidades_productivas_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_holding_03_empresas_unidades_productivas_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_holding_03_empresas_unidades_productivas_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_holding_03_empresas_unidades_productivas_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_holding_03_empresas_unidades_productivas_id_fieldblock}
+											
+{BEGIN cantidad_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cantidad}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cantidad{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="cantidad" data-fieldname="cantidad" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cantidad}">
+		{$label tr_actividades_cosecha_detalle_tags cantidad }	</label>
+	<div class="r-search-option">
+		{$searchtype_cantidad}
+	</div>
+	<div class="r-search-field">
+		{$cantidad_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cantidad_editcontrol1}
+	</div>
+	
+</div>
+
+{END cantidad_fieldblock}
+											
+{BEGIN peso_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_peso}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="peso{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="peso" data-fieldname="peso" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_peso}">
+		{$label tr_actividades_cosecha_detalle_tags peso }	</label>
+	<div class="r-search-option">
+		{$searchtype_peso}
+	</div>
+	<div class="r-search-field">
+		{$peso_editcontrol}	</div>
+	<div class="r-search-field">
+		{$peso_editcontrol1}
+	</div>
+	
+</div>
+
+{END peso_fieldblock}
+											
+{BEGIN cat_holding_04_unidades_productivas_lotes_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_holding_04_unidades_productivas_lotes_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_holding_04_unidades_productivas_lotes_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="cat_holding_04_unidades_productivas_lotes_id" data-fieldname="cat_holding_04_unidades_productivas_lotes_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_holding_04_unidades_productivas_lotes_id}">
+		{$label tr_actividades_cosecha_detalle_tags cat_holding_04_unidades_productivas_lotes_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_holding_04_unidades_productivas_lotes_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_holding_04_unidades_productivas_lotes_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_holding_04_unidades_productivas_lotes_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_holding_04_unidades_productivas_lotes_id_fieldblock}
+											
+{BEGIN surco_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_surco}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="surco{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="surco" data-fieldname="surco" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_surco}">
+		{$label tr_actividades_cosecha_detalle_tags surco }	</label>
+	<div class="r-search-option">
+		{$searchtype_surco}
+	</div>
+	<div class="r-search-field">
+		{$surco_editcontrol}	</div>
+	<div class="r-search-field">
+		{$surco_editcontrol1}
+	</div>
+	
+</div>
+
+{END surco_fieldblock}
+											
+{BEGIN tunel_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tunel}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="tunel{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="tunel" data-fieldname="tunel" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_tunel}">
+		{$label tr_actividades_cosecha_detalle_tags tunel }	</label>
+	<div class="r-search-option">
+		{$searchtype_tunel}
+	</div>
+	<div class="r-search-field">
+		{$tunel_editcontrol}	</div>
+	<div class="r-search-field">
+		{$tunel_editcontrol1}
+	</div>
+	
+</div>
+
+{END tunel_fieldblock}
+											
+{BEGIN descuento_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descuento}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descuento{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field14" {$item_integrated_search_field14} data-pageid="{$pageid}" data-field="descuento" data-fieldname="descuento" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descuento}">
+		{$label tr_actividades_cosecha_detalle_tags descuento }	</label>
+	<div class="r-search-option">
+		{$searchtype_descuento}
+	</div>
+	<div class="r-search-field">
+		{$descuento_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descuento_editcontrol1}
+	</div>
+	
+</div>
+
+{END descuento_fieldblock}
+											
+{BEGIN Lat_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Lat}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Lat{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field15" {$item_integrated_search_field15} data-pageid="{$pageid}" data-field="Lat" data-fieldname="Lat" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Lat}">
+		{$label tr_actividades_cosecha_detalle_tags Lat }	</label>
+	<div class="r-search-option">
+		{$searchtype_Lat}
+	</div>
+	<div class="r-search-field">
+		{$Lat_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Lat_editcontrol1}
+	</div>
+	
+</div>
+
+{END Lat_fieldblock}
+											
+{BEGIN Lng_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Lng}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Lng{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field16" {$item_integrated_search_field16} data-pageid="{$pageid}" data-field="Lng" data-fieldname="Lng" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Lng}">
+		{$label tr_actividades_cosecha_detalle_tags Lng }	</label>
+	<div class="r-search-option">
+		{$searchtype_Lng}
+	</div>
+	<div class="r-search-field">
+		{$Lng_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Lng_editcontrol1}
+	</div>
+	
+</div>
+
+{END Lng_fieldblock}
+											
+{BEGIN identificador_dispositivo_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_identificador_dispositivo}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="identificador_dispositivo{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field17" {$item_integrated_search_field17} data-pageid="{$pageid}" data-field="identificador_dispositivo" data-fieldname="identificador_dispositivo" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_identificador_dispositivo}">
+		{$label tr_actividades_cosecha_detalle_tags identificador_dispositivo }	</label>
+	<div class="r-search-option">
+		{$searchtype_identificador_dispositivo}
+	</div>
+	<div class="r-search-field">
+		{$identificador_dispositivo_editcontrol}	</div>
+	<div class="r-search-field">
+		{$identificador_dispositivo_editcontrol1}
+	</div>
+	
+</div>
+
+{END identificador_dispositivo_fieldblock}
+											
+{BEGIN calidad_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_calidad}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="calidad{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field18" {$item_integrated_search_field18} data-pageid="{$pageid}" data-field="calidad" data-fieldname="calidad" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_calidad}">
+		{$label tr_actividades_cosecha_detalle_tags calidad }	</label>
+	<div class="r-search-option">
+		{$searchtype_calidad}
+	</div>
+	<div class="r-search-field">
+		{$calidad_editcontrol}	</div>
+	<div class="r-search-field">
+		{$calidad_editcontrol1}
+	</div>
+	
+</div>
+
+{END calidad_fieldblock}
+											
+{BEGIN cat_produccion_cultivos_01_productos_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_produccion_cultivos_01_productos_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_produccion_cultivos_01_productos_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field19" {$item_integrated_search_field19} data-pageid="{$pageid}" data-field="cat_produccion_cultivos_01_productos_id" data-fieldname="cat_produccion_cultivos_01_productos_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_produccion_cultivos_01_productos_id}">
+		{$label tr_actividades_cosecha_detalle_tags cat_produccion_cultivos_01_productos_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_produccion_cultivos_01_productos_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_produccion_cultivos_01_productos_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_produccion_cultivos_01_productos_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_produccion_cultivos_01_productos_id_fieldblock}
+											
+{BEGIN llave_unica_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_llave_unica}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="llave_unica{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field20" {$item_integrated_search_field20} data-pageid="{$pageid}" data-field="llave_unica" data-fieldname="llave_unica" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_llave_unica}">
+		{$label tr_actividades_cosecha_detalle_tags llave_unica }	</label>
+	<div class="r-search-option">
+		{$searchtype_llave_unica}
+	</div>
+	<div class="r-search-field">
+		{$llave_unica_editcontrol}	</div>
+	<div class="r-search-field">
+		{$llave_unica_editcontrol1}
+	</div>
+	
+</div>
+
+{END llave_unica_fieldblock}
+											
+{BEGIN numero_de_bote_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_numero_de_bote}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="numero_de_bote{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field21" {$item_integrated_search_field21} data-pageid="{$pageid}" data-field="numero_de_bote" data-fieldname="numero_de_bote" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_numero_de_bote}">
+		{$label tr_actividades_cosecha_detalle_tags numero_de_bote }	</label>
+	<div class="r-search-option">
+		{$searchtype_numero_de_bote}
+	</div>
+	<div class="r-search-field">
+		{$numero_de_bote_editcontrol}	</div>
+	<div class="r-search-field">
+		{$numero_de_bote_editcontrol1}
+	</div>
+	
+</div>
+
+{END numero_de_bote_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

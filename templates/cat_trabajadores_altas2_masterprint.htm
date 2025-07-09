@@ -1,0 +1,604 @@
+<div class="panel panel-primary">
+		<div class="panel-heading">
+						{BEGIN top_block}
+<div class="panel-title r-panel-top row" data-location="top" id="form_top_{$pageid}" data-makeup="panel-only" {$form_top} data-pageid="{$pageid}" >		
+	 
+		 
+			<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h3 class="panel-title" data-itemtype="masterprint_header" data-itemid="masterprint_header" {$item_masterprint_header} data-pageid="{$pageid}" >{$pagetitlelabel cat_trabajadores_altas2 masterprint}</h3>
+		</div>			</div>		
+{END top_block}
+			</div>
+		<div class="panel-body">
+							{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="panel-only" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+				{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+								{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<table data-location="grid" id="form_grid_{$pageid}" data-makeup="panel-only" {$form_grid} data-pageid="{$pageid}" class=" table table-striped table-bordered r-horizontal-grid  rnr-b-grid rnr-gridtable"
+	cellpadding="0"
+	data-body-height="1"
+>
+						<thead>
+			{BEGIN grid_header}
+			
+																									<tr {$rowattrs} {$row_grid_0} class="{$rowclass}
+									{$gridHeader_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+			data-field="cat_trabajadores_altas_id"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field7" {$item_simple_grid_field7} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id" data-fieldname="cat_trabajadores_altas_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 cat_trabajadores_altas_id }</span>
+			</span>
+	</span>
+{END cat_trabajadores_altas_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+									{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_empresa_class}	"
+
+			data-field="cat_trabajadores_altas_id_empresa"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_empresa_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field8" {$item_simple_grid_field8} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id_empresa" data-fieldname="cat_trabajadores_altas_id_empresa" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 cat_trabajadores_altas_id_empresa }</span>
+			</span>
+	</span>
+{END cat_trabajadores_altas_id_empresa_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+									{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$vigente_class}	"
+
+			data-field="vigente"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN vigente_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field9" {$item_simple_grid_field9} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="vigente" data-fieldname="vigente" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 vigente }</span>
+			</span>
+	</span>
+{END vigente_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+									{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_ingreso_class}	"
+
+			data-field="fecha_de_ingreso"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_ingreso_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field10" {$item_simple_grid_field10} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_ingreso" data-fieldname="fecha_de_ingreso" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 fecha_de_ingreso }</span>
+			</span>
+	</span>
+{END fecha_de_ingreso_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+									{BEGIN cellblock_grid_headcell_field4}
+	<th
+	
+	{$cell_grid_headcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$nombre_completook_class}	"
+
+			data-field="nombre_completook"
+	
+	data-cellId="grid_headcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN nombre_completook_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field37" {$item_simple_grid_field37} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="nombre_completook" data-fieldname="nombre_completook" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 nombre_completook }</span>
+			</span>
+	</span>
+{END nombre_completook_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field4}
+									{BEGIN cellblock_grid_headcell_field5}
+	<th
+	
+	{$cell_grid_headcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_alta_baja_mu_id_class}	"
+
+			data-field="cat_trabajadores_alta_baja_mu_id"
+	
+	data-cellId="grid_headcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_alta_baja_mu_id_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field11" {$item_simple_grid_field11} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_alta_baja_mu_id" data-fieldname="cat_trabajadores_alta_baja_mu_id" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 cat_trabajadores_alta_baja_mu_id }</span>
+			</span>
+	</span>
+{END cat_trabajadores_alta_baja_mu_id_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field5}
+									{BEGIN cellblock_grid_headcell_field6}
+	<th
+	
+	{$cell_grid_headcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$descripcion_alta_baja_class}	"
+
+			data-field="descripcion_alta_baja"
+	
+	data-cellId="grid_headcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN descripcion_alta_baja_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field12" {$item_simple_grid_field12} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="descripcion_alta_baja" data-fieldname="descripcion_alta_baja" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 descripcion_alta_baja }</span>
+			</span>
+	</span>
+{END descripcion_alta_baja_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field6}
+									{BEGIN cellblock_grid_headcell_field7}
+	<th
+	
+	{$cell_grid_headcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_class}	"
+
+			data-field="fecha"
+	
+	data-cellId="grid_headcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field13" {$item_simple_grid_field13} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha" data-fieldname="fecha" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label cat_trabajadores_altas2 fecha }</span>
+			</span>
+	</span>
+{END fecha_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field7}
+							</tr>
+															
+					{END grid_header}
+			</thead>
+															<tbody>
+					{BEGIN grid_row}
+							
+																														<tr {$rowattrs} {$row_grid_1} class="{$rowclass}
+				
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+			data-field="cat_trabajadores_altas_id"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field" {$item_simple_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id" data-fieldname="cat_trabajadores_altas_id" data-default-width >
+{$cat_trabajadores_altas_id_value}
+</span>
+{END cat_trabajadores_altas_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field}
+									{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_empresa_class}	"
+
+			data-field="cat_trabajadores_altas_id_empresa"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_altas_id_empresa_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1" {$item_simple_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_altas_id_empresa" data-fieldname="cat_trabajadores_altas_id_empresa" data-default-width >
+{$cat_trabajadores_altas_id_empresa_value}
+</span>
+{END cat_trabajadores_altas_id_empresa_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field1}
+									{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$vigente_class}	"
+
+			data-field="vigente"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN vigente_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2" {$item_simple_grid_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="vigente" data-fieldname="vigente" data-default-width >
+{$vigente_value}
+</span>
+{END vigente_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field2}
+									{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_ingreso_class}	"
+
+			data-field="fecha_de_ingreso"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_de_ingreso_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" {$item_simple_grid_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha_de_ingreso" data-fieldname="fecha_de_ingreso" data-default-width >
+{$fecha_de_ingreso_value}
+</span>
+{END fecha_de_ingreso_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field3}
+									{BEGIN cellblock_grid_cell_field4}
+	<td
+	
+	{$cell_grid_cell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$nombre_completook_class}	"
+
+			data-field="nombre_completook"
+	
+	data-cellId="grid_cell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN nombre_completook_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field36" {$item_simple_grid_field36} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="nombre_completook" data-fieldname="nombre_completook" data-default-width >
+{$nombre_completook_value}
+</span>
+{END nombre_completook_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field4}
+									{BEGIN cellblock_grid_cell_field5}
+	<td
+	
+	{$cell_grid_cell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_alta_baja_mu_id_class}	"
+
+			data-field="cat_trabajadores_alta_baja_mu_id"
+	
+	data-cellId="grid_cell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN cat_trabajadores_alta_baja_mu_id_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field4" {$item_simple_grid_field4} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="cat_trabajadores_alta_baja_mu_id" data-fieldname="cat_trabajadores_alta_baja_mu_id" data-default-width >
+{$cat_trabajadores_alta_baja_mu_id_value}
+</span>
+{END cat_trabajadores_alta_baja_mu_id_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field5}
+									{BEGIN cellblock_grid_cell_field6}
+	<td
+	
+	{$cell_grid_cell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$descripcion_alta_baja_class}	"
+
+			data-field="descripcion_alta_baja"
+	
+	data-cellId="grid_cell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN descripcion_alta_baja_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field5" {$item_simple_grid_field5} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="descripcion_alta_baja" data-fieldname="descripcion_alta_baja" data-default-width >
+{$descripcion_alta_baja_value}
+</span>
+{END descripcion_alta_baja_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field6}
+									{BEGIN cellblock_grid_cell_field7}
+	<td
+	
+	{$cell_grid_cell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_class}	"
+
+			data-field="fecha"
+	
+	data-cellId="grid_cell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN fecha_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field6" {$item_simple_grid_field6} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="fecha" data-fieldname="fecha" data-default-width >
+{$fecha_value}
+</span>
+{END fecha_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field7}
+							</tr>
+										
+											{END grid_row}
+					</tbody>
+													<tfoot>
+			
+																																			<tr {$rowattrs} {$row_grid_2} class="{$rowclass}
+									{$gridFooter_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_footcell_field}
+	<td
+	
+	{$cell_grid_footcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_class}	"
+
+	
+	data-cellId="grid_footcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field}
+									{BEGIN cellblock_grid_footcell_field1}
+	<td
+	
+	{$cell_grid_footcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_altas_id_empresa_class}	"
+
+	
+	data-cellId="grid_footcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field1}
+									{BEGIN cellblock_grid_footcell_field2}
+	<td
+	
+	{$cell_grid_footcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$vigente_class}	"
+
+	
+	data-cellId="grid_footcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field2}
+									{BEGIN cellblock_grid_footcell_field3}
+	<td
+	
+	{$cell_grid_footcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_de_ingreso_class}	"
+
+	
+	data-cellId="grid_footcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field3}
+									{BEGIN cellblock_grid_footcell_field4}
+	<td
+	
+	{$cell_grid_footcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$nombre_completook_class}	"
+
+	
+	data-cellId="grid_footcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field4}
+									{BEGIN cellblock_grid_footcell_field5}
+	<td
+	
+	{$cell_grid_footcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$cat_trabajadores_alta_baja_mu_id_class}	"
+
+	
+	data-cellId="grid_footcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field5}
+									{BEGIN cellblock_grid_footcell_field6}
+	<td
+	
+	{$cell_grid_footcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$descripcion_alta_baja_class}	"
+
+	
+	data-cellId="grid_footcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field6}
+									{BEGIN cellblock_grid_footcell_field7}
+	<td
+	
+	{$cell_grid_footcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$fecha_class}	"
+
+	
+	data-cellId="grid_footcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="cat_trabajadores_altas2_masterprint"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field7}
+							</tr>
+					
+					</tfoot>
+				</table>
+{END grid_block}
+								</div>
+</div>

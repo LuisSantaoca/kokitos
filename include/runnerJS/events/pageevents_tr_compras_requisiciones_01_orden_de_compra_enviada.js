@@ -1,0 +1,6 @@
+
+Runner.pages.PageSettings.addPageEvent('tr_compras_requisiciones_01_orden_de_compra_enviada',Runner.pages.constants.PAGE_ADD,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){if(!pageObj.myAfterInline){this.on('afterInlineAdd',function(fieldsData){pageObj.reload({});});pageObj.myAfterInline=true;}});Runner.pages.PageSettings.addPageEvent('tr_compras_requisiciones_01_orden_de_compra_enviada',Runner.pages.constants.PAGE_LIST,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var ctrl=Runner.getControl(pageid,"cat_compras_estatus_mu_id");if(ctrl.getValue()!="1")
+pageObj.hideField("cat_compras_proveedores_id");ctrl.on('change',function(){if(this.getValue()=="1"){pageObj.showField("cat_compras_proveedores_id");}
+else{pageObj.hideField("cat_compras_proveedores_id");}});});Runner.pages.PageSettings.addPageEvent('tr_compras_requisiciones_01_orden_de_compra_enviada',Runner.pages.constants.PAGE_EDIT,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var ctrl=Runner.getControl(pageid,"cat_compras_estatus_mu_id");if(ctrl.getValue()!="1")
+pageObj.hideField("cat_compras_proveedores_id");ctrl.on('change',function(){if(this.getValue()=="1"){pageObj.showField("cat_compras_proveedores_id");}
+else{pageObj.hideField("cat_compras_proveedores_id");}});});

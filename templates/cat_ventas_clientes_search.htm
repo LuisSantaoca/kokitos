@@ -1,0 +1,722 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel cat_ventas_clientes search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c1}
+<td
+	{$cell_grid_c1}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c1" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN vigente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="vigente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_vigente}">
+		{$label cat_ventas_clientes vigente }	</label>
+	<div class="r-search-option">
+		{$searchtype_vigente}
+	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol1}
+	</div>
+	
+</div>
+
+{END vigente_fieldblock}
+											
+{BEGIN cat_ventas_clientes_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_ventas_clientes_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_ventas_clientes_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="cat_ventas_clientes_id" data-fieldname="cat_ventas_clientes_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_ventas_clientes_id}">
+		{$label cat_ventas_clientes cat_ventas_clientes_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_ventas_clientes_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_ventas_clientes_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_ventas_clientes_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_ventas_clientes_id_fieldblock}
+											
+{BEGIN rfc_cliente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_rfc_cliente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="rfc_cliente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="rfc_cliente" data-fieldname="rfc_cliente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_rfc_cliente}">
+		{$label cat_ventas_clientes rfc_cliente }	</label>
+	<div class="r-search-option">
+		{$searchtype_rfc_cliente}
+	</div>
+	<div class="r-search-field">
+		{$rfc_cliente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$rfc_cliente_editcontrol1}
+	</div>
+	
+</div>
+
+{END rfc_cliente_fieldblock}
+											
+{BEGIN descripcion_cliente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_cliente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_cliente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="descripcion_cliente" data-fieldname="descripcion_cliente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_cliente}">
+		{$label cat_ventas_clientes descripcion_cliente }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_cliente}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_cliente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_cliente_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_cliente_fieldblock}
+											
+{BEGIN cp_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cp}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cp{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="cp" data-fieldname="cp" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cp}">
+		{$label cat_ventas_clientes cp }	</label>
+	<div class="r-search-option">
+		{$searchtype_cp}
+	</div>
+	<div class="r-search-field">
+		{$cp_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cp_editcontrol1}
+	</div>
+	
+</div>
+
+{END cp_fieldblock}
+											
+{BEGIN calle_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_calle}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="calle{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="calle" data-fieldname="calle" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_calle}">
+		{$label cat_ventas_clientes calle }	</label>
+	<div class="r-search-option">
+		{$searchtype_calle}
+	</div>
+	<div class="r-search-field">
+		{$calle_editcontrol}	</div>
+	<div class="r-search-field">
+		{$calle_editcontrol1}
+	</div>
+	
+</div>
+
+{END calle_fieldblock}
+											
+{BEGIN num_ex_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_num_ex}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="num_ex{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="num_ex" data-fieldname="num_ex" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_num_ex}">
+		{$label cat_ventas_clientes num_ex }	</label>
+	<div class="r-search-option">
+		{$searchtype_num_ex}
+	</div>
+	<div class="r-search-field">
+		{$num_ex_editcontrol}	</div>
+	<div class="r-search-field">
+		{$num_ex_editcontrol1}
+	</div>
+	
+</div>
+
+{END num_ex_fieldblock}
+											
+{BEGIN num_int_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_num_int}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="num_int{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="num_int" data-fieldname="num_int" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_num_int}">
+		{$label cat_ventas_clientes num_int }	</label>
+	<div class="r-search-option">
+		{$searchtype_num_int}
+	</div>
+	<div class="r-search-field">
+		{$num_int_editcontrol}	</div>
+	<div class="r-search-field">
+		{$num_int_editcontrol1}
+	</div>
+	
+</div>
+
+{END num_int_fieldblock}
+											
+{BEGIN colonia_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_colonia}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="colonia{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="colonia" data-fieldname="colonia" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_colonia}">
+		{$label cat_ventas_clientes colonia }	</label>
+	<div class="r-search-option">
+		{$searchtype_colonia}
+	</div>
+	<div class="r-search-field">
+		{$colonia_editcontrol}	</div>
+	<div class="r-search-field">
+		{$colonia_editcontrol1}
+	</div>
+	
+</div>
+
+{END colonia_fieldblock}
+											
+{BEGIN localidad_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_localidad}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="localidad{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="localidad" data-fieldname="localidad" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_localidad}">
+		{$label cat_ventas_clientes localidad }	</label>
+	<div class="r-search-option">
+		{$searchtype_localidad}
+	</div>
+	<div class="r-search-field">
+		{$localidad_editcontrol}	</div>
+	<div class="r-search-field">
+		{$localidad_editcontrol1}
+	</div>
+	
+</div>
+
+{END localidad_fieldblock}
+											
+{BEGIN municipio_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_municipio}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="municipio{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="municipio" data-fieldname="municipio" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_municipio}">
+		{$label cat_ventas_clientes municipio }	</label>
+	<div class="r-search-option">
+		{$searchtype_municipio}
+	</div>
+	<div class="r-search-field">
+		{$municipio_editcontrol}	</div>
+	<div class="r-search-field">
+		{$municipio_editcontrol1}
+	</div>
+	
+</div>
+
+{END municipio_fieldblock}
+											
+{BEGIN estado_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_estado}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="estado{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="estado" data-fieldname="estado" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_estado}">
+		{$label cat_ventas_clientes estado }	</label>
+	<div class="r-search-option">
+		{$searchtype_estado}
+	</div>
+	<div class="r-search-field">
+		{$estado_editcontrol}	</div>
+	<div class="r-search-field">
+		{$estado_editcontrol1}
+	</div>
+	
+</div>
+
+{END estado_fieldblock}
+											
+{BEGIN pais_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_pais}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="pais{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="pais" data-fieldname="pais" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_pais}">
+		{$label cat_ventas_clientes pais }	</label>
+	<div class="r-search-option">
+		{$searchtype_pais}
+	</div>
+	<div class="r-search-field">
+		{$pais_editcontrol}	</div>
+	<div class="r-search-field">
+		{$pais_editcontrol1}
+	</div>
+	
+</div>
+
+{END pais_fieldblock}
+											
+{BEGIN telefono_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_telefono}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="telefono{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="telefono" data-fieldname="telefono" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_telefono}">
+		{$label cat_ventas_clientes telefono }	</label>
+	<div class="r-search-option">
+		{$searchtype_telefono}
+	</div>
+	<div class="r-search-field">
+		{$telefono_editcontrol}	</div>
+	<div class="r-search-field">
+		{$telefono_editcontrol1}
+	</div>
+	
+</div>
+
+{END telefono_fieldblock}
+											
+{BEGIN celular_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_celular}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="celular{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field14" {$item_integrated_search_field14} data-pageid="{$pageid}" data-field="celular" data-fieldname="celular" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_celular}">
+		{$label cat_ventas_clientes celular }	</label>
+	<div class="r-search-option">
+		{$searchtype_celular}
+	</div>
+	<div class="r-search-field">
+		{$celular_editcontrol}	</div>
+	<div class="r-search-field">
+		{$celular_editcontrol1}
+	</div>
+	
+</div>
+
+{END celular_fieldblock}
+											
+{BEGIN email_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_email}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="email{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field15" {$item_integrated_search_field15} data-pageid="{$pageid}" data-field="email" data-fieldname="email" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_email}">
+		{$label cat_ventas_clientes email }	</label>
+	<div class="r-search-option">
+		{$searchtype_email}
+	</div>
+	<div class="r-search-field">
+		{$email_editcontrol}	</div>
+	<div class="r-search-field">
+		{$email_editcontrol1}
+	</div>
+	
+</div>
+
+{END email_fieldblock}
+											
+{BEGIN pagina_web_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_pagina_web}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="pagina_web{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field16" {$item_integrated_search_field16} data-pageid="{$pageid}" data-field="pagina_web" data-fieldname="pagina_web" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_pagina_web}">
+		{$label cat_ventas_clientes pagina_web }	</label>
+	<div class="r-search-option">
+		{$searchtype_pagina_web}
+	</div>
+	<div class="r-search-field">
+		{$pagina_web_editcontrol}	</div>
+	<div class="r-search-field">
+		{$pagina_web_editcontrol1}
+	</div>
+	
+</div>
+
+{END pagina_web_fieldblock}
+											
+{BEGIN contacto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_contacto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="contacto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field17" {$item_integrated_search_field17} data-pageid="{$pageid}" data-field="contacto" data-fieldname="contacto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_contacto}">
+		{$label cat_ventas_clientes contacto }	</label>
+	<div class="r-search-option">
+		{$searchtype_contacto}
+	</div>
+	<div class="r-search-field">
+		{$contacto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$contacto_editcontrol1}
+	</div>
+	
+</div>
+
+{END contacto_fieldblock}
+											
+{BEGIN puesto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_puesto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="puesto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field18" {$item_integrated_search_field18} data-pageid="{$pageid}" data-field="puesto" data-fieldname="puesto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_puesto}">
+		{$label cat_ventas_clientes puesto }	</label>
+	<div class="r-search-option">
+		{$searchtype_puesto}
+	</div>
+	<div class="r-search-field">
+		{$puesto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$puesto_editcontrol1}
+	</div>
+	
+</div>
+
+{END puesto_fieldblock}
+											
+{BEGIN correo_contacto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_correo_contacto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="correo_contacto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field19" {$item_integrated_search_field19} data-pageid="{$pageid}" data-field="correo_contacto" data-fieldname="correo_contacto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_correo_contacto}">
+		{$label cat_ventas_clientes correo_contacto }	</label>
+	<div class="r-search-option">
+		{$searchtype_correo_contacto}
+	</div>
+	<div class="r-search-field">
+		{$correo_contacto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$correo_contacto_editcontrol1}
+	</div>
+	
+</div>
+
+{END correo_contacto_fieldblock}
+											
+{BEGIN celular_contacto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_celular_contacto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="celular_contacto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field20" {$item_integrated_search_field20} data-pageid="{$pageid}" data-field="celular_contacto" data-fieldname="celular_contacto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_celular_contacto}">
+		{$label cat_ventas_clientes celular_contacto }	</label>
+	<div class="r-search-option">
+		{$searchtype_celular_contacto}
+	</div>
+	<div class="r-search-field">
+		{$celular_contacto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$celular_contacto_editcontrol1}
+	</div>
+	
+</div>
+
+{END celular_contacto_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field21" {$item_integrated_search_field21} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label cat_ventas_clientes capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+											
+{BEGIN fecha_de_captura_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_captura}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_de_captura{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field22" {$item_integrated_search_field22} data-pageid="{$pageid}" data-field="fecha_de_captura" data-fieldname="fecha_de_captura" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_de_captura}">
+		{$label cat_ventas_clientes fecha_de_captura }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_de_captura}
+	</div>
+	<div class="r-search-field">
+		{$fecha_de_captura_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_de_captura_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_de_captura_fieldblock}
+											
+{BEGIN time_stamp_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_time_stamp}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="time_stamp{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field23" {$item_integrated_search_field23} data-pageid="{$pageid}" data-field="time_stamp" data-fieldname="time_stamp" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_time_stamp}">
+		{$label cat_ventas_clientes time_stamp }	</label>
+	<div class="r-search-option">
+		{$searchtype_time_stamp}
+	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol}	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol1}
+	</div>
+	
+</div>
+
+{END time_stamp_fieldblock}
+											
+{BEGIN nombre_cliente_old_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nombre_cliente_old}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="nombre_cliente_old{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field24" {$item_integrated_search_field24} data-pageid="{$pageid}" data-field="nombre_cliente_old" data-fieldname="nombre_cliente_old" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_nombre_cliente_old}">
+		{$label cat_ventas_clientes nombre_cliente_old }	</label>
+	<div class="r-search-option">
+		{$searchtype_nombre_cliente_old}
+	</div>
+	<div class="r-search-field">
+		{$nombre_cliente_old_editcontrol}	</div>
+	<div class="r-search-field">
+		{$nombre_cliente_old_editcontrol1}
+	</div>
+	
+</div>
+
+{END nombre_cliente_old_fieldblock}
+											
+{BEGIN clabe_interbancaria_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_clabe_interbancaria}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="clabe_interbancaria{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field25" {$item_integrated_search_field25} data-pageid="{$pageid}" data-field="clabe_interbancaria" data-fieldname="clabe_interbancaria" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_clabe_interbancaria}">
+		{$label cat_ventas_clientes clabe_interbancaria }	</label>
+	<div class="r-search-option">
+		{$searchtype_clabe_interbancaria}
+	</div>
+	<div class="r-search-field">
+		{$clabe_interbancaria_editcontrol}	</div>
+	<div class="r-search-field">
+		{$clabe_interbancaria_editcontrol1}
+	</div>
+	
+</div>
+
+{END clabe_interbancaria_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c1}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

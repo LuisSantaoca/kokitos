@@ -1,0 +1,3750 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+			},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+		{BEGIN body}
+		{BEGIN embedded_grid_caption}
+			{
+				text: '{$jscaption cat_nominas_configuracion_global}',
+			},
+		{END embedded_grid_caption}
+		{BEGIN embedded_page_title}
+			{
+				text: '{$jspagetitlelabel cat_nominas_configuracion_global print}',
+			},
+		{END embedded_page_title}		
+		{ 
+			{BEGIN standalone_page}
+			pageBreak: 'before',
+			standAlonePage: true,
+			{END standalone_page}
+			{BEGIN embedded_grid}
+			embeddedPage: true,
+			{END embedded_grid}
+			layout: {
+				hLineWidth: function(i, node) { return 0.1; },
+				vLineWidth: function(i, node) { 
+					return 0.1; 
+				},
+				hLineColor: function(i, node) { return 'lightgray'; },
+				vLineColor: function(i, node) { return 'lightgray'; },
+			},
+			table: {
+				{BEGIN embedded_grid}
+				embeddedPage: true,
+				{END embedded_grid}
+				
+				tableForm: true,
+				headerRows: 1 
+															{BEGIN row_grid_0}
+							+1
+						{END row_grid_0}
+													{BEGIN embedded_grid} -1 {END embedded_grid} ,
+
+				widths: [
+														{BEGIN col_grid_0}
+					"%",
+					{END col_grid_0}
+										{BEGIN col_grid_1}
+					"%",
+					{END col_grid_1}
+										{BEGIN col_grid_2}
+					"%",
+					{END col_grid_2}
+										{BEGIN col_grid_3}
+					"%",
+					{END col_grid_3}
+										{BEGIN col_grid_4}
+					"%",
+					{END col_grid_4}
+										{BEGIN col_grid_5}
+					"%",
+					{END col_grid_5}
+										{BEGIN col_grid_6}
+					"%",
+					{END col_grid_6}
+										{BEGIN col_grid_7}
+					"%",
+					{END col_grid_7}
+										{BEGIN col_grid_8}
+					"%",
+					{END col_grid_8}
+										{BEGIN col_grid_9}
+					"%",
+					{END col_grid_9}
+										{BEGIN col_grid_10}
+					"%",
+					{END col_grid_10}
+										{BEGIN col_grid_11}
+					"%",
+					{END col_grid_11}
+										{BEGIN col_grid_12}
+					"%",
+					{END col_grid_12}
+										{BEGIN col_grid_13}
+					"%",
+					{END col_grid_13}
+										{BEGIN col_grid_14}
+					"%",
+					{END col_grid_14}
+										{BEGIN col_grid_15}
+					"%",
+					{END col_grid_15}
+										{BEGIN col_grid_16}
+					"%",
+					{END col_grid_16}
+										{BEGIN col_grid_17}
+					"%",
+					{END col_grid_17}
+										{BEGIN col_grid_18}
+					"%",
+					{END col_grid_18}
+										{BEGIN col_grid_19}
+					"%",
+					{END col_grid_19}
+										{BEGIN col_grid_20}
+					"%",
+					{END col_grid_20}
+										{BEGIN col_grid_21}
+					"%",
+					{END col_grid_21}
+										{BEGIN col_grid_22}
+					"%",
+					{END col_grid_22}
+										{BEGIN col_grid_23}
+					"%",
+					{END col_grid_23}
+										{BEGIN col_grid_24}
+					"%",
+					{END col_grid_24}
+										{BEGIN col_grid_25}
+					"%",
+					{END col_grid_25}
+										{BEGIN col_grid_26}
+					"%",
+					{END col_grid_26}
+										{BEGIN col_grid_27}
+					"%",
+					{END col_grid_27}
+										{BEGIN col_grid_28}
+					"%",
+					{END col_grid_28}
+										{BEGIN col_grid_29}
+					"%",
+					{END col_grid_29}
+										{BEGIN col_grid_30}
+					"%",
+					{END col_grid_30}
+										{BEGIN col_grid_31}
+					"%",
+					{END col_grid_31}
+										{BEGIN col_grid_32}
+					"%",
+					{END col_grid_32}
+										{BEGIN col_grid_33}
+					"%",
+					{END col_grid_33}
+										{BEGIN col_grid_34}
+					"%",
+					{END col_grid_34}
+										{BEGIN col_grid_35}
+					"%",
+					{END col_grid_35}
+										{BEGIN col_grid_36}
+					"%",
+					{END col_grid_36}
+										{BEGIN col_grid_37}
+					"%",
+					{END col_grid_37}
+										{BEGIN col_grid_38}
+					"%",
+					{END col_grid_38}
+										{BEGIN col_grid_39}
+					"%",
+					{END col_grid_39}
+															],
+											heights: [ // first height for header part
+					"%",
+																		{BEGIN row_grid_0}
+							"%",
+							{END row_grid_0}
+																							 	{BEGIN grid_row}
+													{BEGIN row_grid_1}
+							"%",
+							{END row_grid_1}
+													{END grid_row}
+																								{BEGIN row_grid_2}
+							"%",
+							{END row_grid_2}
+															],
+							
+				body: [
+				{BEGIN standalone_page}
+					[
+						{
+							colSpan: {$formwidth_grid},
+							border:[false, false,false,false],
+							stack: [
+
+																										
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c2',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"stack": [
+		
+				
+			{"text":"{$jspagetitlelabel cat_nominas_configuracion_global print}","hidden":"{$item_hide_print_header}","fontSize":30},
+				
+				
+			{"text":"{$printtabheader_text}","hidden":"{$item_hide_print_subheader}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+								
+																										
+{
+	table: {
+	
+				
+		location: 'above-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"Página %current% / %total%","hidden":"{$item_hide_print_pages}","isHtml":true,"page_indicator":true},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+															]
+						},
+					],
+				{END standalone_page}
+
+																	
+
+				
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_headcell_field}
+{
+	cellId: 'headcell_field',
+	col:0,
+	row:0,
+			fieldName: 'cat_trabajadores_altas_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_trabajadores_altas_id }","hidden":"{$item_hide_simple_grid_field23}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_trabajadores_altas_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field}
+																							{BEGIN cellblock_grid_headcell_field1}
+{
+	cellId: 'headcell_field1',
+	col:0,
+	row:0,
+			fieldName: 'nombre',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global nombre }","hidden":"{$item_hide_simple_grid_field41}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$nombre_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field1}
+																							{BEGIN cellblock_grid_headcell_field2}
+{
+	cellId: 'headcell_field2',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_periodicidad_mu_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_nominas_periodicidad_mu_id }","hidden":"{$item_hide_simple_grid_field42}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_periodicidad_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field2}
+																							{BEGIN cellblock_grid_headcell_field3}
+{
+	cellId: 'headcell_field3',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_periodicidad',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_periodicidad }","hidden":"{$item_hide_simple_grid_field43}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_periodicidad_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field3}
+																							{BEGIN cellblock_grid_headcell_field4}
+{
+	cellId: 'headcell_field4',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_dias_semana_mu_id_inicio',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_nominas_dias_semana_mu_id_inicio }","hidden":"{$item_hide_simple_grid_field44}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_dias_semana_mu_id_inicio_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field4}
+																							{BEGIN cellblock_grid_headcell_field5}
+{
+	cellId: 'headcell_field5',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_dias',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_dias }","hidden":"{$item_hide_simple_grid_field45}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_dias_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field5}
+																							{BEGIN cellblock_grid_headcell_field6}
+{
+	cellId: 'headcell_field6',
+	col:0,
+	row:0,
+			fieldName: 'cat_nomina_conceptos_factor_de_calculo_mu_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_nomina_conceptos_factor_de_calculo_mu_id }","hidden":"{$item_hide_simple_grid_field46}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nomina_conceptos_factor_de_calculo_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field6}
+																							{BEGIN cellblock_grid_headcell_field7}
+{
+	cellId: 'headcell_field7',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_factor_de_calculo',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_factor_de_calculo }","hidden":"{$item_hide_simple_grid_field47}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_factor_de_calculo_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field7}
+																							{BEGIN cellblock_grid_headcell_field8}
+{
+	cellId: 'headcell_field8',
+	col:0,
+	row:0,
+			fieldName: 'factor_nomina_conceptos',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global factor_nomina_conceptos }","hidden":"{$item_hide_simple_grid_field48}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$factor_nomina_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field8}
+																							{BEGIN cellblock_grid_headcell_field9}
+{
+	cellId: 'headcell_field9',
+	col:0,
+	row:0,
+			fieldName: 'costo_bruto_nominas_conceptos',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global costo_bruto_nominas_conceptos }","hidden":"{$item_hide_simple_grid_field49}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$costo_bruto_nominas_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field9}
+																							{BEGIN cellblock_grid_headcell_field10}
+{
+	cellId: 'headcell_field10',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_inicio_conceptos',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global fecha_de_inicio_conceptos }","hidden":"{$item_hide_simple_grid_field50}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_inicio_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field10}
+																							{BEGIN cellblock_grid_headcell_field11}
+{
+	cellId: 'headcell_field11',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_termino_conceptos',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global fecha_de_termino_conceptos }","hidden":"{$item_hide_simple_grid_field51}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_termino_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field11}
+																							{BEGIN cellblock_grid_headcell_field12}
+{
+	cellId: 'headcell_field12',
+	col:0,
+	row:0,
+			fieldName: 'cat_holding_03_empresas_unidades_productivas_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_holding_03_empresas_unidades_productivas_id }","hidden":"{$item_hide_simple_grid_field52}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_holding_03_empresas_unidades_productivas_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field12}
+																							{BEGIN cellblock_grid_headcell_field13}
+{
+	cellId: 'headcell_field13',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_unidades_productivas',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_unidades_productivas }","hidden":"{$item_hide_simple_grid_field53}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_unidades_productivas_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field13}
+																							{BEGIN cellblock_grid_headcell_field14}
+{
+	cellId: 'headcell_field14',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_actividades_id }","hidden":"{$item_hide_simple_grid_field54}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field14}
+																							{BEGIN cellblock_grid_headcell_field15}
+{
+	cellId: 'headcell_field15',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_actividad',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_actividad }","hidden":"{$item_hide_simple_grid_field55}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field15}
+																							{BEGIN cellblock_grid_headcell_field16}
+{
+	cellId: 'headcell_field16',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_unidades_de_costo_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_actividades_unidades_de_costo_id }","hidden":"{$item_hide_simple_grid_field56}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_unidades_de_costo_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field16}
+																							{BEGIN cellblock_grid_headcell_field17}
+{
+	cellId: 'headcell_field17',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_unidades_de_costo',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_unidades_de_costo }","hidden":"{$item_hide_simple_grid_field57}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_unidades_de_costo_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field17}
+																							{BEGIN cellblock_grid_headcell_field18}
+{
+	cellId: 'headcell_field18',
+	col:0,
+	row:0,
+			fieldName: 'factor_de_calculo',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global factor_de_calculo }","hidden":"{$item_hide_simple_grid_field58}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$factor_de_calculo_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field18}
+																							{BEGIN cellblock_grid_headcell_field19}
+{
+	cellId: 'headcell_field19',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_alcance_mu_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_actividades_alcance_mu_id }","hidden":"{$item_hide_simple_grid_field59}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_alcance_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field19}
+																							{BEGIN cellblock_grid_headcell_field20}
+{
+	cellId: 'headcell_field20',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_alcance',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_alcance }","hidden":"{$item_hide_simple_grid_field60}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_alcance_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field20}
+																							{BEGIN cellblock_grid_headcell_field21}
+{
+	cellId: 'headcell_field21',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_intervalos_mu_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_nominas_intervalos_mu_id }","hidden":"{$item_hide_simple_grid_field61}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_intervalos_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field21}
+																							{BEGIN cellblock_grid_headcell_field22}
+{
+	cellId: 'headcell_field22',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_intervalos',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_intervalos }","hidden":"{$item_hide_simple_grid_field62}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_intervalos_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field22}
+																							{BEGIN cellblock_grid_headcell_field23}
+{
+	cellId: 'headcell_field23',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_metodo_de_costeo_variables_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_actividades_metodo_de_costeo_variables_id }","hidden":"{$item_hide_simple_grid_field63}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_metodo_de_costeo_variables_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field23}
+																							{BEGIN cellblock_grid_headcell_field24}
+{
+	cellId: 'headcell_field24',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_variable',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_variable }","hidden":"{$item_hide_simple_grid_field64}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_variable_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field24}
+																							{BEGIN cellblock_grid_headcell_field25}
+{
+	cellId: 'headcell_field25',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_metodo_de_costeo',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_metodo_de_costeo }","hidden":"{$item_hide_simple_grid_field65}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_metodo_de_costeo_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field25}
+																							{BEGIN cellblock_grid_headcell_field26}
+{
+	cellId: 'headcell_field26',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_inicio_actividad',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global fecha_de_inicio_actividad }","hidden":"{$item_hide_simple_grid_field66}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_inicio_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field26}
+																							{BEGIN cellblock_grid_headcell_field27}
+{
+	cellId: 'headcell_field27',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_termino_actividad',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global fecha_de_termino_actividad }","hidden":"{$item_hide_simple_grid_field67}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_termino_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field27}
+																							{BEGIN cellblock_grid_headcell_field28}
+{
+	cellId: 'headcell_field28',
+	col:0,
+	row:0,
+			fieldName: 'limite_inferior',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global limite_inferior }","hidden":"{$item_hide_simple_grid_field68}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$limite_inferior_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field28}
+																							{BEGIN cellblock_grid_headcell_field29}
+{
+	cellId: 'headcell_field29',
+	col:0,
+	row:0,
+			fieldName: 'limite_superior',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global limite_superior }","hidden":"{$item_hide_simple_grid_field69}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$limite_superior_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field29}
+																							{BEGIN cellblock_grid_headcell_field30}
+{
+	cellId: 'headcell_field30',
+	col:0,
+	row:0,
+			fieldName: 'costo_bruto_actividad',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global costo_bruto_actividad }","hidden":"{$item_hide_simple_grid_field70}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$costo_bruto_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field30}
+																							{BEGIN cellblock_grid_headcell_field31}
+{
+	cellId: 'headcell_field31',
+	col:0,
+	row:0,
+			fieldName: 'cat_holding_04_unidades_productivas_lotes_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_holding_04_unidades_productivas_lotes_id }","hidden":"{$item_hide_simple_grid_field71}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_holding_04_unidades_productivas_lotes_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field31}
+																							{BEGIN cellblock_grid_headcell_field32}
+{
+	cellId: 'headcell_field32',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_lote',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_lote }","hidden":"{$item_hide_simple_grid_field72}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_lote_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field32}
+																							{BEGIN cellblock_grid_headcell_field33}
+{
+	cellId: 'headcell_field33',
+	col:0,
+	row:0,
+			fieldName: 'cat_usuarios_licencias_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_usuarios_licencias_id }","hidden":"{$item_hide_simple_grid_field73}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_usuarios_licencias_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field33}
+																							{BEGIN cellblock_grid_headcell_field34}
+{
+	cellId: 'headcell_field34',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_conceptos_clasificacion_mu_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_nominas_conceptos_clasificacion_mu_id }","hidden":"{$item_hide_simple_grid_field74}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_conceptos_clasificacion_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field34}
+																							{BEGIN cellblock_grid_headcell_field35}
+{
+	cellId: 'headcell_field35',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_nominas_conceptos_clasificacion',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_nominas_conceptos_clasificacion }","hidden":"{$item_hide_simple_grid_field75}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_nominas_conceptos_clasificacion_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field35}
+																							{BEGIN cellblock_grid_headcell_field36}
+{
+	cellId: 'headcell_field36',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_conceptos_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_nominas_conceptos_id }","hidden":"{$item_hide_simple_grid_field76}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_conceptos_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field36}
+																							{BEGIN cellblock_grid_headcell_field37}
+{
+	cellId: 'headcell_field37',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_nominas_conceptos1',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_nominas_conceptos1 }","hidden":"{$item_hide_simple_grid_field77}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_nominas_conceptos1_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field37}
+																							{BEGIN cellblock_grid_headcell_field38}
+{
+	cellId: 'headcell_field38',
+	col:0,
+	row:0,
+			fieldName: 'cat_nomina_conceptos_id',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global cat_nomina_conceptos_id }","hidden":"{$item_hide_simple_grid_field78}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nomina_conceptos_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field38}
+																							{BEGIN cellblock_grid_headcell_field39}
+{
+	cellId: 'headcell_field39',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_nominas_conceptos',
+				style: 'headcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel cat_nominas_configuracion_global descripcion_nominas_conceptos }","hidden":"{$item_hide_simple_grid_field79}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_nominas_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field39}
+											],
+				{END row_grid_0}
+		
+			
+		{BEGIN grid_row}
+	{BEGIN grid_record}
+				
+				{BEGIN row_grid_1}
+				[
+																{BEGIN cellblock_grid_cell_field}
+{
+	cellId: 'cell_field',
+	col:0,
+	row:0,
+			fieldName: 'cat_trabajadores_altas_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_trabajadores_altas_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field1}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_trabajadores_altas_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field}
+																							{BEGIN cellblock_grid_cell_field1}
+{
+	cellId: 'cell_field1',
+	col:0,
+	row:0,
+			fieldName: 'nombre',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$nombre_pdfvalue},"hidden":"{$item_hide_simple_grid_field2}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$nombre_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field1}
+																							{BEGIN cellblock_grid_cell_field2}
+{
+	cellId: 'cell_field2',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_periodicidad_mu_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_nominas_periodicidad_mu_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field3}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_periodicidad_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field2}
+																							{BEGIN cellblock_grid_cell_field3}
+{
+	cellId: 'cell_field3',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_periodicidad',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_periodicidad_pdfvalue},"hidden":"{$item_hide_simple_grid_field4}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_periodicidad_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field3}
+																							{BEGIN cellblock_grid_cell_field4}
+{
+	cellId: 'cell_field4',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_dias_semana_mu_id_inicio',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_nominas_dias_semana_mu_id_inicio_pdfvalue},"hidden":"{$item_hide_simple_grid_field5}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_dias_semana_mu_id_inicio_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field4}
+																							{BEGIN cellblock_grid_cell_field5}
+{
+	cellId: 'cell_field5',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_dias',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_dias_pdfvalue},"hidden":"{$item_hide_simple_grid_field6}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_dias_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field5}
+																							{BEGIN cellblock_grid_cell_field6}
+{
+	cellId: 'cell_field6',
+	col:0,
+	row:0,
+			fieldName: 'cat_nomina_conceptos_factor_de_calculo_mu_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_nomina_conceptos_factor_de_calculo_mu_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field9}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nomina_conceptos_factor_de_calculo_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field6}
+																							{BEGIN cellblock_grid_cell_field7}
+{
+	cellId: 'cell_field7',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_factor_de_calculo',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_factor_de_calculo_pdfvalue},"hidden":"{$item_hide_simple_grid_field10}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_factor_de_calculo_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field7}
+																							{BEGIN cellblock_grid_cell_field8}
+{
+	cellId: 'cell_field8',
+	col:0,
+	row:0,
+			fieldName: 'factor_nomina_conceptos',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$factor_nomina_conceptos_pdfvalue},"hidden":"{$item_hide_simple_grid_field11}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$factor_nomina_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field8}
+																							{BEGIN cellblock_grid_cell_field9}
+{
+	cellId: 'cell_field9',
+	col:0,
+	row:0,
+			fieldName: 'costo_bruto_nominas_conceptos',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$costo_bruto_nominas_conceptos_pdfvalue},"hidden":"{$item_hide_simple_grid_field12}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$costo_bruto_nominas_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field9}
+																							{BEGIN cellblock_grid_cell_field10}
+{
+	cellId: 'cell_field10',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_inicio_conceptos',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$fecha_de_inicio_conceptos_pdfvalue},"hidden":"{$item_hide_simple_grid_field13}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_inicio_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field10}
+																							{BEGIN cellblock_grid_cell_field11}
+{
+	cellId: 'cell_field11',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_termino_conceptos',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$fecha_de_termino_conceptos_pdfvalue},"hidden":"{$item_hide_simple_grid_field14}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_termino_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field11}
+																							{BEGIN cellblock_grid_cell_field12}
+{
+	cellId: 'cell_field12',
+	col:0,
+	row:0,
+			fieldName: 'cat_holding_03_empresas_unidades_productivas_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_holding_03_empresas_unidades_productivas_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field15}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_holding_03_empresas_unidades_productivas_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field12}
+																							{BEGIN cellblock_grid_cell_field13}
+{
+	cellId: 'cell_field13',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_unidades_productivas',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_unidades_productivas_pdfvalue},"hidden":"{$item_hide_simple_grid_field16}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_unidades_productivas_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field13}
+																							{BEGIN cellblock_grid_cell_field14}
+{
+	cellId: 'cell_field14',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_actividades_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field17}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field14}
+																							{BEGIN cellblock_grid_cell_field15}
+{
+	cellId: 'cell_field15',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_actividad',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_actividad_pdfvalue},"hidden":"{$item_hide_simple_grid_field18}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field15}
+																							{BEGIN cellblock_grid_cell_field16}
+{
+	cellId: 'cell_field16',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_unidades_de_costo_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_actividades_unidades_de_costo_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field19}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_unidades_de_costo_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field16}
+																							{BEGIN cellblock_grid_cell_field17}
+{
+	cellId: 'cell_field17',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_unidades_de_costo',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_unidades_de_costo_pdfvalue},"hidden":"{$item_hide_simple_grid_field20}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_unidades_de_costo_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field17}
+																							{BEGIN cellblock_grid_cell_field18}
+{
+	cellId: 'cell_field18',
+	col:0,
+	row:0,
+			fieldName: 'factor_de_calculo',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$factor_de_calculo_pdfvalue},"hidden":"{$item_hide_simple_grid_field21}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$factor_de_calculo_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field18}
+																							{BEGIN cellblock_grid_cell_field19}
+{
+	cellId: 'cell_field19',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_alcance_mu_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_actividades_alcance_mu_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field24}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_alcance_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field19}
+																							{BEGIN cellblock_grid_cell_field20}
+{
+	cellId: 'cell_field20',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_alcance',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_alcance_pdfvalue},"hidden":"{$item_hide_simple_grid_field25}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_alcance_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field20}
+																							{BEGIN cellblock_grid_cell_field21}
+{
+	cellId: 'cell_field21',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_intervalos_mu_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_nominas_intervalos_mu_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field26}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_intervalos_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field21}
+																							{BEGIN cellblock_grid_cell_field22}
+{
+	cellId: 'cell_field22',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_intervalos',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_intervalos_pdfvalue},"hidden":"{$item_hide_simple_grid_field27}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_intervalos_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field22}
+																							{BEGIN cellblock_grid_cell_field23}
+{
+	cellId: 'cell_field23',
+	col:0,
+	row:0,
+			fieldName: 'cat_actividades_metodo_de_costeo_variables_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_actividades_metodo_de_costeo_variables_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field28}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_actividades_metodo_de_costeo_variables_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field23}
+																							{BEGIN cellblock_grid_cell_field24}
+{
+	cellId: 'cell_field24',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_variable',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_variable_pdfvalue},"hidden":"{$item_hide_simple_grid_field29}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_variable_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field24}
+																							{BEGIN cellblock_grid_cell_field25}
+{
+	cellId: 'cell_field25',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_metodo_de_costeo',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_metodo_de_costeo_pdfvalue},"hidden":"{$item_hide_simple_grid_field30}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_metodo_de_costeo_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field25}
+																							{BEGIN cellblock_grid_cell_field26}
+{
+	cellId: 'cell_field26',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_inicio_actividad',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$fecha_de_inicio_actividad_pdfvalue},"hidden":"{$item_hide_simple_grid_field31}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_inicio_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field26}
+																							{BEGIN cellblock_grid_cell_field27}
+{
+	cellId: 'cell_field27',
+	col:0,
+	row:0,
+			fieldName: 'fecha_de_termino_actividad',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$fecha_de_termino_actividad_pdfvalue},"hidden":"{$item_hide_simple_grid_field32}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$fecha_de_termino_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field27}
+																							{BEGIN cellblock_grid_cell_field28}
+{
+	cellId: 'cell_field28',
+	col:0,
+	row:0,
+			fieldName: 'limite_inferior',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$limite_inferior_pdfvalue},"hidden":"{$item_hide_simple_grid_field33}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$limite_inferior_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field28}
+																							{BEGIN cellblock_grid_cell_field29}
+{
+	cellId: 'cell_field29',
+	col:0,
+	row:0,
+			fieldName: 'limite_superior',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$limite_superior_pdfvalue},"hidden":"{$item_hide_simple_grid_field34}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$limite_superior_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field29}
+																							{BEGIN cellblock_grid_cell_field30}
+{
+	cellId: 'cell_field30',
+	col:0,
+	row:0,
+			fieldName: 'costo_bruto_actividad',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$costo_bruto_actividad_pdfvalue},"hidden":"{$item_hide_simple_grid_field35}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$costo_bruto_actividad_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field30}
+																							{BEGIN cellblock_grid_cell_field31}
+{
+	cellId: 'cell_field31',
+	col:0,
+	row:0,
+			fieldName: 'cat_holding_04_unidades_productivas_lotes_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_holding_04_unidades_productivas_lotes_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field36}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_holding_04_unidades_productivas_lotes_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field31}
+																							{BEGIN cellblock_grid_cell_field32}
+{
+	cellId: 'cell_field32',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_lote',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_lote_pdfvalue},"hidden":"{$item_hide_simple_grid_field37}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_lote_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field32}
+																							{BEGIN cellblock_grid_cell_field33}
+{
+	cellId: 'cell_field33',
+	col:0,
+	row:0,
+			fieldName: 'cat_usuarios_licencias_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_usuarios_licencias_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field38}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_usuarios_licencias_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field33}
+																							{BEGIN cellblock_grid_cell_field34}
+{
+	cellId: 'cell_field34',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_conceptos_clasificacion_mu_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_nominas_conceptos_clasificacion_mu_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field39}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_conceptos_clasificacion_mu_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field34}
+																							{BEGIN cellblock_grid_cell_field35}
+{
+	cellId: 'cell_field35',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_nominas_conceptos_clasificacion',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_nominas_conceptos_clasificacion_pdfvalue},"hidden":"{$item_hide_simple_grid_field40}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_nominas_conceptos_clasificacion_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field35}
+																							{BEGIN cellblock_grid_cell_field36}
+{
+	cellId: 'cell_field36',
+	col:0,
+	row:0,
+			fieldName: 'cat_nominas_conceptos_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_nominas_conceptos_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nominas_conceptos_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field36}
+																							{BEGIN cellblock_grid_cell_field37}
+{
+	cellId: 'cell_field37',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_nominas_conceptos1',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_nominas_conceptos1_pdfvalue},"hidden":"{$item_hide_simple_grid_field7}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_nominas_conceptos1_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field37}
+																							{BEGIN cellblock_grid_cell_field38}
+{
+	cellId: 'cell_field38',
+	col:0,
+	row:0,
+			fieldName: 'cat_nomina_conceptos_id',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$cat_nomina_conceptos_id_pdfvalue},"hidden":"{$item_hide_simple_grid_field8}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$cat_nomina_conceptos_id_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field38}
+																							{BEGIN cellblock_grid_cell_field39}
+{
+	cellId: 'cell_field39',
+	col:0,
+	row:0,
+			fieldName: 'descripcion_nominas_conceptos',
+				style: 'bodycell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				
+			{"text":{$descripcion_nominas_conceptos_pdfvalue},"hidden":"{$item_hide_simple_grid_field22}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": '{$descripcion_nominas_conceptos_align}',
+     
+      
+      },
+
+{END cellblock_grid_cell_field39}
+											],
+				{END row_grid_1}
+		
+		{END grid_record}
+	{END grid_row}
+			
+					
+				{BEGIN row_grid_2}
+				[
+																{BEGIN cellblock_grid_footcell_field}
+{
+	cellId: 'footcell_field',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field}
+																							{BEGIN cellblock_grid_footcell_field1}
+{
+	cellId: 'footcell_field1',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field1}
+																							{BEGIN cellblock_grid_footcell_field2}
+{
+	cellId: 'footcell_field2',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field2}
+																							{BEGIN cellblock_grid_footcell_field3}
+{
+	cellId: 'footcell_field3',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field3}
+																							{BEGIN cellblock_grid_footcell_field4}
+{
+	cellId: 'footcell_field4',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field4}
+																							{BEGIN cellblock_grid_footcell_field5}
+{
+	cellId: 'footcell_field5',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field5}
+																							{BEGIN cellblock_grid_footcell_field6}
+{
+	cellId: 'footcell_field6',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field6}
+																							{BEGIN cellblock_grid_footcell_field7}
+{
+	cellId: 'footcell_field7',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field7}
+																							{BEGIN cellblock_grid_footcell_field8}
+{
+	cellId: 'footcell_field8',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field8}
+																							{BEGIN cellblock_grid_footcell_field9}
+{
+	cellId: 'footcell_field9',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field9}
+																							{BEGIN cellblock_grid_footcell_field10}
+{
+	cellId: 'footcell_field10',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field10}
+																							{BEGIN cellblock_grid_footcell_field11}
+{
+	cellId: 'footcell_field11',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field11}
+																							{BEGIN cellblock_grid_footcell_field12}
+{
+	cellId: 'footcell_field12',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field12}
+																							{BEGIN cellblock_grid_footcell_field13}
+{
+	cellId: 'footcell_field13',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field13}
+																							{BEGIN cellblock_grid_footcell_field14}
+{
+	cellId: 'footcell_field14',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field14}
+																							{BEGIN cellblock_grid_footcell_field15}
+{
+	cellId: 'footcell_field15',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field15}
+																							{BEGIN cellblock_grid_footcell_field16}
+{
+	cellId: 'footcell_field16',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field16}
+																							{BEGIN cellblock_grid_footcell_field17}
+{
+	cellId: 'footcell_field17',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field17}
+																							{BEGIN cellblock_grid_footcell_field18}
+{
+	cellId: 'footcell_field18',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field18}
+																							{BEGIN cellblock_grid_footcell_field19}
+{
+	cellId: 'footcell_field19',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field19}
+																							{BEGIN cellblock_grid_footcell_field20}
+{
+	cellId: 'footcell_field20',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field20}
+																							{BEGIN cellblock_grid_footcell_field21}
+{
+	cellId: 'footcell_field21',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field21}
+																							{BEGIN cellblock_grid_footcell_field22}
+{
+	cellId: 'footcell_field22',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field22}
+																							{BEGIN cellblock_grid_footcell_field23}
+{
+	cellId: 'footcell_field23',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field23}
+																							{BEGIN cellblock_grid_footcell_field24}
+{
+	cellId: 'footcell_field24',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field24}
+																							{BEGIN cellblock_grid_footcell_field25}
+{
+	cellId: 'footcell_field25',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field25}
+																							{BEGIN cellblock_grid_footcell_field26}
+{
+	cellId: 'footcell_field26',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field26}
+																							{BEGIN cellblock_grid_footcell_field27}
+{
+	cellId: 'footcell_field27',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field27}
+																							{BEGIN cellblock_grid_footcell_field28}
+{
+	cellId: 'footcell_field28',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field28}
+																							{BEGIN cellblock_grid_footcell_field29}
+{
+	cellId: 'footcell_field29',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field29}
+																							{BEGIN cellblock_grid_footcell_field30}
+{
+	cellId: 'footcell_field30',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field30}
+																							{BEGIN cellblock_grid_footcell_field31}
+{
+	cellId: 'footcell_field31',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field31}
+																							{BEGIN cellblock_grid_footcell_field32}
+{
+	cellId: 'footcell_field32',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field32}
+																							{BEGIN cellblock_grid_footcell_field33}
+{
+	cellId: 'footcell_field33',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field33}
+																							{BEGIN cellblock_grid_footcell_field34}
+{
+	cellId: 'footcell_field34',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field34}
+																							{BEGIN cellblock_grid_footcell_field35}
+{
+	cellId: 'footcell_field35',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field35}
+																							{BEGIN cellblock_grid_footcell_field36}
+{
+	cellId: 'footcell_field36',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field36}
+																							{BEGIN cellblock_grid_footcell_field37}
+{
+	cellId: 'footcell_field37',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field37}
+																							{BEGIN cellblock_grid_footcell_field38}
+{
+	cellId: 'footcell_field38',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field38}
+																							{BEGIN cellblock_grid_footcell_field39}
+{
+	cellId: 'footcell_field39',
+	col:0,
+	row:0,
+				style: 'footcell',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_footcell_field39}
+											],
+				{END row_grid_2}
+		
+				
+									]
+			
+			}
+		},
+		{END body}
+	],
+	footer: [
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+			],
+	};
+
+
+pdfFonts = {$pdfFonts};

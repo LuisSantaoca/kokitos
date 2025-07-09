@@ -1,0 +1,304 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel box_cat_finanzas_movimientos_categoria search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN cat_finanzas_movimientos_categoria_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_movimientos_categoria_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_finanzas_movimientos_categoria_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="cat_finanzas_movimientos_categoria_id" data-fieldname="cat_finanzas_movimientos_categoria_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_finanzas_movimientos_categoria_id}">
+		{$label box_cat_finanzas_movimientos_categoria cat_finanzas_movimientos_categoria_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_finanzas_movimientos_categoria_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_movimientos_categoria_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_finanzas_movimientos_categoria_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_finanzas_movimientos_categoria_id_fieldblock}
+											
+{BEGIN descripcion_categoria_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_descripcion_categoria}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="descripcion_categoria{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="descripcion_categoria" data-fieldname="descripcion_categoria" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_descripcion_categoria}">
+		{$label box_cat_finanzas_movimientos_categoria descripcion_categoria }	</label>
+	<div class="r-search-option">
+		{$searchtype_descripcion_categoria}
+	</div>
+	<div class="r-search-field">
+		{$descripcion_categoria_editcontrol}	</div>
+	<div class="r-search-field">
+		{$descripcion_categoria_editcontrol1}
+	</div>
+	
+</div>
+
+{END descripcion_categoria_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label box_cat_finanzas_movimientos_categoria capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+											
+{BEGIN fecha_de_captura_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_captura}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fecha_de_captura{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="fecha_de_captura" data-fieldname="fecha_de_captura" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fecha_de_captura}">
+		{$label box_cat_finanzas_movimientos_categoria fecha_de_captura }	</label>
+	<div class="r-search-option">
+		{$searchtype_fecha_de_captura}
+	</div>
+	<div class="r-search-field">
+		{$fecha_de_captura_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fecha_de_captura_editcontrol1}
+	</div>
+	
+</div>
+
+{END fecha_de_captura_fieldblock}
+											
+{BEGIN vigente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="vigente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_vigente}">
+		{$label box_cat_finanzas_movimientos_categoria vigente }	</label>
+	<div class="r-search-option">
+		{$searchtype_vigente}
+	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol1}
+	</div>
+	
+</div>
+
+{END vigente_fieldblock}
+											
+{BEGIN time_stamp_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_time_stamp}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="time_stamp{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="time_stamp" data-fieldname="time_stamp" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_time_stamp}">
+		{$label box_cat_finanzas_movimientos_categoria time_stamp }	</label>
+	<div class="r-search-option">
+		{$searchtype_time_stamp}
+	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol}	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol1}
+	</div>
+	
+</div>
+
+{END time_stamp_fieldblock}
+											
+{BEGIN cat_usuarios_licencias_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_usuarios_licencias_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_usuarios_licencias_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_usuarios_licencias_id}">
+		{$label box_cat_finanzas_movimientos_categoria cat_usuarios_licencias_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_usuarios_licencias_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_usuarios_licencias_id_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

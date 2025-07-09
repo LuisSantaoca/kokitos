@@ -1,0 +1,47 @@
+<?php
+$dalTabletr_compras_proveedores_01_cargos_abonos = array();
+$dalTabletr_compras_proveedores_01_cargos_abonos["tr_compras_proveedores_01_cargos_abonos_id"] = array("type"=>3,"varname"=>"tr_compras_proveedores_01_cargos_abonos_id", "name" => "tr_compras_proveedores_01_cargos_abonos_id", "autoInc" => "1");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_compras_proveedores_id"] = array("type"=>3,"varname"=>"cat_compras_proveedores_id", "name" => "cat_compras_proveedores_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["alias_proveedor"] = array("type"=>200,"varname"=>"alias_proveedor", "name" => "alias_proveedor", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["fecha_de_compra"] = array("type"=>7,"varname"=>"fecha_de_compra", "name" => "fecha_de_compra", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["referencia"] = array("type"=>200,"varname"=>"referencia", "name" => "referencia", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["importe_abono_compra"] = array("type"=>14,"varname"=>"importe_abono_compra", "name" => "importe_abono_compra", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["importe_cargo_pago"] = array("type"=>14,"varname"=>"importe_cargo_pago", "name" => "importe_cargo_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["fecha_de_pago"] = array("type"=>7,"varname"=>"fecha_de_pago", "name" => "fecha_de_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["fecha_de_vencimiento"] = array("type"=>7,"varname"=>"fecha_de_vencimiento", "name" => "fecha_de_vencimiento", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["concepto"] = array("type"=>200,"varname"=>"concepto", "name" => "concepto", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_compras_documentos_mu_id"] = array("type"=>3,"varname"=>"cat_compras_documentos_mu_id", "name" => "cat_compras_documentos_mu_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["capturista"] = array("type"=>200,"varname"=>"capturista", "name" => "capturista", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["vigente"] = array("type"=>3,"varname"=>"vigente", "name" => "vigente", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_finanzas_cuentas_de_balance_03_mu_id"] = array("type"=>3,"varname"=>"cat_finanzas_cuentas_de_balance_03_mu_id", "name" => "cat_finanzas_cuentas_de_balance_03_mu_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_finanzas_cuentas_de_balance_04_llave"] = array("type"=>200,"varname"=>"cat_finanzas_cuentas_de_balance_04_llave", "name" => "cat_finanzas_cuentas_de_balance_04_llave", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["alias_cuenta_de_balance"] = array("type"=>200,"varname"=>"alias_cuenta_de_balance", "name" => "alias_cuenta_de_balance", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["imei"] = array("type"=>200,"varname"=>"imei", "name" => "imei", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["uuid_sat"] = array("type"=>200,"varname"=>"uuid_sat", "name" => "uuid_sat", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["time_stamp"] = array("type"=>135,"varname"=>"time_stamp", "name" => "time_stamp", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["consecutivo_id"] = array("type"=>200,"varname"=>"consecutivo_id", "name" => "consecutivo_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_finanzas_bancos_cuentas_id"] = array("type"=>3,"varname"=>"cat_finanzas_bancos_cuentas_id", "name" => "cat_finanzas_bancos_cuentas_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_finanzas_cajas_chicas_id"] = array("type"=>3,"varname"=>"cat_finanzas_cajas_chicas_id", "name" => "cat_finanzas_cajas_chicas_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["uuid_cargo_abono_compra"] = array("type"=>200,"varname"=>"uuid_cargo_abono_compra", "name" => "uuid_cargo_abono_compra", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["uuid_cargo_abono_pago"] = array("type"=>200,"varname"=>"uuid_cargo_abono_pago", "name" => "uuid_cargo_abono_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_compras_cargo_abono_mu_id"] = array("type"=>3,"varname"=>"cat_compras_cargo_abono_mu_id", "name" => "cat_compras_cargo_abono_mu_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["alias_cuenta_de_abono_compra"] = array("type"=>200,"varname"=>"alias_cuenta_de_abono_compra", "name" => "alias_cuenta_de_abono_compra", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["alias_cuenta_de_cargo_pago"] = array("type"=>200,"varname"=>"alias_cuenta_de_cargo_pago", "name" => "alias_cuenta_de_cargo_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["tr_compras_requisiciones_01_uuid"] = array("type"=>200,"varname"=>"tr_compras_requisiciones_01_uuid", "name" => "tr_compras_requisiciones_01_uuid", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["tr_compras_requisiciones_01_uuid_pago"] = array("type"=>200,"varname"=>"tr_compras_requisiciones_01_uuid_pago", "name" => "tr_compras_requisiciones_01_uuid_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["orden_de_compra_proveedor"] = array("type"=>200,"varname"=>"orden_de_compra_proveedor", "name" => "orden_de_compra_proveedor", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["referencia_bancaria"] = array("type"=>200,"varname"=>"referencia_bancaria", "name" => "referencia_bancaria", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["observacion_abono_compra"] = array("type"=>200,"varname"=>"observacion_abono_compra", "name" => "observacion_abono_compra", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["observacion_cargo_pago"] = array("type"=>200,"varname"=>"observacion_cargo_pago", "name" => "observacion_cargo_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["llave_unica_cargo_abono_tr_compras_requisiciones_01_uuid_pago"] = array("type"=>200,"varname"=>"llave_unica_cargo_abono_tr_compras_requisiciones_01_uuid_pago", "name" => "llave_unica_cargo_abono_tr_compras_requisiciones_01_uuid_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["cat_compras_estatus_mu_id"] = array("type"=>3,"varname"=>"cat_compras_estatus_mu_id", "name" => "cat_compras_estatus_mu_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["fecha_de_recibo"] = array("type"=>7,"varname"=>"fecha_de_recibo", "name" => "fecha_de_recibo", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["tr_compras_almacenes_01_recibo_lpn_uuid"] = array("type"=>200,"varname"=>"tr_compras_almacenes_01_recibo_lpn_uuid", "name" => "tr_compras_almacenes_01_recibo_lpn_uuid", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["fecha_de_solicitud"] = array("type"=>7,"varname"=>"fecha_de_solicitud", "name" => "fecha_de_solicitud", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["fecha_de_requisicion"] = array("type"=>7,"varname"=>"fecha_de_requisicion", "name" => "fecha_de_requisicion", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["llave_uuid_compra_pago"] = array("type"=>200,"varname"=>"llave_uuid_compra_pago", "name" => "llave_uuid_compra_pago", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["tr_finanzas_bancos_01_id"] = array("type"=>3,"varname"=>"tr_finanzas_bancos_01_id", "name" => "tr_finanzas_bancos_01_id", "autoInc" => "0");
+$dalTabletr_compras_proveedores_01_cargos_abonos["tr_compras_proveedores_01_cargos_abonos_id"]["key"]=true;
+
+$dal_info["wwinte_app_at_intelagro_mx__tr_compras_proveedores_01_cargos_abonos"] = &$dalTabletr_compras_proveedores_01_cargos_abonos;
+?>

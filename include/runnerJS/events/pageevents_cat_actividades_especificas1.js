@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('cat_actividades_especificas',Runner.pages.constants.PAGE_ADD,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){});Runner.pages.PageSettings.addPageEvent('cat_actividades_especificas',Runner.pages.constants.PAGE_EDIT,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){;});

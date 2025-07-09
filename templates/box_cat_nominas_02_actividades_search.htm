@@ -1,0 +1,436 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel box_cat_nominas_02_actividades search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN vigente_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="vigente{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_vigente}">
+		{$label box_cat_nominas_02_actividades vigente }	</label>
+	<div class="r-search-option">
+		{$searchtype_vigente}
+	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-search-field">
+		{$vigente_editcontrol1}
+	</div>
+	
+</div>
+
+{END vigente_fieldblock}
+											
+{BEGIN cat_nominas_02_actividades_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_nominas_02_actividades_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_nominas_02_actividades_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="cat_nominas_02_actividades_id" data-fieldname="cat_nominas_02_actividades_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_nominas_02_actividades_id}">
+		{$label box_cat_nominas_02_actividades cat_nominas_02_actividades_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_nominas_02_actividades_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_nominas_02_actividades_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_nominas_02_actividades_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_nominas_02_actividades_id_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="capturista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_capturista}">
+		{$label box_cat_nominas_02_actividades capturista }	</label>
+	<div class="r-search-option">
+		{$searchtype_capturista}
+	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$capturista_editcontrol1}
+	</div>
+	
+</div>
+
+{END capturista_fieldblock}
+											
+{BEGIN time_stamp_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_time_stamp}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="time_stamp{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="time_stamp" data-fieldname="time_stamp" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_time_stamp}">
+		{$label box_cat_nominas_02_actividades time_stamp }	</label>
+	<div class="r-search-option">
+		{$searchtype_time_stamp}
+	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol}	</div>
+	<div class="r-search-field">
+		{$time_stamp_editcontrol1}
+	</div>
+	
+</div>
+
+{END time_stamp_fieldblock}
+											
+{BEGIN cat_nominas_01_generales_uuid_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_nominas_01_generales_uuid}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_nominas_01_generales_uuid{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="cat_nominas_01_generales_uuid" data-fieldname="cat_nominas_01_generales_uuid" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_nominas_01_generales_uuid}">
+		{$label box_cat_nominas_02_actividades cat_nominas_01_generales_uuid }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_nominas_01_generales_uuid}
+	</div>
+	<div class="r-search-field">
+		{$cat_nominas_01_generales_uuid_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_nominas_01_generales_uuid_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_nominas_01_generales_uuid_fieldblock}
+											
+{BEGIN cat_actividades_especificas_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_actividades_especificas_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_actividades_especificas_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="cat_actividades_especificas_id" data-fieldname="cat_actividades_especificas_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_actividades_especificas_id}">
+		{$label box_cat_nominas_02_actividades cat_actividades_especificas_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_actividades_especificas_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_actividades_especificas_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_actividades_especificas_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_actividades_especificas_id_fieldblock}
+											
+{BEGIN cat_actividades_alcance_mu_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_actividades_alcance_mu_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_actividades_alcance_mu_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="cat_actividades_alcance_mu_id" data-fieldname="cat_actividades_alcance_mu_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_actividades_alcance_mu_id}">
+		{$label box_cat_nominas_02_actividades cat_actividades_alcance_mu_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_actividades_alcance_mu_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_actividades_alcance_mu_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_actividades_alcance_mu_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_actividades_alcance_mu_id_fieldblock}
+											
+{BEGIN limite_inferior_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_limite_inferior}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="limite_inferior{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="limite_inferior" data-fieldname="limite_inferior" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_limite_inferior}">
+		{$label box_cat_nominas_02_actividades limite_inferior }	</label>
+	<div class="r-search-option">
+		{$searchtype_limite_inferior}
+	</div>
+	<div class="r-search-field">
+		{$limite_inferior_editcontrol}	</div>
+	<div class="r-search-field">
+		{$limite_inferior_editcontrol1}
+	</div>
+	
+</div>
+
+{END limite_inferior_fieldblock}
+											
+{BEGIN limite_superior_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_limite_superior}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="limite_superior{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="limite_superior" data-fieldname="limite_superior" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_limite_superior}">
+		{$label box_cat_nominas_02_actividades limite_superior }	</label>
+	<div class="r-search-option">
+		{$searchtype_limite_superior}
+	</div>
+	<div class="r-search-field">
+		{$limite_superior_editcontrol}	</div>
+	<div class="r-search-field">
+		{$limite_superior_editcontrol1}
+	</div>
+	
+</div>
+
+{END limite_superior_fieldblock}
+											
+{BEGIN costo_bruto_primera_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_costo_bruto_primera}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="costo_bruto_primera{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="costo_bruto_primera" data-fieldname="costo_bruto_primera" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_costo_bruto_primera}">
+		{$label box_cat_nominas_02_actividades costo_bruto_primera }	</label>
+	<div class="r-search-option">
+		{$searchtype_costo_bruto_primera}
+	</div>
+	<div class="r-search-field">
+		{$costo_bruto_primera_editcontrol}	</div>
+	<div class="r-search-field">
+		{$costo_bruto_primera_editcontrol1}
+	</div>
+	
+</div>
+
+{END costo_bruto_primera_fieldblock}
+											
+{BEGIN costo_bruto_segunda_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_costo_bruto_segunda}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="costo_bruto_segunda{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="costo_bruto_segunda" data-fieldname="costo_bruto_segunda" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_costo_bruto_segunda}">
+		{$label box_cat_nominas_02_actividades costo_bruto_segunda }	</label>
+	<div class="r-search-option">
+		{$searchtype_costo_bruto_segunda}
+	</div>
+	<div class="r-search-field">
+		{$costo_bruto_segunda_editcontrol}	</div>
+	<div class="r-search-field">
+		{$costo_bruto_segunda_editcontrol1}
+	</div>
+	
+</div>
+
+{END costo_bruto_segunda_fieldblock}
+											
+{BEGIN cat_usuarios_licencias_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_usuarios_licencias_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cat_usuarios_licencias_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="cat_usuarios_licencias_id" data-fieldname="cat_usuarios_licencias_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cat_usuarios_licencias_id}">
+		{$label box_cat_nominas_02_actividades cat_usuarios_licencias_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_cat_usuarios_licencias_id}
+	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cat_usuarios_licencias_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END cat_usuarios_licencias_id_fieldblock}
+											
+{BEGIN actividad_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_actividad}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="actividad{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="actividad" data-fieldname="actividad" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_actividad}">
+		{$label box_cat_nominas_02_actividades actividad }	</label>
+	<div class="r-search-option">
+		{$searchtype_actividad}
+	</div>
+	<div class="r-search-field">
+		{$actividad_editcontrol}	</div>
+	<div class="r-search-field">
+		{$actividad_editcontrol1}
+	</div>
+	
+</div>
+
+{END actividad_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

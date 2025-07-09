@@ -1,0 +1,746 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-edit" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="edit_header" data-itemid="edit_header" {$item_edit_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_compras_requisiciones_01 edit}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<div data-itemtype="edit_message" data-itemid="edit_message" {$item_edit_message} data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN message_back_button}
+			<button class="btn btn-sm btn-default" {$backbutton_attrs}>Volver a la lista</button>
+	{END message_back_button}
+{BEGIN message_view_page_button}
+		<a class="btn btn-sm btn-default" href="" {$view_page_button_attrs}>Ver</a>
+{END message_view_page_button}
+</div>
+</div>
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="2"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+			
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="3"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN capturista_que_autoriza_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista_que_autoriza}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="capturista_que_autoriza{$id}" {$required_attr_capturista_que_autoriza}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="capturista_que_autoriza" data-fieldname="capturista_que_autoriza" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_capturista_que_autoriza}">
+		{BEGIN capturista_que_autoriza_label}{$label tr_compras_requisiciones_01 capturista_que_autoriza }{END capturista_que_autoriza_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$capturista_que_autoriza_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="capturista_que_autoriza" {$tooltipAttr tr_compras_requisiciones_01 capturista_que_autoriza } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 capturista_que_autoriza }		</div>
+	</div>
+</div>
+
+
+{END capturista_que_autoriza_fieldblock}
+											
+{BEGIN fecha_de_captura_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_captura}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="fecha_de_captura{$id}" {$required_attr_fecha_de_captura}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="fecha_de_captura" data-fieldname="fecha_de_captura" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_fecha_de_captura}">
+		{BEGIN fecha_de_captura_label}{$label tr_compras_requisiciones_01 fecha_de_captura }{END fecha_de_captura_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$fecha_de_captura_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="fecha_de_captura" {$tooltipAttr tr_compras_requisiciones_01 fecha_de_captura } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 fecha_de_captura }		</div>
+	</div>
+</div>
+
+
+{END fecha_de_captura_fieldblock}
+											
+{BEGIN cat_holding_03_empresas_unidades_productivas_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_holding_03_empresas_unidades_productivas_id}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_holding_03_empresas_unidades_productivas_id{$id}" {$required_attr_cat_holding_03_empresas_unidades_productivas_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="cat_holding_03_empresas_unidades_productivas_id" data-fieldname="cat_holding_03_empresas_unidades_productivas_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_holding_03_empresas_unidades_productivas_id}">
+		{BEGIN cat_holding_03_empresas_unidades_productivas_id_label}{$label tr_compras_requisiciones_01 cat_holding_03_empresas_unidades_productivas_id }{END cat_holding_03_empresas_unidades_productivas_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_holding_03_empresas_unidades_productivas_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_holding_03_empresas_unidades_productivas_id" {$tooltipAttr tr_compras_requisiciones_01 cat_holding_03_empresas_unidades_productivas_id } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_holding_03_empresas_unidades_productivas_id }		</div>
+	</div>
+</div>
+
+
+{END cat_holding_03_empresas_unidades_productivas_id_fieldblock}
+											
+{BEGIN cat_trabajadores_altas_id_solicitante_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_trabajadores_altas_id_solicitante}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_trabajadores_altas_id_solicitante{$id}" {$required_attr_cat_trabajadores_altas_id_solicitante}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="{$pageid}" data-field="cat_trabajadores_altas_id_solicitante" data-fieldname="cat_trabajadores_altas_id_solicitante" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_trabajadores_altas_id_solicitante}">
+		{BEGIN cat_trabajadores_altas_id_solicitante_label}{$label tr_compras_requisiciones_01 cat_trabajadores_altas_id_solicitante }{END cat_trabajadores_altas_id_solicitante_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_trabajadores_altas_id_solicitante_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_trabajadores_altas_id_solicitante" {$tooltipAttr tr_compras_requisiciones_01 cat_trabajadores_altas_id_solicitante } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_trabajadores_altas_id_solicitante }		</div>
+	</div>
+</div>
+
+
+{END cat_trabajadores_altas_id_solicitante_fieldblock}
+											
+{BEGIN observaciones_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_observaciones}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="observaciones{$id}" {$required_attr_observaciones}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="observaciones" data-fieldname="observaciones" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_observaciones}">
+		{BEGIN observaciones_label}{$label tr_compras_requisiciones_01 observaciones }{END observaciones_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$observaciones_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="observaciones" {$tooltipAttr tr_compras_requisiciones_01 observaciones } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 observaciones }		</div>
+	</div>
+</div>
+
+
+{END observaciones_fieldblock}
+											
+{BEGIN cat_compras_estatus_mu_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_estatus_mu_id}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_compras_estatus_mu_id{$id}" {$required_attr_cat_compras_estatus_mu_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="{$pageid}" data-field="cat_compras_estatus_mu_id" data-fieldname="cat_compras_estatus_mu_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_compras_estatus_mu_id}">
+		{BEGIN cat_compras_estatus_mu_id_label}{$label tr_compras_requisiciones_01 cat_compras_estatus_mu_id }{END cat_compras_estatus_mu_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_compras_estatus_mu_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_compras_estatus_mu_id" {$tooltipAttr tr_compras_requisiciones_01 cat_compras_estatus_mu_id } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_compras_estatus_mu_id }		</div>
+	</div>
+</div>
+
+
+{END cat_compras_estatus_mu_id_fieldblock}
+											
+{BEGIN total_productos_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_total_productos}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="total_productos{$id}" {$required_attr_total_productos}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14} data-pageid="{$pageid}" data-field="total_productos" data-fieldname="total_productos" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_total_productos}">
+		{BEGIN total_productos_label}{$label tr_compras_requisiciones_01 total_productos }{END total_productos_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$total_productos_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="total_productos" {$tooltipAttr tr_compras_requisiciones_01 total_productos } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 total_productos }		</div>
+	</div>
+</div>
+
+
+{END total_productos_fieldblock}
+											
+{BEGIN vigente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigente}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="vigente{$id}" {$required_attr_vigente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16} data-pageid="{$pageid}" data-field="vigente" data-fieldname="vigente" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_vigente}">
+		{BEGIN vigente_label}{$label tr_compras_requisiciones_01 vigente }{END vigente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$vigente_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="vigente" {$tooltipAttr tr_compras_requisiciones_01 vigente } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 vigente }		</div>
+	</div>
+</div>
+
+
+{END vigente_fieldblock}
+											
+{BEGIN tr_compras_requisiciones_01_uuid_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tr_compras_requisiciones_01_uuid}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="tr_compras_requisiciones_01_uuid{$id}" {$required_attr_tr_compras_requisiciones_01_uuid}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18} data-pageid="{$pageid}" data-field="tr_compras_requisiciones_01_uuid" data-fieldname="tr_compras_requisiciones_01_uuid" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_tr_compras_requisiciones_01_uuid}">
+		{BEGIN tr_compras_requisiciones_01_uuid_label}{$label tr_compras_requisiciones_01 tr_compras_requisiciones_01_uuid }{END tr_compras_requisiciones_01_uuid_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$tr_compras_requisiciones_01_uuid_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="tr_compras_requisiciones_01_uuid" {$tooltipAttr tr_compras_requisiciones_01 tr_compras_requisiciones_01_uuid } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 tr_compras_requisiciones_01_uuid }		</div>
+	</div>
+</div>
+
+
+{END tr_compras_requisiciones_01_uuid_fieldblock}
+											
+{BEGIN capturista_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_capturista}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="capturista{$id}" {$required_attr_capturista}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field19" {$item_integrated_edit_field19} data-pageid="{$pageid}" data-field="capturista" data-fieldname="capturista" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_capturista}">
+		{BEGIN capturista_label}{$label tr_compras_requisiciones_01 capturista }{END capturista_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$capturista_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="capturista" {$tooltipAttr tr_compras_requisiciones_01 capturista } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 capturista }		</div>
+	</div>
+</div>
+
+
+{END capturista_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+			 
+																
+
+{BEGIN cellblock_grid_c}
+<td
+	{$cell_grid_c}
+	class=" r-ori-vert"
+	
+			
+			data-cellId="grid_c" data-pageid="{$pageid}"
+		data-v-cell="3"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN check_compra_directa_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_check_compra_directa}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="check_compra_directa{$id}" {$required_attr_check_compra_directa}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="check_compra_directa" data-fieldname="check_compra_directa" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_check_compra_directa}">
+		{BEGIN check_compra_directa_label}{$label tr_compras_requisiciones_01 check_compra_directa }{END check_compra_directa_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$check_compra_directa_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="check_compra_directa" {$tooltipAttr tr_compras_requisiciones_01 check_compra_directa } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 check_compra_directa }		</div>
+	</div>
+</div>
+
+
+{END check_compra_directa_fieldblock}
+											
+{BEGIN fecha_de_compra_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_compra}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="fecha_de_compra{$id}" {$required_attr_fecha_de_compra}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="{$pageid}" data-field="fecha_de_compra" data-fieldname="fecha_de_compra" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_fecha_de_compra}">
+		{BEGIN fecha_de_compra_label}{$label tr_compras_requisiciones_01 fecha_de_compra }{END fecha_de_compra_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$fecha_de_compra_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="fecha_de_compra" {$tooltipAttr tr_compras_requisiciones_01 fecha_de_compra } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 fecha_de_compra }		</div>
+	</div>
+</div>
+
+
+{END fecha_de_compra_fieldblock}
+											
+{BEGIN fecha_de_pago_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_pago}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="fecha_de_pago{$id}" {$required_attr_fecha_de_pago}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17} data-pageid="{$pageid}" data-field="fecha_de_pago" data-fieldname="fecha_de_pago" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_fecha_de_pago}">
+		{BEGIN fecha_de_pago_label}{$label tr_compras_requisiciones_01 fecha_de_pago }{END fecha_de_pago_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$fecha_de_pago_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="fecha_de_pago" {$tooltipAttr tr_compras_requisiciones_01 fecha_de_pago } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 fecha_de_pago }		</div>
+	</div>
+</div>
+
+
+{END fecha_de_pago_fieldblock}
+											
+{BEGIN cat_compras_proveedores_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_proveedores_id}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_compras_proveedores_id{$id}" {$required_attr_cat_compras_proveedores_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="{$pageid}" data-field="cat_compras_proveedores_id" data-fieldname="cat_compras_proveedores_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_compras_proveedores_id}">
+		{BEGIN cat_compras_proveedores_id_label}{$label tr_compras_requisiciones_01 cat_compras_proveedores_id }{END cat_compras_proveedores_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_compras_proveedores_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_compras_proveedores_id" {$tooltipAttr tr_compras_requisiciones_01 cat_compras_proveedores_id } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_compras_proveedores_id }		</div>
+	</div>
+</div>
+
+
+{END cat_compras_proveedores_id_fieldblock}
+											
+{BEGIN cat_compras_documentos_mu_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_compras_documentos_mu_id}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_compras_documentos_mu_id{$id}" {$required_attr_cat_compras_documentos_mu_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field24" {$item_integrated_edit_field24} data-pageid="{$pageid}" data-field="cat_compras_documentos_mu_id" data-fieldname="cat_compras_documentos_mu_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_compras_documentos_mu_id}">
+		{BEGIN cat_compras_documentos_mu_id_label}{$label tr_compras_requisiciones_01 cat_compras_documentos_mu_id }{END cat_compras_documentos_mu_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_compras_documentos_mu_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_compras_documentos_mu_id" {$tooltipAttr tr_compras_requisiciones_01 cat_compras_documentos_mu_id } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_compras_documentos_mu_id }		</div>
+	</div>
+</div>
+
+
+{END cat_compras_documentos_mu_id_fieldblock}
+											
+{BEGIN referencia_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_referencia}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="referencia{$id}" {$required_attr_referencia}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12} data-pageid="{$pageid}" data-field="referencia" data-fieldname="referencia" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_referencia}">
+		{BEGIN referencia_label}{$label tr_compras_requisiciones_01 referencia }{END referencia_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$referencia_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="referencia" {$tooltipAttr tr_compras_requisiciones_01 referencia } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 referencia }		</div>
+	</div>
+</div>
+
+
+{END referencia_fieldblock}
+											
+{BEGIN importe_abono_compra_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_importe_abono_compra}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="importe_abono_compra{$id}" {$required_attr_importe_abono_compra}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7} data-pageid="{$pageid}" data-field="importe_abono_compra" data-fieldname="importe_abono_compra" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_importe_abono_compra}">
+		{BEGIN importe_abono_compra_label}{$label tr_compras_requisiciones_01 importe_abono_compra }{END importe_abono_compra_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$importe_abono_compra_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="importe_abono_compra" {$tooltipAttr tr_compras_requisiciones_01 importe_abono_compra } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 importe_abono_compra }		</div>
+	</div>
+</div>
+
+
+{END importe_abono_compra_fieldblock}
+											
+{BEGIN orden_de_compra_proveedor_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_orden_de_compra_proveedor}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="orden_de_compra_proveedor{$id}" {$required_attr_orden_de_compra_proveedor}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field20" {$item_integrated_edit_field20} data-pageid="{$pageid}" data-field="orden_de_compra_proveedor" data-fieldname="orden_de_compra_proveedor" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_orden_de_compra_proveedor}">
+		{BEGIN orden_de_compra_proveedor_label}{$label tr_compras_requisiciones_01 orden_de_compra_proveedor }{END orden_de_compra_proveedor_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$orden_de_compra_proveedor_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="orden_de_compra_proveedor" {$tooltipAttr tr_compras_requisiciones_01 orden_de_compra_proveedor } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 orden_de_compra_proveedor }		</div>
+	</div>
+</div>
+
+
+{END orden_de_compra_proveedor_fieldblock}
+											
+{BEGIN referencia_bancaria_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_referencia_bancaria}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="referencia_bancaria{$id}" {$required_attr_referencia_bancaria}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field21" {$item_integrated_edit_field21} data-pageid="{$pageid}" data-field="referencia_bancaria" data-fieldname="referencia_bancaria" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_referencia_bancaria}">
+		{BEGIN referencia_bancaria_label}{$label tr_compras_requisiciones_01 referencia_bancaria }{END referencia_bancaria_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$referencia_bancaria_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="referencia_bancaria" {$tooltipAttr tr_compras_requisiciones_01 referencia_bancaria } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 referencia_bancaria }		</div>
+	</div>
+</div>
+
+
+{END referencia_bancaria_fieldblock}
+											
+{BEGIN observacion_abono_compra_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_observacion_abono_compra}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="observacion_abono_compra{$id}" {$required_attr_observacion_abono_compra}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field23" {$item_integrated_edit_field23} data-pageid="{$pageid}" data-field="observacion_abono_compra" data-fieldname="observacion_abono_compra" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_observacion_abono_compra}">
+		{BEGIN observacion_abono_compra_label}{$label tr_compras_requisiciones_01 observacion_abono_compra }{END observacion_abono_compra_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$observacion_abono_compra_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="observacion_abono_compra" {$tooltipAttr tr_compras_requisiciones_01 observacion_abono_compra } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 observacion_abono_compra }		</div>
+	</div>
+</div>
+
+
+{END observacion_abono_compra_fieldblock}
+											
+{BEGIN observacion_cargo_pago_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_observacion_cargo_pago}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="observacion_cargo_pago{$id}" {$required_attr_observacion_cargo_pago}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field22" {$item_integrated_edit_field22} data-pageid="{$pageid}" data-field="observacion_cargo_pago" data-fieldname="observacion_cargo_pago" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_observacion_cargo_pago}">
+		{BEGIN observacion_cargo_pago_label}{$label tr_compras_requisiciones_01 observacion_cargo_pago }{END observacion_cargo_pago_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$observacion_cargo_pago_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="observacion_cargo_pago" {$tooltipAttr tr_compras_requisiciones_01 observacion_cargo_pago } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 observacion_cargo_pago }		</div>
+	</div>
+</div>
+
+
+{END observacion_cargo_pago_fieldblock}
+											
+{BEGIN uuid_sat_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_uuid_sat}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="uuid_sat{$id}" {$required_attr_uuid_sat}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15} data-pageid="{$pageid}" data-field="uuid_sat" data-fieldname="uuid_sat" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_uuid_sat}">
+		{BEGIN uuid_sat_label}{$label tr_compras_requisiciones_01 uuid_sat }{END uuid_sat_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$uuid_sat_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="uuid_sat" {$tooltipAttr tr_compras_requisiciones_01 uuid_sat } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 uuid_sat }		</div>
+	</div>
+</div>
+
+
+{END uuid_sat_fieldblock}
+											
+{BEGIN cat_finanzas_bancos_cuentas_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_bancos_cuentas_id}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_finanzas_bancos_cuentas_id{$id}" {$required_attr_cat_finanzas_bancos_cuentas_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9} data-pageid="{$pageid}" data-field="cat_finanzas_bancos_cuentas_id" data-fieldname="cat_finanzas_bancos_cuentas_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_finanzas_bancos_cuentas_id}">
+		{BEGIN cat_finanzas_bancos_cuentas_id_label}{$label tr_compras_requisiciones_01 cat_finanzas_bancos_cuentas_id }{END cat_finanzas_bancos_cuentas_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_finanzas_bancos_cuentas_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_finanzas_bancos_cuentas_id" {$tooltipAttr tr_compras_requisiciones_01 cat_finanzas_bancos_cuentas_id } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_finanzas_bancos_cuentas_id }		</div>
+	</div>
+</div>
+
+
+{END cat_finanzas_bancos_cuentas_id_fieldblock}
+											
+{BEGIN cat_finanzas_cajas_chicas_id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_cajas_chicas_id}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_finanzas_cajas_chicas_id{$id}" {$required_attr_cat_finanzas_cajas_chicas_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11} data-pageid="{$pageid}" data-field="cat_finanzas_cajas_chicas_id" data-fieldname="cat_finanzas_cajas_chicas_id" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_finanzas_cajas_chicas_id}">
+		{BEGIN cat_finanzas_cajas_chicas_id_label}{$label tr_compras_requisiciones_01 cat_finanzas_cajas_chicas_id }{END cat_finanzas_cajas_chicas_id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_finanzas_cajas_chicas_id_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_finanzas_cajas_chicas_id" {$tooltipAttr tr_compras_requisiciones_01 cat_finanzas_cajas_chicas_id } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_finanzas_cajas_chicas_id }		</div>
+	</div>
+</div>
+
+
+{END cat_finanzas_cajas_chicas_id_fieldblock}
+											
+{BEGIN cat_finanzas_cuentas_de_balance_04_llave_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cat_finanzas_cuentas_de_balance_04_llave}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="cat_finanzas_cuentas_de_balance_04_llave{$id}" {$required_attr_cat_finanzas_cuentas_de_balance_04_llave}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13} data-pageid="{$pageid}" data-field="cat_finanzas_cuentas_de_balance_04_llave" data-fieldname="cat_finanzas_cuentas_de_balance_04_llave" data-before-same-field >
+
+	<label class="r-edit-label control-label" for="{$labelfor_cat_finanzas_cuentas_de_balance_04_llave}">
+		{BEGIN cat_finanzas_cuentas_de_balance_04_llave_label}{$label tr_compras_requisiciones_01 cat_finanzas_cuentas_de_balance_04_llave }{END cat_finanzas_cuentas_de_balance_04_llave_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cat_finanzas_cuentas_de_balance_04_llave_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="cat_finanzas_cuentas_de_balance_04_llave" {$tooltipAttr tr_compras_requisiciones_01 cat_finanzas_cuentas_de_balance_04_llave } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01 cat_finanzas_cuentas_de_balance_04_llave }		</div>
+	</div>
+</div>
+
+
+{END cat_finanzas_cuentas_de_balance_04_llave_fieldblock}
+											<span data-itemtype="custom_button" data-itemid="boton_afectar_compra" {$item_boton_afectar_compra} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-warning   
+	" id="insert_COMPRA_DIRECTA_tr_compras_proveedores_01_cargos_abonos" href="javascript:void(0)" typeid="ib" >
+							Afecta compra directa			</a>
+</span>
+	
+								</td>
+			{END cellblock_grid_c}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="r-align-center			col-md-12
+	">
+	 
+		{BEGIN save_edit}
+<span data-itemtype="edit_save" data-itemid="edit_save" {$item_edit_save} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							Guardar			</a>
+</span>
+{END save_edit}
+	 
+		{BEGIN back_button}
+<span data-itemtype="edit_back_list" data-itemid="edit_back_list" {$item_edit_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="edit_close" data-itemid="edit_close" {$item_edit_close} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$closebutton_attrs} >
+							Cancelar			</a>
+</span>
+{END close_button}
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-menu-hamburger"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+								<li data-itemtype="edit_reset" data-itemid="edit_reset" {$item_edit_reset} data-pageid="{$pageid}" data-small >
+				<a  {$resetbutton_attrs}  title="" >
+				
+		Reiniciar		
+		</a>
+	</li>
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

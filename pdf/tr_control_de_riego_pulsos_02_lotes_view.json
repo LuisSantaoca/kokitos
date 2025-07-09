@@ -1,0 +1,288 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel tr_control_de_riego_pulsos_02_lotes view}","hidden":"{$item_hide_view_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'above-grid',
+		
+		
+		widths: [
+								"*", 
+											"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+					colSpan: 2,
+		
+			
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+																		{ 
+				cellId: 'c1',
+				row:  0,
+				col:  1,
+				text: '',
+				compensateColspan: true
+			},
+							],
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				tableForm: true,
+				
+		location: 'grid',
+		
+		
+		widths: [
+									{BEGIN col_grid_0}
+						"*", 
+							{END col_grid_0}
+					 ],	
+		
+			heights: [
+								{BEGIN row_grid_0}
+						
+			"%",
+						{END row_grid_0}
+			 
+				],
+	
+		body: [
+				
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_c3}
+{
+	cellId: 'c3',
+	col:0,
+	row:0,
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"stack": [
+		
+				
+			{"hidden":"{$item_hide_integrated_edit_field}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes tr_control_de_riego_pulsos_02_lotes_id }","bold":true},{"text":{$tr_control_de_riego_pulsos_02_lotes_id_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field1}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes tr_control_de_riego_pulsos_01_uuid }","bold":true},{"text":{$tr_control_de_riego_pulsos_01_uuid_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field2}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes imei }","bold":true},{"text":{$imei_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field3}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes cat_holding_04_unidades_productivas_lotes_id }","bold":true},{"text":{$cat_holding_04_unidades_productivas_lotes_id_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field4}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes vigente }","bold":true},{"text":{$vigente_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field5}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes registro_detalle }","bold":true},{"text":{$registro_detalle_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field6}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes capturista }","bold":true},{"text":{$capturista_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field7}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes time_stamp }","bold":true},{"text":{$time_stamp_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field8}","stack":[{"text":"{$jslabel tr_control_de_riego_pulsos_02_lotes cat_usuarios_licencias_id }","bold":true},{"text":{$cat_usuarios_licencias_id_pdfvalue}}],"margin":[0,0,0,15]},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_c3}
+											],
+				{END row_grid_0}
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+											"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"","hidden":"{$item_hide_view_back_list}"},
+				
+				
+			{"text":"","hidden":"{$item_hide_view_close}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+																							{
+	cellId: 'c2',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":""},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'right',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+			]
+};
+
+pdfFonts = {$pdfFonts};
+  

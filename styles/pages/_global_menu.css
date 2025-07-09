@@ -1,0 +1,17 @@
+[data-page="_global_menu"][data-itemid="welcome_item1"] > .bs-welcome-header {
+  background-color: #6da5c8;
+}
+[data-page="_global_menu"][data-itemid="welcome_item"] > .bs-welcome-header {
+  background-color: #6DA5C8;
+}
+[data-page="_global_menu"][data-itemid="enviar_asistencia"] {
+  padding: 5px;
+}
+[data-page="_global_menu"][data-itemid="enviar_cosecha"] {
+  padding: 5px;
+}
+[data-page="_global_menu"][data-itemid="welcome_item2"] > .bs-welcome-header {
+  background-color: #DC143C;
+}
+
+

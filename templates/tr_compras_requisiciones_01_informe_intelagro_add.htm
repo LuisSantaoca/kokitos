@@ -1,0 +1,293 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-add" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="add_header" data-itemid="add_header" {$item_add_header} data-pageid="{$pageid}" >{$pagetitlelabel tr_compras_requisiciones_01_informe_intelagro add}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		{BEGIN message_block}
+<div data-itemtype="add_message" data-itemid="add_message" {$item_add_message} data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN message_back_button}
+		
+	<button class="btn btn-sm btn-default" {$backbutton_attrs}>Volver a la lista</button>
+	{END message_back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>Ver</button>
+{END view_page_button}
+{BEGIN edit_page_button}
+	<button class="btn btn-sm btn-default" {$edit_page_button_attrs}>Editar</button>
+{END edit_page_button}
+</div>
+</div>
+{END message_block}	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="2"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c1}
+<td
+	{$cell_grid_c1}
+	class=" r-ori-vert"
+	
+			
+			data-cellId="grid_c1" data-pageid="{$pageid}"
+		data-v-cell="3"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN fecha_de_orden_de_compra_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fecha_de_orden_de_compra}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="fecha_de_orden_de_compra{$id}" {$required_attr_fecha_de_orden_de_compra}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="fecha_de_orden_de_compra" data-fieldname="fecha_de_orden_de_compra" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_fecha_de_orden_de_compra}">
+		{BEGIN fecha_de_orden_de_compra_label}{$label tr_compras_requisiciones_01_informe_intelagro fecha_de_orden_de_compra }{END fecha_de_orden_de_compra_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$fecha_de_orden_de_compra_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="fecha_de_orden_de_compra" {$tooltipAttr tr_compras_requisiciones_01_informe_intelagro fecha_de_orden_de_compra } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01_informe_intelagro fecha_de_orden_de_compra }		</div>
+	</div>
+</div>
+
+
+{END fecha_de_orden_de_compra_fieldblock}
+											
+{BEGIN importe_neto_orden_de_compra_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_importe_neto_orden_de_compra}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="importe_neto_orden_de_compra{$id}" {$required_attr_importe_neto_orden_de_compra}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="importe_neto_orden_de_compra" data-fieldname="importe_neto_orden_de_compra" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_importe_neto_orden_de_compra}">
+		{BEGIN importe_neto_orden_de_compra_label}{$label tr_compras_requisiciones_01_informe_intelagro importe_neto_orden_de_compra }{END importe_neto_orden_de_compra_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$importe_neto_orden_de_compra_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="importe_neto_orden_de_compra" {$tooltipAttr tr_compras_requisiciones_01_informe_intelagro importe_neto_orden_de_compra } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01_informe_intelagro importe_neto_orden_de_compra }		</div>
+	</div>
+</div>
+
+
+{END importe_neto_orden_de_compra_fieldblock}
+											
+{BEGIN numero_de_productos_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_numero_de_productos}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="numero_de_productos{$id}" {$required_attr_numero_de_productos}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="{$pageid}" data-field="numero_de_productos" data-fieldname="numero_de_productos" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_numero_de_productos}">
+		{BEGIN numero_de_productos_label}{$label tr_compras_requisiciones_01_informe_intelagro numero_de_productos }{END numero_de_productos_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$numero_de_productos_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="numero_de_productos" {$tooltipAttr tr_compras_requisiciones_01_informe_intelagro numero_de_productos } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01_informe_intelagro numero_de_productos }		</div>
+	</div>
+</div>
+
+
+{END numero_de_productos_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c1}
+			 
+																
+
+{BEGIN cellblock_grid_c}
+<td
+	{$cell_grid_c}
+	class=" r-ori-vert"
+	
+			
+			data-cellId="grid_c" data-pageid="{$pageid}"
+		data-v-cell="3"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN referencia_proveedor_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_referencia_proveedor}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="referencia_proveedor{$id}" {$required_attr_referencia_proveedor}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="{$pageid}" data-field="referencia_proveedor" data-fieldname="referencia_proveedor" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_referencia_proveedor}">
+		{BEGIN referencia_proveedor_label}{$label tr_compras_requisiciones_01_informe_intelagro referencia_proveedor }{END referencia_proveedor_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$referencia_proveedor_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="referencia_proveedor" {$tooltipAttr tr_compras_requisiciones_01_informe_intelagro referencia_proveedor } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01_informe_intelagro referencia_proveedor }		</div>
+	</div>
+</div>
+
+
+{END referencia_proveedor_fieldblock}
+											
+{BEGIN observaciones_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_observaciones}  r-horizontal-field form-horizontal" 
+	data-signal-error-for="observaciones{$id}" {$required_attr_observaciones}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7} data-pageid="{$pageid}" data-field="observaciones" data-fieldname="observaciones" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_observaciones}">
+		{BEGIN observaciones_label}{$label tr_compras_requisiciones_01_informe_intelagro observaciones }{END observaciones_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$observaciones_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="observaciones" {$tooltipAttr tr_compras_requisiciones_01_informe_intelagro observaciones } >
+		<div class="text-muted" >
+		{$tooltip tr_compras_requisiciones_01_informe_intelagro observaciones }		</div>
+	</div>
+</div>
+
+
+{END observaciones_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="add_save" data-itemid="add_save" {$item_add_save} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							Guardar			</a>
+</span>
+	 
+		<span data-itemtype="add_reset" data-itemid="add_reset" {$item_add_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="resetButton{$id}" >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="add_back_list" data-itemid="add_back_list" {$item_add_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="backButton{$id}" >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="add_cancel" data-itemid="add_cancel" {$item_add_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
